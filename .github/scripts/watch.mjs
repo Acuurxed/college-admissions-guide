@@ -17,7 +17,7 @@ const DATE = /\b(January|February|March|April|May|June|July|August|September|Oct
 function dateSnippets(text) { const out = []; let m; DATE.lastIndex = 0; while ((m = DATE.exec(text)) && out.length < 12) { const s = text.slice(Math.max(0, m.index - 90), m.index + m[0].length + 40).trim(); if (/deadline|due|apply|application|decision|notification|priority|submit|open|close/i.test(s)) out.push(s); } return [...new Set(out)]; }
 const changed = [], failed = [];
 async function check(t) {
-  const prev = state[t.url] || {}; const headers = { "User-Agent": "CollegeAdmissionsGuide-PageWatcher/1.0 (+https://acuurxed.github.io/college-admissions-guide/)" };
+  const prev = state[t.url] || {}; const headers = { "User-Agent": "CollegeAdmissionsGuide-PageWatcher/1.0 (+https://admissara.com/)" };
   if (prev.etag) headers["If-None-Match"] = prev.etag; if (prev.lm) headers["If-Modified-Since"] = prev.lm;
   try {
     const r = await fetch(t.url, { headers, redirect: "follow", signal: AbortSignal.timeout(20000) });

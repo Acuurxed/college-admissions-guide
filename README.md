@@ -1,6 +1,6 @@
 # Admissara (beta)
 
-Live site: https://acuurxed.github.io/college-admissions-guide/
+Live site: https://admissara.com/
 
 Install it as an app:
 - Windows or Mac (Microsoft Edge or Google Chrome): open the site, then use the Install button in the address bar (or Settings > Install app inside the guide).
