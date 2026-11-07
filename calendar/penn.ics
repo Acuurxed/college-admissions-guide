@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Pennsylvania (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:penn-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision deadline
+DESCRIPTION:Binding. Decisions in mid-December.
+URL:https://admissions.upenn.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:penn-1-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decisions by April 1\; reply by May 1.
+URL:https://admissions.upenn.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:penn-2-20261106@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Financial aid: Early Decision aid (award letter at admission)
+URL:https://admissions.upenn.edu/affording-penn/international-aid ; https:
+ //srfs.upenn.edu/financial-aid/apply/prospective-UG-checklists/internatio
+ nal
+END:VEVENT
+BEGIN:VEVENT
+UID:penn-3-20270205@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270205
+SUMMARY:Financial aid: Regular Decision aid (award letter at admission)
+URL:https://admissions.upenn.edu/affording-penn/international-aid ; https:
+ //srfs.upenn.edu/financial-aid/apply/prospective-UG-checklists/internatio
+ nal
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Richmond (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:richmond-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Calendar year not printed on page\; date applied t
+ o the Fall 2027 cycle. Final credentials Nov 15\; need-based aid due Nov 
+ 15\; notification approx. Dec 12\; deposit Jan 5.
+URL:https://admission.richmond.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. Non-binding. Need-based aid due Nov 15\; credentia
+ ls due Dec 1 (incomplete files deferred to RD)\; notification approx. Jan
+  23\; aid notification approx. Feb 15\; reply May 1. Last accepted tests:
+  October SAT/ACT.
+URL:https://admission.richmond.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Final credentials Jan 15\; need-based aid due Feb 
+ 1\; notification approx. Feb 13\; deposit Feb 27.
+URL:https://admission.richmond.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-3-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Credential deadline Feb 15\; notification approx. 
+ April 1.
+URL:https://admission.richmond.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-4-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: ED I need-based aid
+URL:https://admission.richmond.edu/process/international/index.html ; http
+ s://admissions.richmond.edu/process/early-decision/deadlines.html ; https
+ ://admission.richmond.edu//process/early-action.html
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-5-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: EA need-based aid
+URL:https://admission.richmond.edu/process/international/index.html ; http
+ s://admissions.richmond.edu/process/early-decision/deadlines.html ; https
+ ://admission.richmond.edu//process/early-action.html
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-6-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: Richmond Scholars / all aid consideration for inter
+ nationals
+URL:https://admission.richmond.edu/process/international/index.html ; http
+ s://admissions.richmond.edu/process/early-decision/deadlines.html ; https
+ ://admission.richmond.edu//process/early-action.html
+END:VEVENT
+BEGIN:VEVENT
+UID:richmond-7-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: ED II need-based aid
+URL:https://admission.richmond.edu/process/international/index.html ; http
+ s://admissions.richmond.edu/process/early-decision/deadlines.html ; https
+ ://admission.richmond.edu//process/early-action.html
+END:VEVENT
+END:VCALENDAR

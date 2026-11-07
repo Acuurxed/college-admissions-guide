@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dickinson College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:dickinson-0-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Admissions and financial aid deadline\; decision mid-December\
+ ; deposit 2-3 weeks after acceptance.
+URL:https://www.dickinson.edu/homepage/287/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:dickinson-1-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Action deadline
+DESCRIPTION:Admissions and financial aid deadline\; decision mid-January\;
+  reply by May 1.
+URL:https://www.dickinson.edu/homepage/287/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:dickinson-2-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Admissions and financial aid deadline\; decision late February
+ . RD applicants may switch to ED II by Jan 28.
+URL:https://www.dickinson.edu/homepage/287/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:dickinson-3-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Admissions and financial aid deadline\; decision late March\; 
+ reply by May 1.
+URL:https://www.dickinson.edu/homepage/287/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:dickinson-4-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Early Decision I / Early Action (CSS Profile and FA
+ FSA)
+URL:https://www.dickinson.edu/info/20045/admissions/1179/international_sch
+ olarships_and_financial_aid ; https://www.dickinson.edu/info/20256/apply/
+ 1025/application_checklist
+END:VEVENT
+BEGIN:VEVENT
+UID:dickinson-5-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Early Decision II / Regular Decision (CSS Profile a
+ nd FAFSA)
+URL:https://www.dickinson.edu/info/20045/admissions/1179/international_sch
+ olarships_and_financial_aid ; https://www.dickinson.edu/info/20256/apply/
+ 1025/application_checklist
+END:VEVENT
+END:VCALENDAR

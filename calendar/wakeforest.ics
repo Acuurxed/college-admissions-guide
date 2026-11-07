@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wake Forest University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:wakeforest-0-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding\; rolling decisions.
+URL:https://admissions.wfu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:wakeforest-1-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding\; limited to first-generation college students\; d
+ ecision by Jan 15\; reply by May 1.
+URL:https://admissions.wfu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:wakeforest-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; decision by Feb 15.
+URL:https://admissions.wfu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:wakeforest-3-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Non-binding\; decision around Apr 1.
+URL:https://admissions.wfu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:wakeforest-4-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: Need-based aid - Early Decision I and Early Action
+URL:https://admissions.wfu.edu/affordability/
+END:VEVENT
+BEGIN:VEVENT
+UID:wakeforest-5-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Financial aid: Need-based aid - Early Decision II and Regular Deci
+ sion
+URL:https://admissions.wfu.edu/affordability/
+END:VEVENT
+END:VCALENDAR

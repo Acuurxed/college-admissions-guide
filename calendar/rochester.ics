@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Rochester (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:rochester-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Notification mid-December\; other materials due Dec 1
+ \; ED aid forms (FAFSA\, CSS) by Dec 1. Page lists month/day only\; year 
+ inferred for the Fall 2027 cycle.
+URL:https://admissions.rochester.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rochester-1-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Priority deadline
+DESCRIPTION:Priority scholarship deadline (RD-based)\; notification late F
+ ebruary\; no extra forms. Page lists month/day only\; year inferred for t
+ he Fall 2027 cycle.
+URL:https://admissions.rochester.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rochester-2-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Notification early February\; other materials due Feb
+  1. Page lists month/day only\; year inferred for the Fall 2027 cycle.
+URL:https://admissions.rochester.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rochester-3-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Notification April 1\; reply May 1\; other materials due Feb 1
+ 5. Page lists month/day only\; year inferred for the Fall 2027 cycle.
+URL:https://admissions.rochester.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rochester-4-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: ED FAFSA and CSS Profile
+URL:https://admissions.rochester.edu/applying/international-students/; htt
+ ps://admissions.rochester.edu/?p=866
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Purdue University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:purdue-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:From the Office of Future Engineers page: 'Nov. 1 is Purdue's 
+ Early Action deadline.' Decisions Jan 15. Applying by Nov 1 means automat
+ ic consideration for Purdue's full range of scholarships. Year inferred. 
+ This deadline has already passed (today 2026-11-07).
+URL:https://admissions.purdue.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:purdue-1-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:'the regular application date of Jan. 15'. Year inferred. Not 
+ confirmed on admissions.purdue.edu.
+URL:https://admissions.purdue.edu/
+END:VEVENT
+END:VCALENDAR

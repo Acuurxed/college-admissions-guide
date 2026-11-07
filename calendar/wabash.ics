@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wabash College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:wabash-0-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Wabash calls it 'Early Decision'\; decision Dec 5\
+ ; deposit Jan 15 (international page\; academic bulletin shows decision N
+ ov 28). Year inferred.
+URL:https://www.wabash.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:wabash-1-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. Decision Dec 31\; deposit May 1. Merit scholarship
+  priority for complete files by Dec 1 (bulletin).
+URL:https://www.wabash.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:wabash-2-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Wabash calls it 'Regular Admission'\; rolling deci
+ sions from Jan 18\; deposit May 1.
+URL:https://www.wabash.edu/admissions/
+END:VEVENT
+END:VCALENDAR

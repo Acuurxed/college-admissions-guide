@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Washington University in St. Louis (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:washu-0-20261102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. New round this cycle. Counselor materials Nov 9\; 
+ financial aid application Nov 17\; decisions Dec 23\; reply May 1.
+URL:https://admissions.washu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-1-20261102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Counselor materials Nov 9\; financial aid applicat
+ ion Nov 17\; decisions Dec 11\; reply Jan 4.
+URL:https://admissions.washu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-2-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Counselor materials Jan 11\; financial aid applica
+ tion Jan 11\; decisions Feb 12\; reply Mar 1.
+URL:https://admissions.washu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-3-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Counselor materials Jan 11\; financial aid applica
+ tion Feb 1\; decisions Apr 1\; reply May 1. Scholarship applications due 
+ Dec 16 for priority consideration.
+URL:https://admissions.washu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-4-20261117@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261117
+SUMMARY:Financial aid: EA / ED I financial aid application
+URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
+ licants/ ; https://admissions.washu.edu/how-to-apply/application-dates-de
+ adlines/ ; https://admissions.washu.edu/cost-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-5-20270111@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270111
+SUMMARY:Financial aid: ED II financial aid application
+URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
+ licants/ ; https://admissions.washu.edu/how-to-apply/application-dates-de
+ adlines/ ; https://admissions.washu.edu/cost-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-6-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: RD financial aid application
+URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
+ licants/ ; https://admissions.washu.edu/how-to-apply/application-dates-de
+ adlines/ ; https://admissions.washu.edu/cost-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:washu-7-20261216@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261216
+SUMMARY:Financial aid: Scholarship applications (priority)
+URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
+ licants/ ; https://admissions.washu.edu/how-to-apply/application-dates-de
+ adlines/ ; https://admissions.washu.edu/cost-aid/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Emory University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:emory-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Binding\; apply to Emory College\, Oxford College\
+ , or both. Notification by Dec 15\; deposit Jan 15. Financial aid deadlin
+ e listed as Dec 2 on plans page but Dec 3 on ED page.
+URL:https://apply.emory.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Binding. Notification by Feb 15\; deposit Mar 1. F
+ inancial aid deadline Jan 6 (plans page) vs Jan 7 (ED page).
+URL:https://apply.emory.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Notification by April 1. Financial aid deadline Fe
+ b 10 (plans page). Emory Scholar Programs deadline Nov 15.
+URL:https://apply.emory.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-3-20270205@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270205
+SUMMARY:Financial aid: International CSS Profile and IDOC
+URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
+ ional.html ; https://apply.emory.edu/apply/international ; https://apply.
+ emory.edu/apply/first-year/plans-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-4-20261202@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261202
+SUMMARY:Financial aid: ED I financial aid
+URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
+ ional.html ; https://apply.emory.edu/apply/international ; https://apply.
+ emory.edu/apply/first-year/plans-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-5-20270106@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270106
+SUMMARY:Financial aid: ED II financial aid
+URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
+ ional.html ; https://apply.emory.edu/apply/international ; https://apply.
+ emory.edu/apply/first-year/plans-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:emory-6-20270210@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270210
+SUMMARY:Financial aid: RD financial aid
+URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
+ ional.html ; https://apply.emory.edu/apply/international ; https://apply.
+ emory.edu/apply/first-year/plans-deadlines/index.html
+END:VEVENT
+END:VCALENDAR

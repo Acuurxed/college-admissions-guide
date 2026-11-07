@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Massachusetts Institute of Technology (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:mit-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:November 1\; page gives month/day only\; year inferred for the
+  Fall 2027 entry cycle. Decisions mid-December. Tests must be taken befor
+ e November 30.
+URL:https://mitadmissions.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:mit-1-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Regular Decision deadline
+DESCRIPTION:MIT calls this 'Regular Action'. January 4\; page gives month/
+ day only\; year inferred for the Fall 2027 entry cycle. Decisions mid-Mar
+ ch. Tests before December 31\; English tests from January dates accepted.
+URL:https://mitadmissions.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:mit-2-20261130@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261130
+SUMMARY:Financial aid: Early Action financial aid
+URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
+ rgraduate-students/apply-for-aid/international/ ; https://sfs.mit.edu/und
+ ergraduate-students/apply-for-aid/deadlines-process/
+END:VEVENT
+BEGIN:VEVENT
+UID:mit-3-20270215@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270215
+SUMMARY:Financial aid: Regular Action financial aid
+URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
+ rgraduate-students/apply-for-aid/international/ ; https://sfs.mit.edu/und
+ ergraduate-students/apply-for-aid/deadlines-process/
+END:VEVENT
+END:VCALENDAR

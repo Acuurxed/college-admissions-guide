@@ -1,0 +1,61 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Denison University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:denison-0-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
+  2027 cycle. No time stated. Decisions about one month after deadline.
+URL:https://denison.edu/campus/admission/apply-for-admission
+END:VEVENT
+BEGIN:VEVENT
+UID:denison-1-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
+  2027 cycle. No time stated. Decisions about one month after deadline.
+URL:https://denison.edu/campus/admission/apply-for-admission
+END:VEVENT
+BEGIN:VEVENT
+UID:denison-2-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
+  2027 cycle. No time stated. Decisions by mid-March\; all decisions final
+  April 1.
+URL:https://denison.edu/campus/admission/apply-for-admission
+END:VEVENT
+BEGIN:VEVENT
+UID:denison-3-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Certification of Finances - Early Decision I
+URL:https://denison.edu/campus/admission/international-applicant-financial
+ -aid ; https://denison.edu/campus/admission/international-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:denison-4-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Certification of Finances - Early Decision II
+URL:https://denison.edu/campus/admission/international-applicant-financial
+ -aid ; https://denison.edu/campus/admission/international-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:denison-5-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Certification of Finances - Regular Decision
+URL:https://denison.edu/campus/admission/international-applicant-financial
+ -aid ; https://denison.edu/campus/admission/international-applicants
+END:VEVENT
+END:VCALENDAR

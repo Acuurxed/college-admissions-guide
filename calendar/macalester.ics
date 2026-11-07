@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Macalester College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:macalester-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Aid priority Nov. 9\; decision Dec. 6\; reply Dec. 21.
+URL:https://www.macalester.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Aid priority Nov. 9\; decision Dec. 19\; reply May 1.
+URL:https://www.macalester.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Aid priority Jan. 8\; decision Jan. 31\; reply Feb. 15.
+URL:https://www.macalester.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-3-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Aid priority Jan. 22\; decision Mar. 14\; reply May 1.
+URL:https://www.macalester.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-4-20261109@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Financial aid: Aid priority - ED I / EA
+URL:https://www.macalester.edu/admissions/international/faq/ ; https://www
+ .macalester.edu/admissions/international/first-year/ ; https://www.macale
+ ster.edu/admissions/financial-aid/ ; https://www.macalester.edu/admission
+ s/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-5-20270108@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270108
+SUMMARY:Financial aid: Aid priority - ED II
+URL:https://www.macalester.edu/admissions/international/faq/ ; https://www
+ .macalester.edu/admissions/international/first-year/ ; https://www.macale
+ ster.edu/admissions/financial-aid/ ; https://www.macalester.edu/admission
+ s/deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:macalester-6-20270122@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270122
+SUMMARY:Financial aid: Aid priority - RD
+URL:https://www.macalester.edu/admissions/international/faq/ ; https://www
+ .macalester.edu/admissions/international/first-year/ ; https://www.macale
+ ster.edu/admissions/financial-aid/ ; https://www.macalester.edu/admission
+ s/deadlines/
+END:VEVENT
+END:VCALENDAR

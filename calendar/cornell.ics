@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cornell University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:cornell-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision deadline
+DESCRIPTION:Binding. Application\, fee and any portfolio by Nov 1\; all ot
+ her materials by Nov 13\; international CSS Profile due Nov 1\; decisions
+  mid-December.
+URL:https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:cornell-1-20270102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Application by Jan 2\; other materials by Jan 19\; internation
+ al CSS Profile due Jan 2\; decisions late March.
+URL:https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:cornell-2-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: Early Decision CSS Profile (international)
+URL:https://finaid.cornell.edu/first-year-and-transfer-students-internatio
+ nal ; https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:cornell-3-20270102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Financial aid: Regular Decision CSS Profile (international)
+URL:https://finaid.cornell.edu/first-year-and-transfer-students-internatio
+ nal ; https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:cornell-4-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Domestic ED priority aid
+URL:https://finaid.cornell.edu/first-year-and-transfer-students-internatio
+ nal ; https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:cornell-5-20270215@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270215
+SUMMARY:Financial aid: Domestic RD priority aid
+URL:https://finaid.cornell.edu/first-year-and-transfer-students-internatio
+ nal ; https://admissions.cornell.edu/how-to-apply/first-year-applicants
+END:VEVENT
+END:VCALENDAR

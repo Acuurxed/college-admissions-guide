@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Johns Hopkins University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:jhu-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding\; signed ED Agreement. Financial aid due 2026-11-15. D
+ ecision 2026-12-11. Reply by 2027-01-15.
+URL:https://apply.jhu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhu-1-20270102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; signed ED Agreement. Financial aid due 2027-01-15. D
+ ecision 2027-02-12. Reply by 2027-02-26.
+URL:https://apply.jhu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhu-2-20270102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270102
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Financial aid due 2027-01-15. Decision 2027-03-24. Reply by 20
+ 27-05-01. Mid-year report due mid-February.
+URL:https://apply.jhu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhu-3-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Early Decision I
+URL:https://apply.jhu.edu/international-applicants/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhu-4-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Early Decision II
+URL:https://apply.jhu.edu/international-applicants/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhu-5-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Regular Decision
+URL:https://apply.jhu.edu/international-applicants/
+END:VEVENT
+END:VCALENDAR

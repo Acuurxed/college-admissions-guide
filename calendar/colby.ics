@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colby College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:colby-0-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Admission and financial aid deadline Nov 15\; optiona
+ l/supporting materials due Nov 22\; decision on or before Dec 15. RD appl
+ icants may convert to ED I by sending a signed ED Agreement by Dec 1. Off
+ icial page lists month/day only (no year\, no time zone)\; year assigned 
+ for the Fall 2027 cycle. The page's tax-document line still cites 2024 re
+ turns\, so the page may not yet be updated for 2026-27.
+URL:https://afa.colby.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:colby-1-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Financial aid and supporting materials due Jan 15\; d
+ ecision on or before Feb 15. RD applicants may convert to ED II by Feb 1.
+  Official page lists month/day only (no year\, no time zone)\; year assig
+ ned for the Fall 2027 cycle. The page's tax-document line still cites 202
+ 4 returns\, so the page may not yet be updated for 2026-27.
+URL:https://afa.colby.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:colby-2-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Financial aid and supporting materials due Jan 15\; decision b
+ y April 1. Official page lists month/day only (no year\, no time zone)\; 
+ year assigned for the Fall 2027 cycle. The page's tax-document line still
+  cites 2024 returns\, so the page may not yet be updated for 2026-27.
+URL:https://afa.colby.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:colby-3-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Early Decision I financial aid (CSS Profile\, FAFSA
+ \, tax documents)
+URL:https://afa.colby.edu/apply/requirements/international-applicants/ ; h
+ ttps://afa.colby.edu/apply/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:colby-4-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Early Decision II financial aid
+URL:https://afa.colby.edu/apply/requirements/international-applicants/ ; h
+ ttps://afa.colby.edu/apply/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:colby-5-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Regular Decision financial aid
+URL:https://afa.colby.edu/apply/requirements/international-applicants/ ; h
+ ttps://afa.colby.edu/apply/dates-and-deadlines/
+END:VEVENT
+END:VCALENDAR

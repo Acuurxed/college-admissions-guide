@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Southern California (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:usc-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:New for Fall 2027. Binding\; most majors. Decision or deferral
+  by mid-December. Performing arts (Kaufman\, Dramatic Arts\, Thornton) do
+  not participate.
+URL:https://admission.usc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding\, non-restrictive\; most majors. Decision or defer
+ ral late January. World Bachelor in Business must apply by Nov 1.
+URL:https://admission.usc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-2-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Performing arts majors (Kaufman\, Dramatic Arts\, Thornton) an
+ d the deadline for USC Merit Scholarship consideration. Decision by April
+  1.
+URL:https://admission.usc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-3-20270110@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270110
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Final first-year deadline for most majors. Decision by April 1
+ .
+URL:https://admission.usc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-4-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: ED financial aid
+URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
+ nal-students/; https://admission.usc.edu/?p=22140
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-5-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: EA financial aid
+URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
+ nal-students/; https://admission.usc.edu/?p=22140
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-6-20270203@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270203
+SUMMARY:Financial aid: RD financial aid
+URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
+ nal-students/; https://admission.usc.edu/?p=22140
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-7-20270302@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270302
+SUMMARY:Financial aid: Cal Grant (California residents)
+URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
+ nal-students/; https://admission.usc.edu/?p=22140
+END:VEVENT
+END:VCALENDAR

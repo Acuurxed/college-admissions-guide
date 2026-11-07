@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Connecticut College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:conncoll-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Financial aid docs Nov 16\; notification mid-Decem
+ ber\; materials after Nov 15 not guaranteed review
+URL:https://www.conncoll.edu/admission/
+END:VEVENT
+BEGIN:VEVENT
+UID:conncoll-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. Financial aid docs Nov 16\; notification mid-Decem
+ ber
+URL:https://www.conncoll.edu/admission/
+END:VEVENT
+BEGIN:VEVENT
+UID:conncoll-2-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Financial aid docs Jan 15\; notification mid-Febru
+ ary\; materials after Jan 25 not guaranteed review
+URL:https://www.conncoll.edu/admission/
+END:VEVENT
+BEGIN:VEVENT
+UID:conncoll-3-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Financial aid docs Jan 15\; notification late Marc
+ h
+URL:https://www.conncoll.edu/admission/
+END:VEVENT
+BEGIN:VEVENT
+UID:conncoll-4-20261116@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261116
+SUMMARY:Financial aid: Early Decision I / Early Action
+URL:https://www.conncoll.edu/financial-aid/applying-for-financial-aid/firs
+ t-year-and-transfer-students/ ; https://www.conncoll.edu/admission/intern
+ ational-applicants/faq/ ; https://www.conncoll.edu/media/Common-Data-Set-
+ 2025-26.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:conncoll-5-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Early Decision II / Regular Decision
+URL:https://www.conncoll.edu/financial-aid/applying-for-financial-aid/firs
+ t-year-and-transfer-students/ ; https://www.conncoll.edu/admission/intern
+ ational-applicants/faq/ ; https://www.conncoll.edu/media/Common-Data-Set-
+ 2025-26.pdf
+END:VEVENT
+END:VCALENDAR

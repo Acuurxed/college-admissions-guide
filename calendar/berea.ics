@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Berea College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:berea-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:'Early Action I: November 1'. Month/day from admissions page\;
+  year inferred for Fall 2027 cycle. Domestic first-year deadline.
+URL:https://www.berea.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:berea-1-20270131@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:Early Action deadline
+DESCRIPTION:'Early Action II: January 31'. Month/day from admissions page\
+ ; year inferred for Fall 2027 cycle. Domestic first-year deadline.
+URL:https://www.berea.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:berea-2-20270331@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270331
+SUMMARY:Regular Decision deadline
+DESCRIPTION:'Regular Decision: March 31'. Month/day from admissions page\;
+  year inferred for Fall 2027 cycle. Domestic first-year deadline.
+URL:https://www.berea.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:berea-3-20261130@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261130
+SUMMARY:Regular Decision deadline
+DESCRIPTION:International applicants: all components due November 30 (year
+  inferred). Final decisions released no later than March 31.
+URL:https://www.berea.edu/admissions/
+END:VEVENT
+END:VCALENDAR

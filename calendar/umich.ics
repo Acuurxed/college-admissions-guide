@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Michigan (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:umich-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-restrictive\; notification by Jan 31 (CDS C22). Test score
+ s\, if to be considered\, must be self-reported by Nov 15. Electronic mat
+ erials must be received by the deadline date.
+URL:https://admissions.umich.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:umich-1-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Hard-copy materials must be postmarked on or before the deadli
+ ne.
+URL:https://admissions.umich.edu/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Boston College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:bc-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Decision Dec 15. Nov 1 is also the priority deadline 
+ for Presidential Scholarship consideration. Page lists dates without a ye
+ ar\; year inferred.
+URL:https://www.bc.edu/bc-web/admission.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-1-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Decision Feb 15. RD applicants may convert to ED II b
+ y emailing the signed Common App ED Agreement by Jan 8.
+URL:https://www.bc.edu/bc-web/admission.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-2-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decision Apr 1\; enrollment reply by May 1. Mid-Year Grade Rep
+ ort required.
+URL:https://www.bc.edu/bc-web/admission.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-3-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: Priority filing - Early Decision I
+URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
+ c.edu/bc-web/offices/student-services/financial-aid/undergraduate/applyin
+ g-for-aid.html ; https://www.bc.edu/bc-web/admission/apply/international.
+ html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-4-20270103@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270103
+SUMMARY:Financial aid: Priority filing - Early Decision II
+URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
+ c.edu/bc-web/offices/student-services/financial-aid/undergraduate/applyin
+ g-for-aid.html ; https://www.bc.edu/bc-web/admission/apply/international.
+ html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-5-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: Priority filing - Regular Decision
+URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
+ c.edu/bc-web/offices/student-services/financial-aid/undergraduate/applyin
+ g-for-aid.html ; https://www.bc.edu/bc-web/admission/apply/international.
+ html
+END:VEVENT
+END:VCALENDAR

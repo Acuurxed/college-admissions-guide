@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Harvard University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:harvard-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Restrictive Early Action deadline
+DESCRIPTION:November 1\; page gives month/day only\; year inferred for the
+  Fall 2027 entry cycle. Counselors get an additional week for school mate
+ rials. Test results wanted by end of October. CDS C22: notification 12/16
+ .
+URL:https://college.harvard.edu/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:harvard-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:January 1\; page gives month/day only\; year inferred for the 
+ Fall 2027 entry cycle. Scores from tests as late as February accepted.
+URL:https://college.harvard.edu/admissions
+END:VEVENT
+BEGIN:VEVENT
+UID:harvard-2-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: Restrictive Early Action / QuestBridge Match - CSS 
+ Profile\, FAFSA\, IDOC
+URL:https://college.harvard.edu/financial-aid/how-aid-works ; https://coll
+ ege.harvard.edu/financial-aid/apply-financial-aid/prospective-students ; 
+ https://college.harvard.edu/admissions/apply/international-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:harvard-3-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: Regular Decision - CSS Profile\, FAFSA\, IDOC
+URL:https://college.harvard.edu/financial-aid/how-aid-works ; https://coll
+ ege.harvard.edu/financial-aid/apply-financial-aid/prospective-students ; 
+ https://college.harvard.edu/admissions/apply/international-applicants
+END:VEVENT
+END:VCALENDAR

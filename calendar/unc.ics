@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of North Carolina at Chapel Hill (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:unc-0-20261015@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Residency confirmation Oct 15. Supporting materia
+ ls/test scores: Nov 7 per international page (first-year page says Dec 1)
+ . Decisions by Dec 20 for NC residents and by Feb 15 for all others per i
+ nternational page (first-year page says Jan 31).
+URL:https://admissions.unc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:unc-1-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Supporting materials/test scores Feb 15 (first-year page says 
+ Feb 21)\; decision available Mar 31\; enrollment confirmation May 1.
+URL:https://admissions.unc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:unc-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Financial aid: CSS Profile for academic scholarships
+URL:https://admissions.unc.edu/apply/types-of-applications/international-f
+ irst-year-students/
+END:VEVENT
+END:VCALENDAR

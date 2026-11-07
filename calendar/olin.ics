@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Olin College of Engineering (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:olin-0-20261215@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. applicant's local time. Single deadline. Supporting
+  materials due Dec 20\, 2026. Candidate status late January 2027\; requir
+ ed Candidates' Weekends Feb 19-20\, Feb 26-27\, Mar 5-6\, 2027\; admissio
+ n and aid notifications late March 2027\; reply May 1\, 2027.
+URL:https://www.olin.edu/admission
+END:VEVENT
+BEGIN:VEVENT
+UID:olin-1-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: FAFSA priority deadline (prospective students)
+URL:https://www.olin.edu/admission/costs-financial-aid ; https://www.olin.
+ edu/admission-financial-aid-afford/applying-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:olin-2-20261116@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261116
+SUMMARY:Virtual Info Session
+DESCRIPTION:7:00 PM ET | virtual | Prospective students
+URL:https://admission.olin.edu/portal/virtual-sessions
+END:VEVENT
+BEGIN:VEVENT
+UID:olin-3-20261119@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Residential Life at Olin
+DESCRIPTION:7:00 PM ET | virtual | Prospective students
+URL:https://admission.olin.edu/portal/virtual-sessions
+END:VEVENT
+END:VCALENDAR

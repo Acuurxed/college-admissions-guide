@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Georgia Institute of Technology (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:gatech-0-20261015@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Early Action deadline
+DESCRIPTION:11:59 p.m. applicant's local time. Early Action 1: Georgia stu
+ dents only (attend a Georgia high school or Georgia residents living outs
+ ide the state). Document deadline Oct 30\; self-reported test score deadl
+ ine Nov 16\; decision early December. Non-binding.
+URL:https://admission.gatech.edu/first-year/
+END:VEVENT
+BEGIN:VEVENT
+UID:gatech-1-20261102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Early Action deadline
+DESCRIPTION:11:59 p.m. applicant's local time. Early Action 2: non-Georgia
+  students\, including international applicants. Document deadline Nov 16\
+ ; self-reported test score deadline Dec 8\; decision late January. Non-bi
+ nding. EA required for Stamps President's Scholars and Scheller Dean's Sc
+ holarship consideration.
+URL:https://admission.gatech.edu/first-year/
+END:VEVENT
+BEGIN:VEVENT
+UID:gatech-2-20270106@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270106
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. applicant's local time. Open to Georgia and non-Geo
+ rgia students. Document and test score deadline Jan 22\; decision mid-Mar
+ ch\; deposit May 1.
+URL:https://admission.gatech.edu/first-year/
+END:VEVENT
+END:VCALENDAR

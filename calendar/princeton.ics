@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Princeton University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:princeton-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Single-Choice Early Action deadline
+DESCRIPTION:Nov. 1\; page gives month/day only\; year inferred for the Fal
+ l 2027 entry cycle. Arts supplement Nov. 6\; decisions mid-December\; non
+ binding\, reply by May 1.
+URL:https://admission.princeton.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:princeton-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Jan. 1\; page gives month/day only\; year inferred for the Fal
+ l 2027 entry cycle. Arts supplement Jan. 8\; decisions late March.
+URL:https://admission.princeton.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:princeton-2-20261109@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Financial aid: Single-choice early action - Princeton Financial Ai
+ d Application
+URL:https://admission.princeton.edu/cost-aid/how-financial-aid-works ; htt
+ ps://admission.princeton.edu/apply/first-year-application-dates-deadlines
+  ; https://admission.princeton.edu/cost-aid/net-price-calculator
+END:VEVENT
+BEGIN:VEVENT
+UID:princeton-3-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: Regular decision - Princeton Financial Aid Applicat
+ ion
+URL:https://admission.princeton.edu/cost-aid/how-financial-aid-works ; htt
+ ps://admission.princeton.edu/apply/first-year-application-dates-deadlines
+  ; https://admission.princeton.edu/cost-aid/net-price-calculator
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Miami (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:miami-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding\; final credentials Nov 13\; decision mid-December\; P
+ remier + merit scholarship consideration.
+URL:https://admissions.miami.edu/undergraduate/
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding\; final credentials Nov 20\; decision late January
+ \; Premier + merit scholarship consideration.
+URL:https://admissions.miami.edu/undergraduate/
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-2-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; final credentials Jan 25\; decision late February\; 
+ merit consideration. Frost School of Music applicants must apply by Dec 1
+ .
+URL:https://admissions.miami.edu/undergraduate/
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-3-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Final credentials Feb 5\; decision April 1. Frost RD applicant
+ s must apply by Dec 1.
+URL:https://admissions.miami.edu/undergraduate/
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-4-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Financial aid - Early Decision I
+URL:https://admissions.miami.edu/undergraduate/application-process/options
+ -and-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-5-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: Financial aid - Early Action
+URL:https://admissions.miami.edu/undergraduate/application-process/options
+ -and-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-6-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: Financial aid - Early Decision II
+URL:https://admissions.miami.edu/undergraduate/application-process/options
+ -and-deadlines/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:miami-7-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: Financial aid - Regular Decision
+URL:https://admissions.miami.edu/undergraduate/application-process/options
+ -and-deadlines/index.html
+END:VEVENT
+END:VCALENDAR

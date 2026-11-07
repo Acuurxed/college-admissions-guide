@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Oberlin College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:oberlin-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Application and financial aid deadline\; notificat
+ ion mid-December\; reply due January 2
+URL:https://www.oberlin.edu/admissions-and-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. Non-restrictive\; notification mid-January\; reply
+  due May 1
+URL:https://www.oberlin.edu/admissions-and-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-2-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Notification February 1\; reply due February 15
+URL:https://www.oberlin.edu/admissions-and-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-3-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Notification April 1\; reply due May 1
+URL:https://www.oberlin.edu/admissions-and-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-4-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: Early Decision I / Early Action aid deadline
+URL:https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-yea
+ r-applicants ; https://www.oberlin.edu/admissions-and-aid/arts-and-scienc
+ es/international-applicants ; https://www.oberlin.edu/admissions-and-aid/
+ international-students
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-5-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: Early Decision II aid deadline
+URL:https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-yea
+ r-applicants ; https://www.oberlin.edu/admissions-and-aid/arts-and-scienc
+ es/international-applicants ; https://www.oberlin.edu/admissions-and-aid/
+ international-students
+END:VEVENT
+BEGIN:VEVENT
+UID:oberlin-6-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Regular Decision aid deadline (CSS Profile/FAFSA pr
+ iority)
+URL:https://www.oberlin.edu/admissions-and-aid/arts-and-sciences/first-yea
+ r-applicants ; https://www.oberlin.edu/admissions-and-aid/arts-and-scienc
+ es/international-applicants ; https://www.oberlin.edu/admissions-and-aid/
+ international-students
+END:VEVENT
+END:VCALENDAR

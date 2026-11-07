@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dartmouth College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:dartmouth-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision deadline
+DESCRIPTION:November 1 (application\, financial aid materials\, fee/waiver
+ )\; page gives month/day only\; year inferred for the Fall 2027 entry cyc
+ le. Decision mid-December\; binding\; last test date early November.
+URL:https://admissions.dartmouth.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:dartmouth-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:January 1\; page gives month/day only\; year inferred for the 
+ Fall 2027 entry cycle. Apply page also shows January 2 in a QuestBridge s
+ ection (discrepancy). Financial aid due February 1. Decisions late March/
+ early April\; last test date December.
+URL:https://admissions.dartmouth.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:dartmouth-2-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: Early Decision - CSS Profile and IDOC
+URL:https://financialaid.dartmouth.edu/apply-aid/international-students ; 
+ https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-student
+ s/how-apply-aid/international-students ; https://financialaid.dartmouth.e
+ du/apply-aid/prospective-transfer-students/how-apply-aid ; https://admiss
+ ions.dartmouth.edu/glossary-term/international-student-financial-aid-appl
+ ication-isfaa
+END:VEVENT
+BEGIN:VEVENT
+UID:dartmouth-3-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: Early Decision - FAFSA
+URL:https://financialaid.dartmouth.edu/apply-aid/international-students ; 
+ https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-student
+ s/how-apply-aid/international-students ; https://financialaid.dartmouth.e
+ du/apply-aid/prospective-transfer-students/how-apply-aid ; https://admiss
+ ions.dartmouth.edu/glossary-term/international-student-financial-aid-appl
+ ication-isfaa
+END:VEVENT
+BEGIN:VEVENT
+UID:dartmouth-4-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: Regular Decision - CSS Profile\, FAFSA\, IDOC
+URL:https://financialaid.dartmouth.edu/apply-aid/international-students ; 
+ https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-student
+ s/how-apply-aid/international-students ; https://financialaid.dartmouth.e
+ du/apply-aid/prospective-transfer-students/how-apply-aid ; https://admiss
+ ions.dartmouth.edu/glossary-term/international-student-financial-aid-appl
+ ication-isfaa
+END:VEVENT
+END:VCALENDAR

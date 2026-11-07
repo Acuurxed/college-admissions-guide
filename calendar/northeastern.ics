@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Northeastern University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:northeastern-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Supporting materials by Nov 15\; decision by Jan 1. P
+ age lists dates without a year\; year inferred.
+URL:https://admissions.northeastern.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Supporting materials by Dec 15\; decision by Feb 
+ 15. Senior-year grades and late fall testing not reviewed.
+URL:https://admissions.northeastern.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Supporting materials by Jan 15\; decision by Mar 1.
+URL:https://admissions.northeastern.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-3-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Non-binding. Supporting materials by Feb 1\; decision by Apr 1
+ . Applying by Jan 1 also required for first-year merit scholarship consid
+ eration.
+URL:https://admissions.northeastern.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-4-20261115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: CSS Profile priority - Early Decision I
+URL:https://admissions.northeastern.edu/application-information/internatio
+ nal-applicants/ ; https://admissions.northeastern.edu/cost-financial-aid/
+ applying-for-financial-aid/ ; https://admissions.northeastern.edu/cost-fi
+ nancial-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-5-20261201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: CSS Profile priority - Early Action
+URL:https://admissions.northeastern.edu/application-information/internatio
+ nal-applicants/ ; https://admissions.northeastern.edu/cost-financial-aid/
+ applying-for-financial-aid/ ; https://admissions.northeastern.edu/cost-fi
+ nancial-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-6-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: CSS Profile priority - Early Decision II
+URL:https://admissions.northeastern.edu/application-information/internatio
+ nal-applicants/ ; https://admissions.northeastern.edu/cost-financial-aid/
+ applying-for-financial-aid/ ; https://admissions.northeastern.edu/cost-fi
+ nancial-aid/
+END:VEVENT
+BEGIN:VEVENT
+UID:northeastern-7-20270215@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270215
+SUMMARY:Financial aid: CSS Profile priority - Regular Decision
+URL:https://admissions.northeastern.edu/application-information/internatio
+ nal-applicants/ ; https://admissions.northeastern.edu/cost-financial-aid/
+ applying-for-financial-aid/ ; https://admissions.northeastern.edu/cost-fi
+ nancial-aid/
+END:VEVENT
+END:VCALENDAR

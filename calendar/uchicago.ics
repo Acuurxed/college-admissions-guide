@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Chicago (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:uchicago-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Decision mid-December\; reply by May 1. Official 
+ page lists 'November 1' without a year\; year inferred for the 2026-27 cy
+ cle.
+URL:https://collegeadmissions.uchicago.edu/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:uchicago-1-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Decision mid-December\; reply mid-January. EA to ED I
+  switch deadline December 1.
+URL:https://collegeadmissions.uchicago.edu/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:uchicago-2-20270106@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270106
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Decision mid-February\; reply early March. Switch fro
+ m deferred EA or RD to ED II by January 15.
+URL:https://collegeadmissions.uchicago.edu/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:uchicago-3-20270106@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270106
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Non-binding. Decision late March\; reply by May 1.
+URL:https://collegeadmissions.uchicago.edu/apply/first-year-applicants
+END:VEVENT
+END:VCALENDAR

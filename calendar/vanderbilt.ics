@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vanderbilt University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:vanderbilt-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Binding\; ED Agreement signed by applicant\, paren
+ t and counselor. Priority CSS Profile/FAFSA Nov 1\; merit scholarship app
+ lication Dec 1\; decisions mid-December\; deposit Dec 31. Preferred last 
+ SAT Oct 3\, ACT Oct 17.
+URL:https://admissions.vanderbilt.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Early Decision II deadline
+DESCRIPTION:not stated. Binding. Priority CSS Profile/FAFSA Jan 1\; merit 
+ scholarship application Dec 1\, 2026\; decisions mid-February\; deposit M
+ ar 1. Preferred last SAT Dec 5\, ACT Dec 12.
+URL:https://admissions.vanderbilt.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-2-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. Non-binding. Merit scholarship application Dec 1\,
+  2026\; priority CSS Profile/FAFSA Feb 1\; decisions late March\; deposit
+  May 1. Plan changes via MyAppVU up to 2 weeks after deadline.
+URL:https://admissions.vanderbilt.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-3-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: ED I priority CSS Profile/FAFSA
+URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
+ vanderbilt.edu/apply/first-year-process/ ; https://admissions.vanderbilt.
+ edu/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-4-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Financial aid: ED II priority CSS Profile/FAFSA
+URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
+ vanderbilt.edu/apply/first-year-process/ ; https://admissions.vanderbilt.
+ edu/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-5-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: RD priority CSS Profile/FAFSA
+URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
+ vanderbilt.edu/apply/first-year-process/ ; https://admissions.vanderbilt.
+ edu/apply/
+END:VEVENT
+END:VCALENDAR

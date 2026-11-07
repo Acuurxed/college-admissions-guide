@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Boston University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:bu-0-20261102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Notification Dec 14. CSS Profile and FAFSA due same d
+ ay. International ED applicants must submit financial documents by the ap
+ plication deadline. Page lists month/day only\; year inferred for the Fal
+ l 2027 cycle.
+URL:https://www.bu.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:bu-1-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Notification Feb 8. School of Theatre prescreens due 
+ Dec 1. Page lists month/day only\; year inferred for the Fall 2027 cycle.
+URL:https://www.bu.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:bu-2-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Apply by Dec 1 for merit scholarship (Presidential) considerat
+ ion. Page lists month/day only\; year inferred for the Fall 2027 cycle.
+URL:https://www.bu.edu/admissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:bu-3-20261102@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Financial aid: ED I CSS Profile and FAFSA
+URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
+  https://www.bu.edu/finaid/undergraduate-students/international/; https:/
+ /www.bu.edu/admissions/apply/deadlines
+END:VEVENT
+BEGIN:VEVENT
+UID:bu-4-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: ED II CSS Profile and FAFSA
+URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
+  https://www.bu.edu/finaid/undergraduate-students/international/; https:/
+ /www.bu.edu/admissions/apply/deadlines
+END:VEVENT
+BEGIN:VEVENT
+UID:bu-5-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: RD CSS Profile and FAFSA
+URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
+  https://www.bu.edu/finaid/undergraduate-students/international/; https:/
+ /www.bu.edu/admissions/apply/deadlines
+END:VEVENT
+END:VCALENDAR

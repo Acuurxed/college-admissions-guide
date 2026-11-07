@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Wisconsin-Madison (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:wisc-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:11:59 p.m. Pacific Time. Materials due Nov 9. Decision on or b
+ efore Jan 31. The page gives month and day only\; the year is inferred fo
+ r the Fall 2027 cycle. This deadline has already passed (today 2026-11-07
+ ). King-Morgridge applicants must apply Early Action.
+URL:https://admissions.wisc.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:wisc-1-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. Pacific Time. Materials due Jan 22. Decision on or 
+ before Mar 31. The page gives month and day only\; the year is inferred.
+URL:https://admissions.wisc.edu/
+END:VEVENT
+END:VCALENDAR

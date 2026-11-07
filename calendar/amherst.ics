@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Amherst College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:amherst-0-20261109@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Per Fall 2027 calendar page\; financial aid application due 20
+ 26-11-13\; decisions early-to-mid December 2026. (CDS 2025-26 C21 listed 
+ Nov 7 for the prior cycle.)
+URL:https://www.amherst.edu/admission/apply/firstyear
+END:VEVENT
+BEGIN:VEVENT
+UID:amherst-1-20270105@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Financial aid application due 2027-01-15\; decisions 2027-03-2
+ 0\; reply by 2027-05-01.
+URL:https://www.amherst.edu/admission/apply/firstyear
+END:VEVENT
+BEGIN:VEVENT
+UID:amherst-2-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: QuestBridge
+URL:https://www.amherst.edu/offices/financialaid/international_students/ap
+ pleton/node/28638
+END:VEVENT
+BEGIN:VEVENT
+UID:amherst-3-20261113@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261113
+SUMMARY:Financial aid: Early Decision
+URL:https://www.amherst.edu/offices/financialaid/international_students/ap
+ pleton/node/28638
+END:VEVENT
+BEGIN:VEVENT
+UID:amherst-4-20270115@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Regular Decision
+URL:https://www.amherst.edu/offices/financialaid/international_students/ap
+ pleton/node/28638
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Georgetown University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:georgetown-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. EA applicants may not apply to binding Early Deci
+ sion programs elsewhere but may apply to other non-binding EA programs. D
+ ecisions by Dec 15. Page lists dates without a year\; year inferred for t
+ he 2026-27 cycle.
+URL:https://uadmissions.georgetown.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:georgetown-1-20270101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decisions by Apr 1\; reply date May 1. Georgetown Application 
+ opens June 1\; Common App opens Aug 1. Midyear School Report due Feb 10.
+URL:https://uadmissions.georgetown.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:georgetown-2-20270201@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: FAFSA and CSS Profile (all applicants)
+URL:https://uadmissions.georgetown.edu/financial-aid/ ; https://finaid.geo
+ rgetown.edu/undergrad/first-year/ ; https://uadmissions.georgetown.edu/ap
+ ply/international-applicants/
+END:VEVENT
+END:VCALENDAR

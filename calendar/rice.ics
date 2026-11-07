@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rice University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:rice-0-20261101@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Decisions by mid-December\; enrollment deposit by 202
+ 7-01-04. Interview request by 2026-11-03\; InitialView by 2026-11-10.
+URL:https://admission.rice.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rice-1-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Decisions by late January\; deposit by 2027-03-01. In
+ terview request by 2027-01-06\; InitialView by 2027-01-12.
+URL:https://admission.rice.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rice-2-20270104@admissara.com
+DTSTAMP:20261107T202534Z
+DTSTART;VALUE=DATE:20270104
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decisions by 2027-04-01\; deposit by 2027-05-01. Priority inte
+ rview request by mid-December\; otherwise by 2027-01-06. Shepherd School 
+ of Music materials due 2026-12-01.
+URL:https://admission.rice.edu/
+END:VEVENT
+END:VCALENDAR
