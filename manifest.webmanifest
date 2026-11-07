@@ -1,1 +1,40 @@
-{"name":"College Admissions Guide","short_name":"Admissions Guide","start_url":"./","display":"standalone","background_color":"#F4F6FA","theme_color":"#0F2A4A","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png"}]}
+{
+ "id": "./",
+ "name": "College Admissions Guide",
+ "short_name": "Admissions Guide",
+ "description": "Schools, scholarships, programs and your application in one place.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "display_override": [
+  "window-controls-overlay",
+  "standalone"
+ ],
+ "background_color": "#0B4A8C",
+ "theme_color": "#1766BA",
+ "orientation": "any",
+ "categories": [
+  "education",
+  "productivity"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

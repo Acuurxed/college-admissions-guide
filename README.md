@@ -1,8 +1,10 @@
-College Admissions Guide - website
+# College Admissions Guide (beta)
 
-Publish by uploading this folder to any static web host:
-- Netlify: drag the folder onto app.netlify.com/drop.
-- GitHub Pages: push the folder to a repository and turn on Pages.
-- Cloudflare Pages or Vercel: create a static project from the folder.
+Live site: https://acuurxed.github.io/college-admissions-guide/
 
-Use HTTPS. The site then installs as an app from the browser ("Install" or "Add to Home Screen") and keeps working offline.
+Install it as an app:
+- Windows or Mac (Microsoft Edge or Google Chrome): open the site, then use the Install button in the address bar (or Settings > Install app inside the guide).
+- Android (Chrome): menu > Add to Home screen > Install.
+- iPhone or iPad (Safari): Share > Add to Home Screen.
+
+The installed app updates itself whenever a new version is published here.
