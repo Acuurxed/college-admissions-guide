@@ -1,0 +1,26 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser
+        run: npm install --no-save playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: Smoke test and link check
+        run: node .github/scripts/check.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINKS: ${{ github.event_name == 'schedule' && '1' || '0' }}

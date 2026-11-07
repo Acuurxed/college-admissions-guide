@@ -1,6 +1,6 @@
-/* College Admissions Guide service worker, build 0.10.0.
+/* College Admissions Guide service worker, build 0.11.0.
    The page is always fetched fresh from the network when online (so updates arrive on the next launch) and served from cache offline. */
-const CACHE="cag-0.10.0";
+const CACHE="cag-0.11.0";
 const SHELL=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./favicon-32.png"];
 self.addEventListener("install",e=>{ e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL.map(u=>new Request(u,{cache:"reload"}))))); self.skipWaiting(); });
 self.addEventListener("activate",e=>{ e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x)))).then(()=>self.clients.claim())); });

@@ -1,0 +1,36 @@
+name: Official page watcher
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: page-watcher
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Restore watcher state
+        uses: actions/cache/restore@v4
+        with:
+          path: .watch-state
+          key: watch-state-${{ github.run_id }}
+          restore-keys: watch-state-
+      - name: Check official pages
+        run: node .github/scripts/watch.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save watcher state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .watch-state
+          key: watch-state-${{ github.run_id }}
