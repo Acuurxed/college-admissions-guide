@@ -1,4 +1,4 @@
-# College Admissions Guide (beta)
+# Admissara (beta)
 
 Live site: https://acuurxed.github.io/college-admissions-guide/
 

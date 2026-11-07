@@ -1,7 +1,7 @@
 {
  "id": "./",
- "name": "College Admissions Guide",
- "short_name": "Admissions Guide",
+ "name": "Admissara",
+ "short_name": "Admissara",
  "description": "Schools, scholarships, programs and your application in one place.",
  "start_url": "./",
  "scope": "./",

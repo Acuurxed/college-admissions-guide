@@ -1,4 +1,4 @@
-/* College Admissions Guide service worker, build 0.11.0.
+/* Admissara service worker, build 0.11.0.
    The page is always fetched fresh from the network when online (so updates arrive on the next launch) and served from cache offline. */
 const CACHE="cag-0.11.0";
 const SHELL=["./","./index.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./favicon-32.png"];
