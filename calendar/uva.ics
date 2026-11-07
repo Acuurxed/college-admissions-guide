@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:uva-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision deadline
 DESCRIPTION:Teacher/counselor deadline Nov 8\; decisions by Dec 15. Bindin
@@ -17,7 +17,7 @@ URL:https://admission.virginia.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:uva-1-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Teacher/counselor deadline Nov 8\; decisions by Feb 15.
@@ -25,7 +25,7 @@ URL:https://admission.virginia.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:uva-2-20270105@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Teacher/counselor deadline Jan 10\; decisions by Apr 1.

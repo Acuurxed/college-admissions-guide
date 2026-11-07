@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bard-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Non-binding\; decision end of December\; deposit M
@@ -20,7 +20,7 @@ URL:https://www.bard.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-1-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Binding\; decision end of December\; deposit withi
@@ -29,7 +29,7 @@ URL:https://www.bard.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-2-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Binding\; decision end of January\; deposit within
@@ -38,7 +38,7 @@ URL:https://www.bard.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-3-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Decision late March\; deposit May 1.
@@ -46,7 +46,7 @@ URL:https://www.bard.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-4-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: BISFAA - early rounds (EA/ED I)
 URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
@@ -54,7 +54,7 @@ URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-5-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: BISFAA - ED II/Regular Decision (int'l aid page als
  o shows Jan 1)
@@ -63,7 +63,7 @@ URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-6-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: CSS Profile - early rounds
 URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
@@ -71,7 +71,7 @@ URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-7-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: CSS Profile - IDP
 URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
@@ -79,7 +79,7 @@ URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed
 END:VEVENT
 BEGIN:VEVENT
 UID:bard-8-20270201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: CSS Profile / FAFSA - January rounds
 URL:https://www.bard.edu/financialaid/international/ ; https://www.bard.ed

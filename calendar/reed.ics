@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:reed-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Decisions December\; reply within 2 weeks\; interview deadline
@@ -17,7 +17,7 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-1-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Decisions February\; reply May 1\; interview deadline Dec. 1.
@@ -25,7 +25,7 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-2-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Decisions March\; reply within 2 weeks\; interview deadline Ja
@@ -34,7 +34,7 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-3-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions April 1\; reply May 1\; interview deadline Feb. 1.

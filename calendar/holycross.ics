@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:holycross-0-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; notification Dec 15\; interview by Nov 15.
@@ -16,7 +16,7 @@ URL:https://www.holycross.edu/admission-and-financial-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:holycross-1-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; notification Feb 15\; interview by Dec 5.
@@ -24,7 +24,7 @@ URL:https://www.holycross.edu/admission-and-financial-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:holycross-2-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification mid-March\; interview by Dec 5.
@@ -32,7 +32,7 @@ URL:https://www.holycross.edu/admission-and-financial-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:holycross-3-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I - CSS Profile\, FAFSA\, IDOC
 URL:https://www.holycross.edu/admissions-aid/tuition-financial-aid/financi
@@ -40,7 +40,7 @@ URL:https://www.holycross.edu/admissions-aid/tuition-financial-aid/financi
 END:VEVENT
 BEGIN:VEVENT
 UID:holycross-4-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II and RD - CSS Profile\, FAFSA\, IDOC
 URL:https://www.holycross.edu/admissions-aid/tuition-financial-aid/financi

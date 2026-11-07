@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:middlebury-0-20261102@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Financial aid due Nov 15\; notification mid-December.
@@ -16,7 +16,7 @@ URL:https://www.middlebury.edu/college/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-1-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Financial aid due Jan 4\; notification mid-February.
@@ -24,7 +24,7 @@ URL:https://www.middlebury.edu/college/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-2-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Financial aid due Feb 1\; notification late March.
@@ -32,7 +32,7 @@ URL:https://www.middlebury.edu/college/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-3-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: QuestBridge
 URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
@@ -42,7 +42,7 @@ URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-4-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I
 URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
@@ -52,7 +52,7 @@ URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-5-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Financial aid: Early Decision II
 URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
@@ -62,7 +62,7 @@ URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-
 END:VEVENT
 BEGIN:VEVENT
 UID:middlebury-6-20270201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision
 URL:https://www.middlebury.edu/student-financial-services/apply-aid/first-

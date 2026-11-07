@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:carleton-0-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Fall ED. Aid materials Nov. 15\; decisions Dec. 15\; confirm b
@@ -17,7 +17,7 @@ URL:https://www.carleton.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:carleton-1-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Winter ED. Aid materials Jan. 15\; decisions Feb. 15\; confirm
@@ -26,7 +26,7 @@ URL:https://www.carleton.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:carleton-2-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Late applications on space-if-available basis\; decisions Apr.
@@ -35,7 +35,7 @@ URL:https://www.carleton.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:carleton-3-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Aid materials - ED I
 URL:https://www.carleton.edu/admissions/apply/steps/international/ ; https
@@ -44,7 +44,7 @@ URL:https://www.carleton.edu/admissions/apply/steps/international/ ; https
 END:VEVENT
 BEGIN:VEVENT
 UID:carleton-4-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Aid materials - ED II
 URL:https://www.carleton.edu/admissions/apply/steps/international/ ; https
@@ -53,7 +53,7 @@ URL:https://www.carleton.edu/admissions/apply/steps/international/ ; https
 END:VEVENT
 BEGIN:VEVENT
 UID:carleton-5-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Aid materials - RD
 URL:https://www.carleton.edu/admissions/apply/steps/international/ ; https

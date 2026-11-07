@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:cwru-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Aid documents due Nov 15\; anticipated notification Dec 19. Pa
@@ -17,7 +17,7 @@ URL:https://case.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-1-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; signed ED Agreement. Aid documents Nov 15\; notifica
@@ -27,7 +27,7 @@ URL:https://case.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-2-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Priority deadline
 DESCRIPTION:Pre-Professional Scholars Program deadline (two extra essays).
@@ -37,7 +37,7 @@ URL:https://case.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-3-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Aid documents Jan 22\; notification Feb 6. Page lists
@@ -46,7 +46,7 @@ URL:https://case.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-4-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Aid documents Feb 1\; notification Mar 20. Page lists month/da
@@ -55,7 +55,7 @@ URL:https://case.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-5-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: EA / ED I aid documents
 URL:https://case.edu/financialaid/undergraduates/international-students; h
@@ -63,7 +63,7 @@ URL:https://case.edu/financialaid/undergraduates/international-students; h
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-6-20261215@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Financial aid: Pre-Professional Scholars aid documents
 URL:https://case.edu/financialaid/undergraduates/international-students; h
@@ -71,7 +71,7 @@ URL:https://case.edu/financialaid/undergraduates/international-students; h
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-7-20270122@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270122
 SUMMARY:Financial aid: ED II aid documents
 URL:https://case.edu/financialaid/undergraduates/international-students; h
@@ -79,7 +79,7 @@ URL:https://case.edu/financialaid/undergraduates/international-students; h
 END:VEVENT
 BEGIN:VEVENT
 UID:cwru-8-20270201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD aid documents
 URL:https://case.edu/financialaid/undergraduates/international-students; h

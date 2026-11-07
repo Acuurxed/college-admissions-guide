@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:union-0-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Documents due Nov 20\; financial aid due Nov 15\; rolling week
@@ -18,7 +18,7 @@ URL:https://www.union.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:union-1-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Documents due Jan 20\; financial aid due Jan 15\; rolling week
@@ -28,7 +28,7 @@ URL:https://www.union.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:union-2-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Documents due Jan 20\; financial aid due Jan 15\; decisions mi
@@ -38,7 +38,7 @@ URL:https://www.union.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:union-3-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I / Leadership in Medicine financial
   aid
@@ -47,7 +47,7 @@ URL:https://www.union.edu/admissions/finaid ; https://www.union.edu/admiss
 END:VEVENT
 BEGIN:VEVENT
 UID:union-4-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II / Regular Decision financial aid
 URL:https://www.union.edu/admissions/finaid ; https://www.union.edu/admiss
@@ -55,7 +55,7 @@ URL:https://www.union.edu/admissions/finaid ; https://www.union.edu/admiss
 END:VEVENT
 BEGIN:VEVENT
 UID:union-5-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: Priority scholarship consideration (application)
 URL:https://www.union.edu/admissions/finaid ; https://www.union.edu/admiss

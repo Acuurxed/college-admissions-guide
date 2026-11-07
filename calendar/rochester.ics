@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:rochester-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Notification mid-December\; other materials due Dec 1
@@ -18,7 +18,7 @@ URL:https://admissions.rochester.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rochester-1-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Priority deadline
 DESCRIPTION:Priority scholarship deadline (RD-based)\; notification late F
@@ -28,7 +28,7 @@ URL:https://admissions.rochester.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rochester-2-20270105@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Notification early February\; other materials due Feb
@@ -37,7 +37,7 @@ URL:https://admissions.rochester.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rochester-3-20270105@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification April 1\; reply May 1\; other materials due Feb 1
@@ -46,7 +46,7 @@ URL:https://admissions.rochester.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rochester-4-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: ED FAFSA and CSS Profile
 URL:https://admissions.rochester.edu/applying/international-students/; htt

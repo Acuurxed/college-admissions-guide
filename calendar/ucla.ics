@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:ucla-0-20261130@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated on the UC dates page. Single UC filing period Oct 1
@@ -19,7 +19,7 @@ URL:https://admission.ucla.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:ucla-1-20270302@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Financial aid: FAFSA / California Dream Act Application / Cal Gran
  t GPA Verification Form (file Oct 1\, 2026 - Mar 2\, 2027)
@@ -27,7 +27,7 @@ URL:https://admission.ucla.edu/apply/international-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:ucla-2-20261107@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261107
 SUMMARY:UCLA Information Sessions and UC Night Programs (series through 20
  26-11-16)
@@ -36,7 +36,7 @@ URL:https://connect.admission.ucla.edu/portal/uclainfosessions
 END:VEVENT
 BEGIN:VEVENT
 UID:ucla-3-20261210@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261210
 SUMMARY:Virtual Transfer Admission Presentation
 DESCRIPTION:4:00-5:00 p.m. | virtual | transfer applicants
@@ -45,7 +45,7 @@ URL:https://connect.admission.ucla.edu/portal/virtual_transferpresentation
 END:VEVENT
 BEGIN:VEVENT
 UID:ucla-4-20270206@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270206
 SUMMARY:Black College Expo (Oakland Marriott City Center)
 DESCRIPTION:10:00 a.m.-3:00 p.m. | in-person | all grade levels

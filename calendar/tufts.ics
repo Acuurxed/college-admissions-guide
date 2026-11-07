@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:tufts-0-20261102@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. School report/recommendations and optional self-re
@@ -18,7 +18,7 @@ URL:https://admissions.tufts.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-1-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. School report/recommendations due Jan 11\; notific
@@ -27,7 +27,7 @@ URL:https://admissions.tufts.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-2-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. School report/recommendations due Jan 17\; notific
@@ -36,7 +36,7 @@ URL:https://admissions.tufts.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-3-20261116@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Financial aid: ED I FAFSA/CSS Profile
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
@@ -45,7 +45,7 @@ URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-4-20261201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: ED I IDOC
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
@@ -54,7 +54,7 @@ URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-5-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II FAFSA/CSS Profile
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
@@ -63,7 +63,7 @@ URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-6-20270201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: ED II IDOC
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
@@ -72,7 +72,7 @@ URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-7-20270201@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD FAFSA/CSS Profile
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
@@ -81,7 +81,7 @@ URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:tufts-8-20270215@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: RD IDOC
 URL:https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/internat

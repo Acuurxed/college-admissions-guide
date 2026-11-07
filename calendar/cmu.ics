@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:cmu-0-20261102@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Notified by Dec 15\; enroll by Feb 1. Not available f
@@ -19,7 +19,7 @@ URL:https://www.cmu.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cmu-1-20270104@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notified no later than Apr 1\; enroll by May 1. School of Dram
@@ -28,7 +28,7 @@ URL:https://www.cmu.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:cmu-2-20261115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision preferred aid deadline
 URL:https://www.cmu.edu/admission/admission/international-applicants ; htt
@@ -36,7 +36,7 @@ URL:https://www.cmu.edu/admission/admission/international-applicants ; htt
 END:VEVENT
 BEGIN:VEVENT
 UID:cmu-3-20270215@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Regular Decision preferred aid deadline
 URL:https://www.cmu.edu/admission/admission/international-applicants ; htt

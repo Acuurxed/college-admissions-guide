@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:soka-0-20261101@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. Decisions by Dec 8. Applications open Aug 1.
@@ -16,7 +16,7 @@ URL:https://www.soka.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:soka-1-20270115@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Soka calls this 'Regular Admission'. Decisions by Mar 15.
@@ -24,7 +24,7 @@ URL:https://www.soka.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:soka-2-20270215@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Priority deadline (aid offer in March)
 URL:https://www.soka.edu/admissions-aid/financial-aid ; https://www.soka.e
@@ -33,7 +33,7 @@ URL:https://www.soka.edu/admissions-aid/financial-aid ; https://www.soka.e
 END:VEVENT
 BEGIN:VEVENT
 UID:soka-3-20270302@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Financial aid: Priority funding / financial aid application deadli
  ne
@@ -43,7 +43,7 @@ URL:https://www.soka.edu/admissions-aid/financial-aid ; https://www.soka.e
 END:VEVENT
 BEGIN:VEVENT
 UID:soka-4-20270501@admissara.com
-DTSTAMP:20261107T202534Z
+DTSTAMP:20261107T205751Z
 DTSTART;VALUE=DATE:20270501
 SUMMARY:Financial aid: Supporting materials due (table\; international sec
  tion asks for documents by priority deadline)
