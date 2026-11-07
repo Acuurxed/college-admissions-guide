@@ -4014,7 +4014,7 @@ let saveT=null;
 function persist(){ clearTimeout(saveT); saveT=setTimeout(()=>{ if(session&&ST){ const ok=LS.set(userKey(session),ST); cloudPushSoon(); const el=$("#savemsg"); if(el){ el.textContent=ok?"Saved on this device":"Could not save"; clearTimeout(persist.t); persist.t=setTimeout(()=>{el.textContent="";},1600);} } },300); }
 
 /* ---------------- shared lookups ---------------- */
-const INSTITUTIONS=()=>[...new Set([...SCHOOLS.map(s=>s.name),"Ozel Ruzgar Fen Lisesi","Diyarbakir Bahcesehir College Science and Technology High School","EducationUSA Advising Center","Independent educational consultant"])].sort();
+const INSTITUTIONS=()=>[...new Set([...SCHOOLS.map(s=>s.name),...((window.PERSONAL_SEED&&window.PERSONAL_SEED.institutions)||[]),"EducationUSA Advising Center","Independent educational consultant"])].sort();
 const dl=(id,list)=>`<datalist id="${id}">${list.map(x=>`<option value="${esc(x)}">`).join("")}</datalist>`;
 const countryInput=(name,val,req,label)=>`<label class="f">${label}<input type="text" name="${name}" list="dl-countries" value="${esc(val||"")}" ${req?"required":""} autocomplete="off" placeholder="Start typing"></label>`;
 const tzSelect=(name,val)=>`<select name="${name}">${TIMEZONES.map(t=>`<option ${t===(val||deviceTZ)?"selected":""}>${t}</option>`).join("")}</select>`;
