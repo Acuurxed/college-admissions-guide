@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:gwu-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; notification late December. ED I applicants may use 
@@ -17,7 +17,7 @@ URL:https://undergraduate.admissions.gwu.edu/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-1-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; notification late February.
@@ -25,7 +25,7 @@ URL:https://undergraduate.admissions.gwu.edu/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-2-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Non-binding\, fall entry\; notification late March. Spring-ent
@@ -34,7 +34,7 @@ URL:https://undergraduate.admissions.gwu.edu/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-3-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED I financial aid
 URL:https://undergraduate.admissions.gwu.edu/financial-aid/scholarships-ai
@@ -42,7 +42,7 @@ URL:https://undergraduate.admissions.gwu.edu/financial-aid/scholarships-ai
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-4-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: ED II and Regular Decision financial aid
 URL:https://undergraduate.admissions.gwu.edu/financial-aid/scholarships-ai
@@ -50,7 +50,7 @@ URL:https://undergraduate.admissions.gwu.edu/financial-aid/scholarships-ai
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-5-20270401@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270401
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Opens Jan 15\; decisions by late June. Financial aid deadlines
@@ -59,7 +59,7 @@ URL:https://undergraduate.admissions.gwu.edu/apply/transfer-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:gwu-6-20271001@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20271001
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:Opens Aug 15\; decisions by early December.

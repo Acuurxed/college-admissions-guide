@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bowdoin-0-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Notification mid-December\; aid deadline Nov 15.
@@ -16,7 +16,7 @@ URL:https://www.bowdoin.edu/admissions/apply/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-1-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Notification early February\; aid deadline Jan 5.
@@ -24,7 +24,7 @@ URL:https://www.bowdoin.edu/admissions/apply/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-2-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification mid-March\; aid deadline Feb 1 (domestic).
@@ -32,7 +32,7 @@ URL:https://www.bowdoin.edu/admissions/apply/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-3-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: QuestBridge Match
 URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
@@ -40,7 +40,7 @@ URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I
 URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
@@ -48,7 +48,7 @@ URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-5-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: Early Decision II
 URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
@@ -56,7 +56,7 @@ URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-6-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision
 URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
@@ -64,7 +64,7 @@ URL:https://www.bowdoin.edu/admissions/apply/international-students/index.
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-7-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall entry only (no spring entry)\; financial aid also due Mar
@@ -73,7 +73,7 @@ URL:https://www.bowdoin.edu/admissions/apply/transfers/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-8-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Last day for ED1 alumni virtual interviews
 DESCRIPTION:virtual | first-year ED1 applicants
@@ -81,7 +81,7 @@ URL:https://admissions.bowdoin.edu/portal/alumni_interview
 END:VEVENT
 BEGIN:VEVENT
 UID:bowdoin-9-20261231@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:Last day for ED2 and RD alumni virtual interviews
 DESCRIPTION:virtual | first-year ED2 and RD applicants

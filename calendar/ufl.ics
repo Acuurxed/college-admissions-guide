@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:ufl-0-20261015@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Materials deadline Oct 22\; decision Dec 11 (admit\, 
@@ -18,7 +18,7 @@ URL:https://admissions.ufl.edu/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:ufl-1-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. Materials deadline Nov 8\; decision Jan 22 (admit
@@ -27,7 +27,7 @@ URL:https://admissions.ufl.edu/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:ufl-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Non-binding. Materials deadline Jan 22\; decision Mar 19 (admi
@@ -37,7 +37,7 @@ URL:https://admissions.ufl.edu/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:ufl-3-20261001@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261001
 SUMMARY:Financial aid: 2027-28 FAFSA opens
 URL:https://www.sfa.ufl.edu/international/

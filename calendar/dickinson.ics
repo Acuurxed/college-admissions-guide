@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:dickinson-0-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Admissions and financial aid deadline\; decision mid-December\
@@ -17,7 +17,7 @@ URL:https://www.dickinson.edu/homepage/287/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:dickinson-1-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Action deadline
 DESCRIPTION:Admissions and financial aid deadline\; decision mid-January\;
@@ -26,7 +26,7 @@ URL:https://www.dickinson.edu/homepage/287/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:dickinson-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Admissions and financial aid deadline\; decision late February
@@ -35,7 +35,7 @@ URL:https://www.dickinson.edu/homepage/287/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:dickinson-3-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Admissions and financial aid deadline\; decision late March\; 
@@ -44,7 +44,7 @@ URL:https://www.dickinson.edu/homepage/287/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:dickinson-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I / Early Action (CSS Profile and FA
  FSA)
@@ -54,7 +54,7 @@ URL:https://www.dickinson.edu/info/20045/admissions/1179/international_sch
 END:VEVENT
 BEGIN:VEVENT
 UID:dickinson-5-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II / Regular Decision (CSS Profile a
  nd FAFSA)

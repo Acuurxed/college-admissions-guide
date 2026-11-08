@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:brown-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Single-choice\, binding Early Decision\; decisions mid-Decembe
@@ -17,7 +17,7 @@ URL:https://admission.brown.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:brown-1-20270105@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions by March 31 (counselor newsletter) / early April (fi
@@ -27,7 +27,7 @@ URL:https://admission.brown.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:brown-2-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:11:59 PM local time\; FAFSA and CSS Profile also March 1\; mus
@@ -37,7 +37,7 @@ URL:https://admission.brown.edu/transfer/calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:brown-3-20261001@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261001
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Sophomore transfers only\; limited to U.S. citizens and perman

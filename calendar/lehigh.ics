@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:lehigh-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; decision mid-December.
@@ -16,7 +16,7 @@ URL:https://www2.lehigh.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-1-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; decision mid-February.
@@ -24,7 +24,7 @@ URL:https://www2.lehigh.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-2-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decision late March. 7-yr BA/DMD Bio-Dental also Jan 1. No Ear
@@ -33,14 +33,14 @@ URL:https://www2.lehigh.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-3-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: International aid - Early Decision I
 URL:https://www2.lehigh.edu/admissions/international-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-4-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: International aid - Early Decision II / Regular Dec
  ision
@@ -48,28 +48,28 @@ URL:https://www2.lehigh.edu/admissions/international-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-5-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Aid application - Early Decision I
 URL:https://www2.lehigh.edu/admissions/international-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-6-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Financial aid: Aid application - Early Decision II
 URL:https://www2.lehigh.edu/admissions/international-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-7-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Aid application - Regular Decision
 URL:https://www2.lehigh.edu/admissions/international-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-8-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Financial aid application also due November 1\; aid offers lat
@@ -78,7 +78,7 @@ URL:https://www2.lehigh.edu/admissions/transfer-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-9-20270401@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270401
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Financial aid application also due April 1\; aid offers late M
@@ -87,7 +87,7 @@ URL:https://www2.lehigh.edu/admissions/transfer-students
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-10-20261119@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Live Virtual College of Arts and Sciences Preview Session
 DESCRIPTION:5:00 PM | ET | virtual | prospective first-year students
@@ -96,7 +96,7 @@ URL:https://apply.lehigh.edu/register/?id=f9fb968f-558a-49ff-8fd3-626b9a1c
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-11-20261204@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:On-Campus College of Arts and Sciences Preview Session
 DESCRIPTION:10:30 AM | ET | in-person | prospective first-year students
@@ -105,7 +105,7 @@ URL:https://apply.lehigh.edu/register/?id=b2ea1ced-3df8-47da-b8f0-6e1d3775
 END:VEVENT
 BEGIN:VEVENT
 UID:lehigh-12-20261208@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261208
 SUMMARY:Live Virtual College of Arts and Sciences Preview Session
 DESCRIPTION:5:00 PM | ET | virtual | prospective first-year students

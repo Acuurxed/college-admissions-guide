@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:binghamton-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. Other materials due Dec 1\; decisions by Jan 15. 
@@ -19,7 +19,7 @@ URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:binghamton-1-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Application and materials due Jan 15\; decisions by April 1. I
@@ -30,7 +30,7 @@ URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:binghamton-2-20261201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Priority deadline
 DESCRIPTION:BFA and BMus priority applicants only (materials by Dec 10)\; 
@@ -40,7 +40,7 @@ URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:binghamton-3-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Financial aid: FAFSA highly recommended no later than
 URL:https://www.binghamton.edu/financial-aid/types-of-aid/student-funding-
@@ -48,7 +48,7 @@ URL:https://www.binghamton.edu/financial-aid/types-of-aid/student-funding-
 END:VEVENT
 BEGIN:VEVENT
 UID:binghamton-4-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Priority deadline\; rolling decisions\; later applications on 

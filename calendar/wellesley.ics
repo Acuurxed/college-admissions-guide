@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wellesley College (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:wellesley-0-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding\; financial aid due Nov 1\; quarter grades Nov 16\; no
+ tification mid-December\; reply early January. ED Agreement signed by stu
+ dent\, parent/guardian and counselor.
+URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-1-20270105@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; financial aid due Jan 5\; quarter grades Jan 11\; no
+ tification mid-February\; reply late February.
+URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-2-20270108@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270108
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Financial aid due Jan 8\; mid-year grades Feb 10\; notificatio
+ n late March\; reply May 1.
+URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-3-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: ED I financial aid
+URL:https://www.wellesley.edu/admission-aid/faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-4-20270105@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: ED II financial aid
+URL:https://www.wellesley.edu/admission-aid/faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-5-20270108@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270108
+SUMMARY:Financial aid: Regular Decision financial aid
+URL:https://www.wellesley.edu/admission-aid/faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:wellesley-6-20270301@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Fall entry only\; financial aid materials April 1\; midterm gr
+ ades March 24\; notification early May\; reply June 1
+URL:https://www.wellesley.edu/admission-aid/apply/transfer-and-davis-degre
+ e-program-applicants
+END:VEVENT
+END:VCALENDAR

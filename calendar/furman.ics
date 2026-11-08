@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Furman University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:furman-0-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Decision by Nov 15\; enrollment deadline Jan 5. FAFSA
+  priority Nov 1\, aid notification Nov 15. Page lists month/day only for 
+ the current cycle.
+URL:https://www.furman.edu/admissions-aid/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-1-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Decision by Dec 20\; enrollment deadline May 1. F
+ AFSA priority Nov 15\, aid notification Jan 10.
+URL:https://www.furman.edu/admissions-aid/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-2-20270115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Decision by Feb 1\; enrollment deadline Mar 1. FAFSA 
+ priority Jan 15\, aid notification Feb 1.
+URL:https://www.furman.edu/admissions-aid/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-3-20270115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decision by Feb 15\; enrollment deadline May 1. FAFSA priority
+  Feb 1\, aid notification Mar 1.
+URL:https://www.furman.edu/admissions-aid/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-4-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: ED I FAFSA priority
+URL:https://www.furman.edu/financial-aid/apply-aid/prospective-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-5-20261115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: EA FAFSA priority
+URL:https://www.furman.edu/financial-aid/apply-aid/prospective-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-6-20270115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: ED II FAFSA priority
+URL:https://www.furman.edu/financial-aid/apply-aid/prospective-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-7-20270201@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: RD FAFSA priority
+URL:https://www.furman.edu/financial-aid/apply-aid/prospective-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-8-20270201@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: #YouAreWelcomeHere Scholarship application (interna
+ tional)
+URL:https://www.furman.edu/financial-aid/apply-aid/prospective-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-9-20261215@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Application and FAFSA priority deadline\; enroll by Jan 5\; ro
+ lling decisions. Page lists month/day only.
+URL:https://www.furman.edu/admissions-aid/apply/transfer-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:furman-10-20270715@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270715
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Application and FAFSA priority deadline\; enroll by Jul 31\; r
+ olling decisions. Page lists month/day only.
+URL:https://www.furman.edu/admissions-aid/apply/transfer-students/
+END:VEVENT
+END:VCALENDAR

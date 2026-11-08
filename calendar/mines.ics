@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:mines-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Priority deadline\; select Early Action on the application\; d
@@ -17,7 +17,7 @@ URL:https://undergraduate-admissions.mines.edu/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:mines-1-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions by Feb 15 (international page says March 1). After J
@@ -26,21 +26,21 @@ URL:https://undergraduate-admissions.mines.edu/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:mines-2-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: General Scholarship Application priority
 URL:https://finaid.mines.edu/firstyear/
 END:VEVENT
 BEGIN:VEVENT
 UID:mines-3-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: FAFSA/CASFA for Mines Promise
 URL:https://finaid.mines.edu/firstyear/
 END:VEVENT
 BEGIN:VEVENT
 UID:mines-4-20261010@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Confirmation due Nov 1\; required courses complete by early Se
@@ -49,7 +49,7 @@ URL:https://undergraduate-admissions.mines.edu/transfer-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:mines-5-20270501@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270501
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Domestic May 1 (confirm by June 1)\; international April 1 (co

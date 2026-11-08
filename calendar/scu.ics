@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:scu-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; optional supplemental essay due Nov. 6\; decision la
@@ -17,7 +17,7 @@ URL:https://www.scu.edu/admission/undergraduate/first-year-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-1-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\; supplemental essay Nov. 6\; decision late Decemb
@@ -26,7 +26,7 @@ URL:https://www.scu.edu/admission/undergraduate/first-year-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-2-20270107@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270107
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; supplemental essay Jan. 12\; decision mid-February\;
@@ -35,7 +35,7 @@ URL:https://www.scu.edu/admission/undergraduate/first-year-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-3-20270107@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270107
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Supplemental essay Jan. 12\; decision late March\; reply May 1
@@ -44,7 +44,7 @@ URL:https://www.scu.edu/admission/undergraduate/first-year-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I / EA CSS Profile and FAFSA
 URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
@@ -52,7 +52,7 @@ URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-5-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II CSS Profile
 URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
@@ -60,7 +60,7 @@ URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-6-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision CSS Profile
 URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
@@ -68,7 +68,7 @@ URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-7-20270302@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Financial aid: Cal Grant GPA Verification (CA)
 URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
@@ -76,7 +76,7 @@ URL:https://www.scu.edu/bulletin/undergraduate/chapter-7-admission-of-unde
 END:VEVENT
 BEGIN:VEVENT
 UID:scu-8-20270415@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270415
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Rolling Jan. 7 - April 15\; decisions Feb. - mid-May\; deposit

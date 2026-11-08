@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:usc-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:New for Fall 2027. Binding\; most majors. Decision or deferral
@@ -18,7 +18,7 @@ URL:https://admission.usc.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-1-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\, non-restrictive\; most majors. Decision or defer
@@ -27,7 +27,7 @@ URL:https://admission.usc.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-2-20261201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Performing arts majors (Kaufman\, Dramatic Arts\, Thornton) an
@@ -37,7 +37,7 @@ URL:https://admission.usc.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-3-20270110@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Final first-year deadline for most majors. Decision by April 1
@@ -46,7 +46,7 @@ URL:https://admission.usc.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-4-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED financial aid
 URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
@@ -54,7 +54,7 @@ URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-5-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: EA financial aid
 URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
@@ -62,7 +62,7 @@ URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-6-20270203@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270203
 SUMMARY:Financial aid: RD financial aid
 URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
@@ -70,7 +70,7 @@ URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-7-20270302@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Financial aid: Cal Grant (California residents)
 URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
@@ -78,7 +78,7 @@ URL:https://admission.usc.edu/prospective-students/how-to-apply/internatio
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-8-20261201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:BFA programs in Cinematic Arts and Dramatic Arts\, Kaufman Sch
@@ -88,7 +88,7 @@ URL:https://admission.usc.edu/prospective-students/how-to-apply/transfer-s
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-9-20270215@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:All other majors\; decisions late May (some held for spring gr

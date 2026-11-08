@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:umd-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\; priority consideration for admission\, Honors Co
@@ -18,7 +18,7 @@ URL:https://admissions.umd.edu/apply/freshman-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-1-20270120@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270120
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decision by Apr 1\, 2027\; confirm by May 1. Later application
@@ -27,14 +27,14 @@ URL:https://admissions.umd.edu/apply/freshman-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-2-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: FAFSA priority deadline (2027-28)
 URL:https://financialaid.umd.edu/financial-aid-process
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-3-20270301@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Early action (priority and merit)\; regular deadline June 1\, 
@@ -43,7 +43,7 @@ URL:https://admissions.umd.edu/apply/transfer-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:U.S. transfer regular deadline (EA Aug 1)\; international tran
@@ -52,7 +52,7 @@ URL:https://admissions.umd.edu/apply/transfer-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-5-20270801@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270801
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:Early action\, inferred from recurring schedule\; regular Nov 
@@ -61,7 +61,7 @@ URL:https://admissions.umd.edu/apply/transfer-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-6-20261109@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261109
 SUMMARY:ENGR Tour
 DESCRIPTION:9:30 AM | ET | in-person | prospective students
@@ -69,7 +69,7 @@ URL:https://admissions.umd.edu/calendar/2026-11-09/engr-tour-100226-930am
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-7-20261109@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261109
 SUMMARY:ARCH Tour
 DESCRIPTION:2:00 PM | ET | in-person | prospective students
@@ -77,7 +77,7 @@ URL:https://admissions.umd.edu/calendar/2026-11-09/arch-fa26-tours-200pm
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-8-20261109@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261109
 SUMMARY:ENGR Tour
 DESCRIPTION:2:00 PM | ET | in-person | prospective students
@@ -85,7 +85,7 @@ URL:https://admissions.umd.edu/calendar/2026-11-09/engr-tour-100226-200pm
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-9-20261111@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261111
 SUMMARY:EDUC Information Session
 DESCRIPTION:5:00 PM | ET | virtual | prospective students
@@ -94,7 +94,7 @@ URL:https://admissions.umd.edu/calendar/2026-11-11/educ-info-session-09092
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-10-20261113@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:BMGT Information Session: Smith Friday
 DESCRIPTION:9:00 AM | ET | in-person | high school students considering bu
@@ -104,7 +104,7 @@ URL:https://admissions.umd.edu/calendar/2026-11-13/bmgt-smith-friday-11132
 END:VEVENT
 BEGIN:VEVENT
 UID:umd-11-20261114@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261114
 SUMMARY:ENGR Virtual Information Session
 DESCRIPTION:12:00 PM | ET | virtual | prospective first-year and transfer 

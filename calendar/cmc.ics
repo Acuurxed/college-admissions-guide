@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:cmc-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Decision by Dec 15\; reply early January\; CSS Pro
@@ -17,7 +17,7 @@ URL:https://www.cmc.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:cmc-1-20270110@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Decision by Feb 15\; reply late February\; aid due
@@ -26,7 +26,7 @@ URL:https://www.cmc.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:cmc-2-20270110@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Decision by April 1\; reply May 1\; aid due Jan 17
@@ -36,7 +36,7 @@ URL:https://www.cmc.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:cmc-3-20261108@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Financial aid: ED I CSS Profile & FAFSA
 URL:https://www.cmc.edu/admission/international ; https://www.cmc.edu/fina
@@ -44,7 +44,7 @@ URL:https://www.cmc.edu/admission/international ; https://www.cmc.edu/fina
 END:VEVENT
 BEGIN:VEVENT
 UID:cmc-4-20270117@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Financial aid: ED II CSS Profile & FAFSA
 URL:https://www.cmc.edu/admission/international ; https://www.cmc.edu/fina
@@ -52,7 +52,7 @@ URL:https://www.cmc.edu/admission/international ; https://www.cmc.edu/fina
 END:VEVENT
 BEGIN:VEVENT
 UID:cmc-5-20270117@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Financial aid: RD CSS Profile & FAFSA
 URL:https://www.cmc.edu/admission/international ; https://www.cmc.edu/fina

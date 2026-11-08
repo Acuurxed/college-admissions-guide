@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:vassar-0-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Declare whether including test scores by Nov 22.
@@ -16,7 +16,7 @@ URL:https://www.vassar.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-1-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Declare test score choice by Jan 8.
@@ -24,7 +24,7 @@ URL:https://www.vassar.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-2-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Declare test score choice by Jan 8.
@@ -32,7 +32,7 @@ URL:https://www.vassar.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-3-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I
 URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
@@ -41,7 +41,7 @@ URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-4-20270101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Financial aid: Early Decision II
 URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
@@ -50,7 +50,7 @@ URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-5-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision
 URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
@@ -59,7 +59,7 @@ URL:https://www.vassar.edu/admission/apply/international/ ; https://www.va
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-6-20270315@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270315
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Notification early May
@@ -67,7 +67,7 @@ URL:https://www.vassar.edu/admission/apply/transfer/
 END:VEVENT
 BEGIN:VEVENT
 UID:vassar-7-20271101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20271101
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:Spring transfer deadline November 1 (Spring 2027 deadline 2026

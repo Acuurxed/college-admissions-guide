@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:williams-0-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision deadline
 DESCRIPTION:Binding\; decision by December 15 (college catalog).
@@ -16,7 +16,7 @@ URL:https://admission.williams.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:williams-1-20270106@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270106
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decision by April 1\; reply by May 1. Catalog says January 6\;
@@ -25,7 +25,7 @@ URL:https://admission.williams.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:williams-2-20270303@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270303
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Admission and financial aid applications due together (financi

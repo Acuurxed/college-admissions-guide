@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:tulane-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:postmark date. Binding\; ED Agreement Form required. Decisions
@@ -18,7 +18,7 @@ URL:https://admission.tulane.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-1-20261110@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261110
 SUMMARY:Early Action deadline
 DESCRIPTION:postmark date. Non-binding. Decisions by Jan 10. Page lists mo
@@ -27,7 +27,7 @@ URL:https://admission.tulane.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:postmark date. Binding. Decisions by Feb 15\; deposit Mar 1. E
@@ -37,7 +37,7 @@ URL:https://admission.tulane.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-3-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:postmark date. Decisions by April 1. Optional portfolio/auditi
@@ -47,7 +47,7 @@ URL:https://admission.tulane.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I aid
 URL:https://admission.tulane.edu/international; https://admission.tulane.e
@@ -55,7 +55,7 @@ URL:https://admission.tulane.edu/international; https://admission.tulane.e
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-5-20261215@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Financial aid: EA aid
 URL:https://admission.tulane.edu/international; https://admission.tulane.e
@@ -63,7 +63,7 @@ URL:https://admission.tulane.edu/international; https://admission.tulane.e
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-6-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II aid
 URL:https://admission.tulane.edu/international; https://admission.tulane.e
@@ -71,7 +71,7 @@ URL:https://admission.tulane.edu/international; https://admission.tulane.e
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-7-20270215@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: RD aid
 URL:https://admission.tulane.edu/international; https://admission.tulane.e
@@ -79,7 +79,7 @@ URL:https://admission.tulane.edu/international; https://admission.tulane.e
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-8-20270215@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: International CSS Profile
 URL:https://admission.tulane.edu/international; https://admission.tulane.e
@@ -87,7 +87,7 @@ URL:https://admission.tulane.edu/international; https://admission.tulane.e
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-9-20261015@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Rolling decisions\; FAFSA and CSS Profile Nov 1\; deposit Dec 
@@ -96,7 +96,7 @@ URL:https://admission.tulane.edu/transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-10-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Early (non-binding) transfer deadline\; decision March 15\; en
@@ -105,7 +105,7 @@ URL:https://admission.tulane.edu/transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:tulane-11-20270415@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270415
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Regular transfer deadline\; rolling decisions\; admission page

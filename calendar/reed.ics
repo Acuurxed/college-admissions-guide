@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:reed-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Decisions December\; reply within 2 weeks\; interview deadline
@@ -17,7 +17,7 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-1-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Decisions February\; reply May 1\; interview deadline Dec. 1.
@@ -25,7 +25,7 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Decisions March\; reply within 2 weeks\; interview deadline Ja
@@ -34,10 +34,46 @@ URL:https://www.reed.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:reed-3-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions April 1\; reply May 1\; interview deadline Feb. 1.
 URL:https://www.reed.edu/admission/
+END:VEVENT
+BEGIN:VEVENT
+UID:reed-4-20261101@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Early Decision (notification Nov. 13) and Regular Decision (no
+ tification December)
+URL:https://www.reed.edu/admission-aid/how-to-apply/transfer/
+END:VEVENT
+BEGIN:VEVENT
+UID:reed-5-20270301@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Early Decision and priority deadline\; later applications spac
+ e-available
+URL:https://www.reed.edu/admission-aid/how-to-apply/transfer/
+END:VEVENT
+BEGIN:VEVENT
+UID:reed-6-20270501@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270501
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Regular deadline\, notification mid-June\; rolling review afte
+ r May 1
+URL:https://www.reed.edu/admission-aid/how-to-apply/transfer/
+END:VEVENT
+BEGIN:VEVENT
+UID:reed-7-20261109@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Fall Visit Program (students\, professors\, residence halls\, nucl
+ ear reactor tour\; optional class visits and overnights)
+DESCRIPTION:PT | in-person | prospective first-year applicants
+URL:https://apply.reed.edu/portal/fall_visit_program_vNew
 END:VEVENT
 END:VCALENDAR

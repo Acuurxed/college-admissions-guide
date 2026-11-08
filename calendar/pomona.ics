@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:pomona-0-20261108@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Notification by Dec 15\; reply by Jan 1.
@@ -16,7 +16,7 @@ URL:https://www.pomona.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-1-20270108@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Notification by Feb 15\; reply by Mar 1.
@@ -24,7 +24,7 @@ URL:https://www.pomona.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-2-20270108@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification by Apr 1\; reply by May 1.
@@ -32,7 +32,7 @@ URL:https://www.pomona.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-3-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: International ED I (2026-27 cycle values\; 2027-28 
  updates due mid-Oct 2026)
@@ -44,7 +44,7 @@ URL:https://www.pomona.edu/admissions/apply/international-applicants/inter
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-4-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: International ED II
 URL:https://www.pomona.edu/admissions/apply/international-applicants/inter
@@ -55,7 +55,7 @@ URL:https://www.pomona.edu/admissions/apply/international-applicants/inter
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-5-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: International Regular Decision
 URL:https://www.pomona.edu/admissions/apply/international-applicants/inter
@@ -66,7 +66,7 @@ URL:https://www.pomona.edu/admissions/apply/international-applicants/inter
 END:VEVENT
 BEGIN:VEVENT
 UID:pomona-6-20270215@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall entry only. Supporting documents by 2027-03-05\; financia

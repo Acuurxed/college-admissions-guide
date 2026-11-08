@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:iu-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\; for highest admission and scholarship considerat
@@ -17,7 +17,7 @@ URL:https://bloomington.iu.edu/admissions/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:iu-1-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Response March 15. Applications after Feb 1 considered case by
@@ -26,14 +26,14 @@ URL:https://bloomington.iu.edu/admissions/apply/freshman/
 END:VEVENT
 BEGIN:VEVENT
 UID:iu-2-20270415@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270415
 SUMMARY:Financial aid: FAFSA priority
 URL:https://bloomington.iu.edu/cost-aid/scholarships/international/
 END:VEVENT
 BEGIN:VEVENT
 UID:iu-3-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Merit scholarship consideration (complete applicati
  on)
@@ -41,7 +41,7 @@ URL:https://bloomington.iu.edu/cost-aid/scholarships/international/
 END:VEVENT
 BEGIN:VEVENT
 UID:iu-4-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:January start\; intent to enroll Dec 1.
@@ -49,7 +49,7 @@ URL:https://bloomington.iu.edu/admissions/apply/transfer/deadlines.html
 END:VEVENT
 BEGIN:VEVENT
 UID:iu-5-20270601@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270601
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Intent to enroll July 15. Hard deadline for pre-business. Nurs

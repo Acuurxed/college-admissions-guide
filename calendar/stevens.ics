@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stevens Institute of Technology (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:stevens-0-20261115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. CSS Profile and FAFSA due Nov 15\; notification by De
+ c 15\; deposit by Jan 10.
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
+ ear-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-1-20261201@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. CSS Profile and FAFSA due Dec 15\; notification b
+ y Feb 1\; deposit by May 1 (deposit by March 5 for priority housing and c
+ ourse registration).
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
+ ear-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-2-20270105@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. CSS Profile and FAFSA due Jan 5\; notification by Feb
+  15\; deposit by March 1.
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
+ ear-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-3-20270105@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:CSS Profile and FAFSA due Jan 5\; notification by April 1\; de
+ posit by May 1. Accelerated Pre-Medicine (RD only): all materials due Nov
+  1.
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
+ ear-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-4-20261115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Financial aid: ED I CSS Profile and FAFSA
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
+ tional-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-5-20261215@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261215
+SUMMARY:Financial aid: EA CSS Profile and FAFSA
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
+ tional-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-6-20270105@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: ED II / RD CSS Profile and FAFSA
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
+ tional-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-7-20261115@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261115
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Extended deadline\; CSS Profile and FAFSA Nov 1\; rolling noti
+ fication through Dec 15\; deposit by Dec 15.
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/transfe
+ r-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-8-20270615@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20270615
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:CSS Profile and FAFSA Feb 14\; notification June 27\; deposit 
+ four weeks after notification. Supplemental information due by the applic
+ ation deadline.
+URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/transfe
+ r-students
+END:VEVENT
+BEGIN:VEVENT
+UID:stevens-9-20261108@admissara.com
+DTSTAMP:20261108T012706Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Prospective Student Visit Day
+DESCRIPTION:ET | in-person | Prospective students
+URL:https://undergradadmissions.stevens.edu/register/?id=3d648b37-4d50-4f1
+ a-979d-a5d4bd97d2f4
+END:VEVENT
+END:VCALENDAR

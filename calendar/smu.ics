@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:smu-0-20261104@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; ED Agreement Form required. Process page shows deadl
@@ -18,7 +18,7 @@ URL:https://www.smu.edu/admission/apply/undergraduate-admission/process
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-1-20261104@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:Early Action deadline
 DESCRIPTION:Nonbinding\; same deadline as ED I (changed from Nov 1). Schol
@@ -27,7 +27,7 @@ URL:https://www.smu.edu/admission/apply/undergraduate-admission/process
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding.
@@ -35,7 +35,7 @@ URL:https://www.smu.edu/admission/apply/undergraduate-admission/process
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-3-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Nonbinding.
@@ -43,7 +43,7 @@ URL:https://www.smu.edu/admission/apply/undergraduate-admission/process
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-4-20261115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: EA/ED I FAFSA and CSS Profile (deadlines page\; sch
  olarships page says Nov 1)
@@ -51,7 +51,7 @@ URL:https://www.smu.edu/admission/apply/international
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-5-20270201@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD/ED II FAFSA and CSS Profile (deadlines page\; sc
  holarships page says Jan 15)
@@ -59,7 +59,7 @@ URL:https://www.smu.edu/admission/apply/international
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-6-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Rolling review\; opens Aug 1.
@@ -67,7 +67,7 @@ URL:https://www.smu.edu/admission/apply/transfer/application-process
 END:VEVENT
 BEGIN:VEVENT
 UID:smu-7-20270401@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270401
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Priority and NTCC Scholarship deadline\; June 1 for Meadows Du

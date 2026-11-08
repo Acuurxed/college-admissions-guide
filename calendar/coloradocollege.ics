@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:coloradocollege-0-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Decision mid-December. Financial aid documents due by
@@ -17,7 +17,7 @@ URL:https://www.coloradocollege.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-1-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. Decision mid-January per first-year page\; intern
@@ -26,7 +26,7 @@ URL:https://www.coloradocollege.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-2-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Decision mid-February.
@@ -34,7 +34,7 @@ URL:https://www.coloradocollege.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-3-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:CC calls this round 'Regular Action'. Decision early March per
@@ -43,7 +43,7 @@ URL:https://www.coloradocollege.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-4-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Early Decision I aid documents
 URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
@@ -52,7 +52,7 @@ URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-5-20261101@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Early Action aid documents
 URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
@@ -61,7 +61,7 @@ URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-6-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II aid documents
 URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
@@ -70,7 +70,7 @@ URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
 END:VEVENT
 BEGIN:VEVENT
 UID:coloradocollege-7-20270115@admissara.com
-DTSTAMP:20261108T012108Z
+DTSTAMP:20261108T012706Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Regular Action aid documents
 URL:https://www.coloradocollege.edu/admission/financialaid/prospective-stu
