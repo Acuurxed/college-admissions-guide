@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:olin-0-20261215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Single deadline. Supporting
@@ -19,7 +19,7 @@ URL:https://www.olin.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:olin-1-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: FAFSA priority deadline (prospective students)
 URL:https://www.olin.edu/admission/costs-financial-aid ; https://www.olin.
@@ -27,7 +27,7 @@ URL:https://www.olin.edu/admission/costs-financial-aid ; https://www.olin.
 END:VEVENT
 BEGIN:VEVENT
 UID:olin-2-20261116@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Virtual Info Session
 DESCRIPTION:7:00 PM ET | virtual | Prospective students
@@ -35,7 +35,7 @@ URL:https://admission.olin.edu/portal/virtual-sessions
 END:VEVENT
 BEGIN:VEVENT
 UID:olin-3-20261119@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Residential Life at Olin
 DESCRIPTION:7:00 PM ET | virtual | Prospective students

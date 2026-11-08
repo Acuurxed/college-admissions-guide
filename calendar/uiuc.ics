@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:uiuc-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:11:59 p.m. CT. Non-binding\; required materials due Nov 7\; no
@@ -17,7 +17,7 @@ URL:https://www.admissions.illinois.edu/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:uiuc-1-20270105@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. CT. Required materials due Jan 11\; notification Fe

@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fordham University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:fordham-0-20261108@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Apply page lists original deadline Nov 1\, extend
+ ed to Nov 8. Required for Dance and Theatre majors (Priority Performance)
+ . CSS Profile (international) due Nov 1.
+URL:https://www.fordham.edu/undergraduate-admission/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-1-20261108@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding. Original deadline Nov 1\, extended to Nov 8.
+URL:https://www.fordham.edu/undergraduate-admission/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-2-20270115@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding. Apply page lists original deadline Jan 3\, extended t
+ o Jan 15.
+URL:https://www.fordham.edu/undergraduate-admission/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-3-20270122@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270122
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Apply page lists original deadline Jan 3\, extended to Jan 22.
+URL:https://www.fordham.edu/undergraduate-admission/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-4-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: International CSS Profile - EA/ED I
+URL:https://www.fordham.edu/undergraduate-admission/international-students
+ /international-faqs/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-5-20270103@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270103
+SUMMARY:Financial aid: International CSS Profile - ED II
+URL:https://www.fordham.edu/undergraduate-admission/international-students
+ /international-faqs/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-6-20270115@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: International CSS Profile - Regular Decision
+URL:https://www.fordham.edu/undergraduate-admission/international-students
+ /international-faqs/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-7-20270601@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270601
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Common App opens Nov 1\; rolling decisions from March 15.
+URL:https://www.fordham.edu/undergraduate-admission/apply/how-to-apply/tra
+ nsfer-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-8-20271101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20271101
+SUMMARY:Transfer Spring 2028 deadline
+DESCRIPTION:Opens Aug 1\; rolling decisions from Oct 15.
+URL:https://www.fordham.edu/undergraduate-admission/apply/how-to-apply/tra
+ nsfer-students/
+END:VEVENT
+END:VCALENDAR

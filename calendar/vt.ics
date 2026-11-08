@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:vt-0-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Non-binding. Materials (STARS record or transcript
@@ -19,7 +19,7 @@ URL:https://www.vt.edu/admissions/undergraduate-new.html
 END:VEVENT
 BEGIN:VEVENT
 UID:vt-1-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Space available. Materials due Jan 24. Notificatio
@@ -28,7 +28,7 @@ URL:https://www.vt.edu/admissions/undergraduate-new.html
 END:VEVENT
 BEGIN:VEVENT
 UID:vt-2-20270122@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270122
 SUMMARY:Financial aid: Scholarship and FAFSA filing deadline (General Scho
  larship applicants)
@@ -36,14 +36,14 @@ URL:https://finaid.vt.edu/undergraduate/international-students.html
 END:VEVENT
 BEGIN:VEVENT
 UID:vt-3-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: FAFSA priority deadline
 URL:https://finaid.vt.edu/undergraduate/international-students.html
 END:VEVENT
 BEGIN:VEVENT
 UID:vt-4-20261001@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261001
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Materials due Oct 9\; notified mid-November (deadline passed)
@@ -51,7 +51,7 @@ URL:https://www.vt.edu/admissions/transfer/requirements.html
 END:VEVENT
 BEGIN:VEVENT
 UID:vt-5-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Summer/Fall\; materials due Mar 11\; notified mid-April\; repl

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:uga-0-20261015@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. Materials deadline Oct 29. Decisions: in-state la
@@ -18,7 +18,7 @@ URL:https://admissions.uga.edu/apply/first-year-applicants/
 END:VEVENT
 BEGIN:VEVENT
 UID:uga-1-20270101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Materials deadline Jan 15. Final decisions mid-March. Commitme
@@ -27,7 +27,7 @@ URL:https://admissions.uga.edu/apply/first-year-applicants/
 END:VEVENT
 BEGIN:VEVENT
 UID:uga-2-20261215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Financial aid: FAFSA processed by Dec 15 for priority limited need
  -based funds
@@ -35,14 +35,14 @@ URL:https://osfa.uga.edu/apply-for-aid/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:uga-3-20270701@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270701
 SUMMARY:Financial aid: Complete aid process for Fall 2027 charges
 URL:https://osfa.uga.edu/apply-for-aid/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:uga-4-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Summer/Fall\; opens Jan 22\; all transcripts due Mar 1\; decis
@@ -52,7 +52,7 @@ URL:https://admissions.uga.edu/apply/transfer-applicants/transfer-criteria
 END:VEVENT
 BEGIN:VEVENT
 UID:uga-5-20270715@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270715
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:Spring deadline July 15 per deadlines page (year inferred)

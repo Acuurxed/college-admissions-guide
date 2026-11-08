@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:harvard-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Restrictive Early Action deadline
 DESCRIPTION:November 1\; page gives month/day only\; year inferred for the
@@ -19,7 +19,7 @@ URL:https://college.harvard.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:harvard-1-20270101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:January 1\; page gives month/day only\; year inferred for the 
@@ -28,7 +28,7 @@ URL:https://college.harvard.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:harvard-2-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Restrictive Early Action / QuestBridge Match - CSS 
  Profile\, FAFSA\, IDOC
@@ -38,7 +38,7 @@ URL:https://college.harvard.edu/financial-aid/how-aid-works ; https://coll
 END:VEVENT
 BEGIN:VEVENT
 UID:harvard-3-20270201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision - CSS Profile\, FAFSA\, IDOC
 URL:https://college.harvard.edu/financial-aid/how-aid-works ; https://coll
@@ -47,7 +47,7 @@ URL:https://college.harvard.edu/financial-aid/how-aid-works ; https://coll
 END:VEVENT
 BEGIN:VEVENT
 UID:harvard-4-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall entry only\; March 1 deadline for all transfer applicatio

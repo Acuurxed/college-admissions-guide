@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:umn-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Early Action I. Applications complete by Monday\, 
@@ -19,7 +19,7 @@ URL:https://admissions.tc.umn.edu/admissions/freshman-admission-university
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-1-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Early Action II. Decision (admit\, defer\, deny) b
@@ -29,7 +29,7 @@ URL:https://admissions.tc.umn.edu/admissions/freshman-admission-university
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-2-20270101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Regular deadline. Decision (admit\, waitlist\, den
@@ -39,7 +39,7 @@ URL:https://admissions.tc.umn.edu/admissions/freshman-admission-university
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-3-20261001@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261001
 SUMMARY:Financial aid: FAFSA opens for 2027-28
 URL:https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-sch
@@ -47,7 +47,7 @@ URL:https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-sch
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-4-20271006@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20271006
 SUMMARY:Financial aid: Fall 2027 Minnesota State Grant / North Star Promis
  e deadline
@@ -56,7 +56,7 @@ URL:https://admissions.tc.umn.edu/cost-aid/cost-aid-scholarships/costs-sch
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-5-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Regular deadline\; priority Oct 1. No spring admission to CBS\
@@ -66,7 +66,7 @@ URL:https://admissions.tc.umn.edu/admissions/transfer-university-minnesota
 END:VEVENT
 BEGIN:VEVENT
 UID:umn-6-20270601@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270601
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Regular deadline\; priority Feb 1 (decision by Mar 15). Dental

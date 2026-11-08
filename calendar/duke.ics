@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:duke-0-20261102@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. ED agreement\, transcript\, school report with counse
@@ -20,7 +20,7 @@ URL:https://admissions.duke.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-1-20270104@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Optional Glimpse by 2027-01-11. Financial aid due 2027-02-01. 
@@ -30,7 +30,7 @@ URL:https://admissions.duke.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-2-20261103@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:Financial aid: Early Decision: CSS Profile and FAFSA (financial su
  pport page)
@@ -38,7 +38,7 @@ URL:https://admissions.duke.edu/financial-support/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-3-20261102@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Financial aid: Early Decision: financial aid applications (checkli
  st page)
@@ -46,21 +46,21 @@ URL:https://admissions.duke.edu/financial-support/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-4-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision: additional documents
 URL:https://admissions.duke.edu/financial-support/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-5-20270201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision: CSS Profile and FAFSA
 URL:https://admissions.duke.edu/financial-support/
 END:VEVENT
 BEGIN:VEVENT
 UID:duke-6-20270315@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270315
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall only\; optional Glimpse video by March 22 (U.S. citizens/

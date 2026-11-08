@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Clemson University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:clemson-0-20261015@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Early Action deadline
+DESCRIPTION:Application due Oct 15\; materials due Nov 1\; decisions mid-D
+ ecember. Outcomes: admit\, deny\, or moved forward to Regular Decision.
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/firs
+ t-year.html
+END:VEVENT
+BEGIN:VEVENT
+UID:clemson-1-20270101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Materials due Jan 10\; decisions mid-February. Jan 1/Jan 10 al
+ so the scholarship consideration deadlines. Final date to apply May 1. In
+ ternational fall applicants: application and all credentials due May 1.
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/firs
+ t-year.html
+END:VEVENT
+BEGIN:VEVENT
+UID:clemson-2-20270101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Financial aid: FAFSA (Cost and Aid page)
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/inte
+ rnational.html
+END:VEVENT
+BEGIN:VEVENT
+UID:clemson-3-20270301@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Financial aid: FAFSA for need-based scholarships (EA FAQ and trans
+ fer page)
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/inte
+ rnational.html
+END:VEVENT
+BEGIN:VEVENT
+UID:clemson-4-20261201@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Opens Aug 1\; rolling review\; closes when space is committed.
+  International spring applicants: credentials by Oct 1.
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/tran
+ sfer.html
+END:VEVENT
+BEGIN:VEVENT
+UID:clemson-5-20270701@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270701
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Opens Feb 1\; rolling review. International fall applicants: c
+ redentials by May 1.
+URL:https://www.clemson.edu/admissions/undergraduate-admissions/apply/tran
+ sfer.html
+END:VEVENT
+END:VCALENDAR

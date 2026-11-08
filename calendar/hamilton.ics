@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:hamilton-0-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Financial aid deadline Nov 19\, 2026. Notification da
@@ -18,7 +18,7 @@ URL:https://www.hamilton.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:hamilton-1-20270104@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. RD applicants may convert to ED II any time before Fe
@@ -28,7 +28,7 @@ URL:https://www.hamilton.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:hamilton-2-20270104@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification in late March. Financial aid deadline Jan 15\, 20
@@ -38,7 +38,7 @@ URL:https://www.hamilton.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:hamilton-3-20261119@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Financial aid: Early Decision Plan I financial aid
 URL:https://www.hamilton.edu/admission/finaid ; https://www.hamilton.edu/a
@@ -46,11 +46,28 @@ URL:https://www.hamilton.edu/admission/finaid ; https://www.hamilton.edu/a
 END:VEVENT
 BEGIN:VEVENT
 UID:hamilton-4-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision Plan II and Regular Decision financi
  al aid
 URL:https://www.hamilton.edu/admission/finaid ; https://www.hamilton.edu/a
  dmission/apply/international/international-admission
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-5-20270315@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Decisions early May\; fall transfer aid deadline 2027-04-01
+URL:https://www.hamilton.edu/admission/apply/transfer/transfer-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-6-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Passed\; decisions early December\; international applicants n
+ eed a currently active U.S. study visa for spring entry
+URL:https://www.hamilton.edu/admission/apply/transfer/transfer-faqs
 END:VEVENT
 END:VCALENDAR

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:grinnell-0-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Notification mid-late December\; deposit due Jan. 5\; financia
@@ -17,7 +17,7 @@ URL:https://www.grinnell.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:grinnell-1-20270105@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Notification early February\; deposit due Feb. 20 per requirem
@@ -26,7 +26,7 @@ URL:https://www.grinnell.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:grinnell-2-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification late March/early April\; reply by May 1. Domestic
@@ -35,7 +35,7 @@ URL:https://www.grinnell.edu/admission
 END:VEVENT
 BEGIN:VEVENT
 UID:grinnell-3-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Aid forms - Early Decision I
 URL:https://www.grinnell.edu/admission/apply/international ; https://www.g
@@ -44,7 +44,7 @@ URL:https://www.grinnell.edu/admission/apply/international ; https://www.g
 END:VEVENT
 BEGIN:VEVENT
 UID:grinnell-4-20270105@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: Aid forms - Early Decision II
 URL:https://www.grinnell.edu/admission/apply/international ; https://www.g
@@ -53,11 +53,27 @@ URL:https://www.grinnell.edu/admission/apply/international ; https://www.g
 END:VEVENT
 BEGIN:VEVENT
 UID:grinnell-5-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Aid forms - Regular Decision
 URL:https://www.grinnell.edu/admission/apply/international ; https://www.g
  rinnell.edu/admission/financial-aid ; https://www.grinnell.edu/admission/
  apply/first-year/early-decision
+END:VEVENT
+BEGIN:VEVENT
+UID:grinnell-6-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Decision late November\; deposit due Dec. 10
+URL:https://www.grinnell.edu/admission/apply/transfer
+END:VEVENT
+BEGIN:VEVENT
+UID:grinnell-7-20270301@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Decision early May\; deposit due June 1
+URL:https://www.grinnell.edu/admission/apply/transfer
 END:VEVENT
 END:VCALENDAR

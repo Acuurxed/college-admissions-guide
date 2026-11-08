@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:mit-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:November 1\; page gives month/day only\; year inferred for the
@@ -18,7 +18,7 @@ URL:https://mitadmissions.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:mit-1-20270104@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:MIT calls this 'Regular Action'. January 4\; page gives month/
@@ -28,7 +28,7 @@ URL:https://mitadmissions.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:mit-2-20261130@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Financial aid: Early Action financial aid
 URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
@@ -37,7 +37,7 @@ URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
 END:VEVENT
 BEGIN:VEVENT
 UID:mit-3-20270215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Regular Action financial aid
 URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
@@ -46,7 +46,7 @@ URL:https://admitted.mit.edu/cost-affordability ; https://sfs.mit.edu/unde
 END:VEVENT
 BEGIN:VEVENT
 UID:mit-4-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Tests must be taken before March 31\; financial aid applicatio
@@ -55,7 +55,7 @@ URL:https://mitadmissions.org/apply/transfer/deadlines/
 END:VEVENT
 BEGIN:VEVENT
 UID:mit-5-20261015@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Spring entry (February) open only to U.S. citizens and permane

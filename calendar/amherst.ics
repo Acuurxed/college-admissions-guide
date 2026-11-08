@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:amherst-0-20261109@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261109
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Per Fall 2027 calendar page\; financial aid application due 20
@@ -18,7 +18,7 @@ URL:https://www.amherst.edu/admission/apply/firstyear
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-1-20270105@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Financial aid application due 2027-01-15\; decisions 2027-03-2
@@ -27,7 +27,7 @@ URL:https://www.amherst.edu/admission/apply/firstyear
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-2-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: QuestBridge
 URL:https://www.amherst.edu/offices/financialaid/international_students/ap
@@ -35,7 +35,7 @@ URL:https://www.amherst.edu/offices/financialaid/international_students/ap
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-3-20261113@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Financial aid: Early Decision
 URL:https://www.amherst.edu/offices/financialaid/international_students/ap
@@ -43,7 +43,7 @@ URL:https://www.amherst.edu/offices/financialaid/international_students/ap
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-4-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Regular Decision
 URL:https://www.amherst.edu/offices/financialaid/international_students/ap
@@ -51,7 +51,7 @@ URL:https://www.amherst.edu/offices/financialaid/international_students/ap
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-5-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Decisions by mid-April\; financial aid also due March 1\; admi
@@ -60,7 +60,7 @@ URL:https://www.amherst.edu/admission/apply/transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:amherst-6-20261102@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Decisions by mid-December\; already passed

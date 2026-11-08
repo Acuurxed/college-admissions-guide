@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:columbia-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision deadline
 DESCRIPTION:Binding. ED financial aid deadline November 15\; decisions mid
@@ -18,7 +18,7 @@ URL:https://undergrad.admissions.columbia.edu/apply/firstyear
 END:VEVENT
 BEGIN:VEVENT
 UID:columbia-1-20270101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:RD financial aid deadline February 15\; decisions late March\;
@@ -27,7 +27,7 @@ URL:https://undergrad.admissions.columbia.edu/apply/firstyear
 END:VEVENT
 BEGIN:VEVENT
 UID:columbia-2-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision financial aid application
 URL:https://undergrad.admissions.columbia.edu/node/1434 ; https://undergra
@@ -35,7 +35,7 @@ URL:https://undergrad.admissions.columbia.edu/node/1434 ; https://undergra
 END:VEVENT
 BEGIN:VEVENT
 UID:columbia-3-20270215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Regular Decision financial aid application
 URL:https://undergrad.admissions.columbia.edu/node/1434 ; https://undergra
@@ -43,7 +43,7 @@ URL:https://undergrad.admissions.columbia.edu/node/1434 ; https://undergra
 END:VEVENT
 BEGIN:VEVENT
 UID:columbia-4-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall entry only. Curriculum Report accepted until April 15\; d

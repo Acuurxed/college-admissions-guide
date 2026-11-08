@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:ncsu-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Materials due Nov. 10\; decisions end of Dec. for NC residents
@@ -18,7 +18,7 @@ URL:https://admissions.ncsu.edu/apply/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-1-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Materials due Feb. 1\; notification March 31.
@@ -26,7 +26,7 @@ URL:https://admissions.ncsu.edu/apply/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-2-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Early Action priority consideration for scholarship
  s and aid
@@ -34,21 +34,21 @@ URL:https://admissions.ncsu.edu/afford/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-3-20270215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Scholarship priority consideration
 URL:https://admissions.ncsu.edu/afford/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-4-20270301@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: FAFSA priority filing date
 URL:https://admissions.ncsu.edu/afford/
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-5-20270215@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Materials due March 1\; rolling notification by April 15. Stud
@@ -57,7 +57,7 @@ URL:https://admissions.ncsu.edu/transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:ncsu-6-20271001@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20271001
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:Materials due Oct. 15\; notification Nov. 15\; some programs n

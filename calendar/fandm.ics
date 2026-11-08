@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:fandm-0-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Notification within 30 days\; switch to ED I from 
@@ -17,7 +17,7 @@ URL:https://www.fandm.edu/apply/
 END:VEVENT
 BEGIN:VEVENT
 UID:fandm-1-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Notification within 30 days\; switch to ED II from
@@ -26,7 +26,7 @@ URL:https://www.fandm.edu/apply/
 END:VEVENT
 BEGIN:VEVENT
 UID:fandm-2-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Notification by April 1

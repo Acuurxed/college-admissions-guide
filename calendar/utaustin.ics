@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:utaustin-0-20261015@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Early Action deadline
 DESCRIPTION:Summer/fall entry. Supplemental materials due Oct 22. Decision
@@ -19,7 +19,7 @@ URL:https://admissions.utexas.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:utaustin-1-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Supplemental materials due Dec 10. Decisions released Feb 15. 

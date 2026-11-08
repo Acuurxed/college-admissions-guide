@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:skidmore-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Supporting materials due within one week\; decision mid-Decemb
@@ -17,7 +17,7 @@ URL:https://www.skidmore.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:skidmore-1-20270108@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Supporting materials due within one week\; decision mid-Februa
@@ -26,7 +26,7 @@ URL:https://www.skidmore.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:skidmore-2-20270108@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Supporting materials due within one week\; decision mid-March.
@@ -34,7 +34,7 @@ URL:https://www.skidmore.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:skidmore-3-20261108@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Financial aid: CSS Profile - Early Decision I
 URL:https://www.skidmore.edu/admissions/aid/index.php ; https://www.skidmo
@@ -42,7 +42,7 @@ URL:https://www.skidmore.edu/admissions/aid/index.php ; https://www.skidmo
 END:VEVENT
 BEGIN:VEVENT
 UID:skidmore-4-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: CSS Profile - Early Decision II and Regular Decisio
  n

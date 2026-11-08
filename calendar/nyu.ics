@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:nyu-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:11:59 p.m. local time. Binding. Decision Dec 15.
@@ -16,7 +16,7 @@ URL:https://www.nyu.edu/admissions/undergraduate-admissions.html
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-1-20270101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:11:59 p.m. local time. Binding. Decision Feb 15.
@@ -24,7 +24,7 @@ URL:https://www.nyu.edu/admissions/undergraduate-admissions.html
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-2-20270105@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. local time. Decision Apr 1. Tisch and Steinhardt au
@@ -33,7 +33,7 @@ URL:https://www.nyu.edu/admissions/undergraduate-admissions.html
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-3-20261110@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261110
 SUMMARY:Financial aid: CSS Profile - Early Decision I
 URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
@@ -42,7 +42,7 @@ URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-4-20270110@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: CSS Profile - Early Decision II
 URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
@@ -51,7 +51,7 @@ URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-5-20270201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: CSS Profile - Regular Decision
 URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
@@ -60,7 +60,7 @@ URL:https://www.nyu.edu/admissions/financial-aid-and-scholarships/applying
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-6-20261015@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Recurring date (page lists Oct 15 without year)\; 11:59 p.m. E
@@ -70,7 +70,7 @@ URL:https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/t
 END:VEVENT
 BEGIN:VEVENT
 UID:nyu-7-20270315@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270315
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Summer/Fall external transfer\; recurring date (no year on pag

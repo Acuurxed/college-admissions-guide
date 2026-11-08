@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:colgate-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Application and financial aid deadline Nov 1\; notifi
@@ -18,7 +18,7 @@ URL:https://www.colgate.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:colgate-1-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Application and financial aid deadline Jan 15\; notif
@@ -28,7 +28,7 @@ URL:https://www.colgate.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:colgate-2-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Application and financial aid deadline Jan 15\; notification l
@@ -38,7 +38,7 @@ URL:https://www.colgate.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:colgate-3-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Early Decision I financial aid
 URL:https://www.colgate.edu/admission-aid/apply/international-applicants ;
@@ -46,7 +46,7 @@ URL:https://www.colgate.edu/admission-aid/apply/international-applicants ;
 END:VEVENT
 BEGIN:VEVENT
 UID:colgate-4-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II financial aid
 URL:https://www.colgate.edu/admission-aid/apply/international-applicants ;
@@ -54,10 +54,27 @@ URL:https://www.colgate.edu/admission-aid/apply/international-applicants ;
 END:VEVENT
 BEGIN:VEVENT
 UID:colgate-5-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Regular Decision financial aid
 URL:https://www.colgate.edu/admission-aid/apply/international-applicants ;
   https://www.colgate.edu/admission-aid/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:colgate-6-20270315@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Decisions late April\; aid materials due by the application de
+ adline
+URL:https://www.colgate.edu/admission-aid/apply/transfer-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:colgate-7-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Passed\; decisions early December
+URL:https://www.colgate.edu/admission-aid/apply/transfer-applicants
 END:VEVENT
 END:VCALENDAR

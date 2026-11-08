@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:psu-0-20261101@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\; STARS self-reported record required\; additional
@@ -19,7 +19,7 @@ URL:https://www.psu.edu/resources/first-year-students/steps-to-apply
 END:VEVENT
 BEGIN:VEVENT
 UID:psu-1-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: FAFSA recommended for maximum consideration (new st
  udents)

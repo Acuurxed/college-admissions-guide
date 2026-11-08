@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Worcester Polytechnic Institute (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:wpi-0-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding\; notification mid-December\; enroll by Jan 15. ED Agr
+ eement signed by student\, parents\, counselor. Admitted ED students rece
+ ive a minimum $25\,000/yr merit scholarship (not combinable with Innovati
+ on Award).
+URL:https://www.wpi.edu/admissions/undergraduate/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-1-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:EA I\; decision late January\; enroll by May 1.
+URL:https://www.wpi.edu/admissions/undergraduate/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-2-20270105@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; notification mid-February\; enroll by March 15.
+URL:https://www.wpi.edu/admissions/undergraduate/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-3-20270105@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Action deadline
+DESCRIPTION:EA II\; decision late February\; enroll by May 1.
+URL:https://www.wpi.edu/admissions/undergraduate/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-4-20270201@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decision late March\; enroll by May 1.
+URL:https://www.wpi.edu/admissions/undergraduate/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-5-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: International: CSS Profile by admission deadline (E
+ D I/EA I)
+URL:https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/first-year
+ -students
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-6-20261201@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: ED I/EA I CSS Profile and FAFSA (aid page shows Dec
+  1 for prior cycle\; ED page says Nov 1)
+URL:https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/first-year
+ -students
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-7-20270201@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: ED II/EA II CSS Profile and FAFSA (month/day from p
+ rior-cycle page)
+URL:https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/first-year
+ -students
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-8-20270301@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Financial aid: Regular Decision CSS Profile and FAFSA (month/day f
+ rom prior-cycle page)
+URL:https://www.wpi.edu/admissions/tuition-aid/applying-for-aid/first-year
+ -students
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-9-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Rolling decisions from early October\; enroll by Dec 3 (dates 
+ as listed on page)
+URL:https://www.wpi.edu/admissions/undergraduate/apply/transfer-students/r
+ equirements
+END:VEVENT
+BEGIN:VEVENT
+UID:wpi-10-20270610@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270610
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Application opens Jan 16\; rolling decisions from mid/late Apr
+ il\; enroll by July 10
+URL:https://www.wpi.edu/admissions/undergraduate/apply/transfer-students/r
+ equirements
+END:VEVENT
+END:VCALENDAR

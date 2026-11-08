@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Syracuse University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:syracuse-0-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Decision I deadline
+DESCRIPTION:Binding to preferred college\; notification late December\; re
+ ply by Feb 15 if admitted to first choice. ED agreement signed by student
+ \, parent and counselor. FAFSA and CSS Profile due Nov 1.
+URL:https://www.syracuse.edu/admissions-aid/application-process/undergradu
+ ate/first-year/requirements/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-1-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:New for Fall 2027\; non-binding\; notification early February\
+ ; reply May 1. FAFSA and CSS Profile due Nov 1.
+URL:https://www.syracuse.edu/admissions-aid/application-process/undergradu
+ ate/first-year/requirements/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-2-20270105@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Early Decision II deadline
+DESCRIPTION:Binding\; notification mid-January (enrollment-options page sa
+ ys mid-February)\; reply by March 1 if admitted to first choice.
+URL:https://www.syracuse.edu/admissions-aid/application-process/undergradu
+ ate/first-year/requirements/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-3-20270105@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Notification mid-March\; reply May 1. FAFSA and CSS Profile du
+ e Jan 5. Drama Acting/Musical Theater RD deadline Dec 1 with prescreen\; 
+ not available EA/ED.
+URL:https://www.syracuse.edu/admissions-aid/application-process/undergradu
+ ate/first-year/requirements/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-4-20261101@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Financial aid: ED I / EA FAFSA and CSS Profile
+URL:https://financialaid.syr.edu/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-5-20270105@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270105
+SUMMARY:Financial aid: RD FAFSA and CSS Profile
+URL:https://financialaid.syr.edu/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-6-20261201@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Preferred deadline Nov 15\; after that space-available. Archit
+ ecture fall only.
+URL:https://www.syracuse.edu/admissions-aid/application-process/transfer/r
+ equirements/
+END:VEVENT
+BEGIN:VEVENT
+UID:syracuse-7-20270701@admissara.com
+DTSTAMP:20261108T012108Z
+DTSTART;VALUE=DATE:20270701
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Rolling admission from late February\; apply early.
+URL:https://www.syracuse.edu/admissions-aid/application-process/transfer/r
+ equirements/
+END:VEVENT
+END:VCALENDAR

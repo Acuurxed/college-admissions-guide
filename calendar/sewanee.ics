@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:sewanee-0-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -19,7 +19,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-1-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Early Action deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -29,7 +29,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-2-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -39,7 +39,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-3-20270201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -49,7 +49,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-4-20261115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Complete aid file by admission round deadline - ED 
  I
@@ -60,7 +60,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/application-
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-5-20261201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: EA
 URL:https://new.sewanee.edu/admission-aid/application-process/application-
@@ -70,7 +70,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/application-
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-6-20270115@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II
 URL:https://new.sewanee.edu/admission-aid/application-process/application-
@@ -80,7 +80,7 @@ URL:https://new.sewanee.edu/admission-aid/application-process/application-
 END:VEVENT
 BEGIN:VEVENT
 UID:sewanee-7-20270201@admissara.com
-DTSTAMP:20261108T010648Z
+DTSTAMP:20261108T012108Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD
 URL:https://new.sewanee.edu/admission-aid/application-process/application-
