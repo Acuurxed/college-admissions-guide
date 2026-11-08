@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:washu-0-20261102@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. New round this cycle. Counselor materials Nov 9\; 
@@ -17,7 +17,7 @@ URL:https://admissions.washu.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-1-20261102@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Counselor materials Nov 9\; financial aid applicat
@@ -26,7 +26,7 @@ URL:https://admissions.washu.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-2-20270104@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Counselor materials Jan 11\; financial aid applica
@@ -35,7 +35,7 @@ URL:https://admissions.washu.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-3-20270104@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Counselor materials Jan 11\; financial aid applica
@@ -45,7 +45,7 @@ URL:https://admissions.washu.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-4-20261117@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:Financial aid: EA / ED I financial aid application
 URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
@@ -54,7 +54,7 @@ URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-5-20270111@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270111
 SUMMARY:Financial aid: ED II financial aid application
 URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
@@ -63,7 +63,7 @@ URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-6-20270201@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD financial aid application
 URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
@@ -72,7 +72,7 @@ URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-7-20261216@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261216
 SUMMARY:Financial aid: Scholarship applications (priority)
 URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
@@ -81,7 +81,7 @@ URL:https://admissions.washu.edu/how-to-apply/first-year-international-app
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-8-20261015@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Financial aid also due Oct 15\; decisions by Nov 20\; reply by
@@ -92,7 +92,7 @@ URL:https://admissions.washu.edu/how-to-apply/transfer-students-us-and-int
 END:VEVENT
 BEGIN:VEVENT
 UID:washu-9-20270301@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Application opens Nov 1\; financial aid due Mar 1\; decisions 

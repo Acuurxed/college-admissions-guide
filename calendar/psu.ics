@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Pennsylvania State University (University Park) (Admissar
+ a)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:psu-0-20261101@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding\; STARS self-reported record required\; additional
+  materials grace period to Nov. 5\, 2026 11:59 p.m. ET\; decision by Dec.
+  24 (admit\, deny or defer).
+URL:https://www.psu.edu/resources/first-year-students/steps-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:psu-1-20261201@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: FAFSA recommended for maximum consideration (new st
+ udents)
+URL:https://www.psu.edu/resources/faq/international-students
+END:VEVENT
+END:VCALENDAR

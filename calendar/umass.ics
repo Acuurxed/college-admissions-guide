@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Massachusetts Amherst (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:umass-0-20261105@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261105
+SUMMARY:Early Action deadline
+URL:https://www.umass.edu/admissions/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:umass-1-20270115@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Enrollment deposit May 1.
+URL:https://www.umass.edu/admissions/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:umass-2-20270301@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Financial aid: FAFSA priority deadline
+URL:https://www.umass.edu/admissions/undergraduate-admissions/apply/intern
+ ational-students/faq-international-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:umass-3-20261105@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261105
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Spring not available to international students unless enrolled
+  at a U.S. college
+URL:https://www.umass.edu/admissions/international-transfer-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:umass-4-20270415@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270415
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Priority deadline March 1 (full consideration for selective ma
+ jors)\; opens Jan. 1
+URL:https://www.umass.edu/admissions/international-transfer-applicants
+END:VEVENT
+END:VCALENDAR

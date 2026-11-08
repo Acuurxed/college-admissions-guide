@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Binghamton University\, State University of New York (Admissa
+ ra)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:binghamton-0-20261101@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Other materials due Dec 1\; decisions by Jan 15. 
+ Page also says EA applications accepted through Dec 1. EOP applicants not
+  eligible for EA.
+URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
+END:VEVENT
+BEGIN:VEVENT
+UID:binghamton-1-20270115@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Application and materials due Jan 15\; decisions by April 1. I
+ nternational first-year page lists regular admission deadline March 15 (d
+ ecision by April 1). Late applications reviewed on a space-available basi
+ s.
+URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
+END:VEVENT
+BEGIN:VEVENT
+UID:binghamton-2-20261201@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Priority deadline
+DESCRIPTION:BFA and BMus priority applicants only (materials by Dec 10)\; 
+ regular BFA/BMus by Jan 15 (materials Jan 25). Auditions required for BFA
+  Musical Theatre and BMus Music Performance.
+URL:https://www.binghamton.edu/admissions/undergraduate/apply/freshman/
+END:VEVENT
+BEGIN:VEVENT
+UID:binghamton-3-20270101@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:Financial aid: FAFSA highly recommended no later than
+URL:https://www.binghamton.edu/financial-aid/types-of-aid/student-funding-
+ needs/international-students.html
+END:VEVENT
+BEGIN:VEVENT
+UID:binghamton-4-20270301@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Priority deadline\; rolling decisions\; later applications on 
+ a space-available basis. Watson engineering\, Social Work and Decker nurs
+ ing accept fall only. BAT Nursing: apply by Nov 15\, materials Dec 1.
+URL:https://www.binghamton.edu/admissions/undergraduate/apply/transfer/ins
+ tructions.html
+END:VEVENT
+END:VCALENDAR

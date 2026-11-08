@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:georgetown-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. EA applicants may not apply to binding Early Deci
@@ -19,7 +19,7 @@ URL:https://uadmissions.georgetown.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:georgetown-1-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions by Apr 1\; reply date May 1. Georgetown Application 
@@ -28,7 +28,7 @@ URL:https://uadmissions.georgetown.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:georgetown-2-20270201@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: FAFSA and CSS Profile (all applicants)
 URL:https://uadmissions.georgetown.edu/financial-aid/ ; https://finaid.geo
@@ -37,7 +37,7 @@ URL:https://uadmissions.georgetown.edu/financial-aid/ ; https://finaid.geo
 END:VEVENT
 BEGIN:VEVENT
 UID:georgetown-3-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Open only to current first- and second-year students\; mid-ter
@@ -47,7 +47,7 @@ URL:https://uadmissions.georgetown.edu/apply/transfer-applicants/
 END:VEVENT
 BEGIN:VEVENT
 UID:georgetown-4-20270301@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Financial aid due Mar 1. Rising juniors applying to McCourt Sc

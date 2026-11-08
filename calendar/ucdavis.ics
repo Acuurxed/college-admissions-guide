@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:ucdavis-0-20261130@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated on the UC dates page. Single UC filing period Oct 1
@@ -19,7 +19,7 @@ URL:https://www.ucdavis.edu/admissions
 END:VEVENT
 BEGIN:VEVENT
 UID:ucdavis-1-20270302@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270302
 SUMMARY:Financial aid: FAFSA / California Dream Act Application / Cal Gran
  t GPA Verification Form (file Oct 1\, 2026 - Mar 2\, 2027)

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:gettysburg-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -18,7 +18,7 @@ URL:https://www.gettysburg.edu/admissions-aid/applying-gettysburg/
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-1-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Action deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -28,7 +28,7 @@ URL:https://www.gettysburg.edu/admissions-aid/applying-gettysburg/
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-2-20270120@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270120
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -38,7 +38,7 @@ URL:https://www.gettysburg.edu/admissions-aid/applying-gettysburg/
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-3-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Page lists month/day without year\; year inferred for the Fall
@@ -47,7 +47,7 @@ URL:https://www.gettysburg.edu/admissions-aid/applying-gettysburg/
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-4-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: International aid forms due with application deadli
  ne - per admissions pages: ED I
@@ -58,7 +58,7 @@ URL:https://www.gettysburg.edu/admissions-aid/international-students/finan
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-5-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: EA
 URL:https://www.gettysburg.edu/admissions-aid/international-students/finan
@@ -68,7 +68,7 @@ URL:https://www.gettysburg.edu/admissions-aid/international-students/finan
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-6-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: RD
 URL:https://www.gettysburg.edu/admissions-aid/international-students/finan
@@ -78,7 +78,7 @@ URL:https://www.gettysburg.edu/admissions-aid/international-students/finan
 END:VEVENT
 BEGIN:VEVENT
 UID:gettysburg-7-20270120@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270120
 SUMMARY:Financial aid: ED II
 URL:https://www.gettysburg.edu/admissions-aid/international-students/finan

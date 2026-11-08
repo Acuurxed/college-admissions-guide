@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:kenyon-0-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Decision mid-December.
@@ -16,7 +16,7 @@ URL:https://www.kenyon.edu/admissions-aid/
 END:VEVENT
 BEGIN:VEVENT
 UID:kenyon-1-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Decision mid-February.
@@ -24,7 +24,7 @@ URL:https://www.kenyon.edu/admissions-aid/
 END:VEVENT
 BEGIN:VEVENT
 UID:kenyon-2-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decision mid-March.
@@ -32,7 +32,7 @@ URL:https://www.kenyon.edu/admissions-aid/
 END:VEVENT
 BEGIN:VEVENT
 UID:kenyon-3-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I - CSS Profile and tax documents
 URL:https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply
@@ -40,7 +40,7 @@ URL:https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:kenyon-4-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED I - FAFSA
 URL:https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply
@@ -48,7 +48,7 @@ URL:https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:kenyon-5-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II and RD - CSS Profile\, tax documents\, FAFSA
 URL:https://www.kenyon.edu/admissions-aid/financial-aid-scholarships/apply

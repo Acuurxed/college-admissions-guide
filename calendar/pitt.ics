@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:University of Pittsburgh (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:pitt-0-20270201@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: International scholarship consideration (complete a
+ pplication)
+URL:https://admissions.pitt.edu/international/
+END:VEVENT
+END:VCALENDAR

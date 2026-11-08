@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:gatech-0-20261015@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261015
 SUMMARY:Early Action deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Early Action 1: Georgia stu
@@ -19,7 +19,7 @@ URL:https://admission.gatech.edu/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:gatech-1-20261102@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Action deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Early Action 2: non-Georgia
@@ -31,7 +31,7 @@ URL:https://admission.gatech.edu/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:gatech-2-20270106@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270106
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Open to Georgia and non-Geo

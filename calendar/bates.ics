@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bates-0-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Notification by Dec 20\; reply by Jan 8. RD applicants may con
@@ -18,7 +18,7 @@ URL:https://www.bates.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-1-20270110@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Notification by Feb 15\; reply by Feb 19. Convert from RD by 1
@@ -28,7 +28,7 @@ URL:https://www.bates.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-2-20270110@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Notification by April 1\; reply by May 1. Official page lists 
@@ -37,7 +37,7 @@ URL:https://www.bates.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-3-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I financial aid
 URL:https://www.bates.edu/admission/apply/international-students/ ; https:
@@ -45,7 +45,7 @@ URL:https://www.bates.edu/admission/apply/international-students/ ; https:
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-4-20270110@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: Early Decision II financial aid
 URL:https://www.bates.edu/admission/apply/international-students/ ; https:
@@ -53,7 +53,7 @@ URL:https://www.bates.edu/admission/apply/international-students/ ; https:
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-5-20270110@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: Regular Decision financial aid
 URL:https://www.bates.edu/admission/apply/international-students/ ; https:

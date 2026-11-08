@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:wm-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Binding\; decisions early D
@@ -18,7 +18,7 @@ URL:https://www.wm.edu/admission/undergraduateadmission/how-to-apply/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-1-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:11:59 p.m. applicant's local time. Binding\; decisions early F
@@ -27,7 +27,7 @@ URL:https://www.wm.edu/admission/undergraduateadmission/how-to-apply/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-2-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. applicant's local time
@@ -35,49 +35,49 @@ URL:https://www.wm.edu/admission/undergraduateadmission/how-to-apply/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-3-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I priority (FAFSA and CSS Profile)
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-4-20261213@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Financial aid: ED I final filing
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-5-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: ED II priority
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-6-20270301@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: ED II final filing
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-7-20270201@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD priority
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-8-20270301@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Financial aid: RD final filing
 URL:https://www.wm.edu/admission/financialaid/how-to/prospective-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-9-20270301@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:CDS priority date\; notification May 1\, reply May 15
@@ -86,7 +86,7 @@ URL:https://www.wm.edu/admission/undergraduateadmission/how-to-apply/trans
 END:VEVENT
 BEGIN:VEVENT
 UID:wm-10-20271101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20271101
 SUMMARY:Transfer Spring 2028 deadline
 DESCRIPTION:CDS priority date\; notification Dec 1\, reply Dec 15

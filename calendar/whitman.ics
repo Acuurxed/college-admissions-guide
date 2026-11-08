@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:whitman-0-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Notification mid-December\; enroll by Jan 15.
@@ -16,7 +16,7 @@ URL:https://www.whitman.edu/admission-and-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:whitman-1-20261201@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. New in 2026. Notification early February\; enroll 
@@ -25,7 +25,7 @@ URL:https://www.whitman.edu/admission-and-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:whitman-2-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Notification late January\; enroll by March 1.
@@ -33,7 +33,7 @@ URL:https://www.whitman.edu/admission-and-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:whitman-3-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Notification early March\; enroll by May 1. Calend

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:wlu-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:11:59 p.m. local time. Supplemental materials due Nov 15\; aid
@@ -17,7 +17,7 @@ URL:https://www.wlu.edu/admissions/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:wlu-1-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:11:59 p.m. local time. Supplemental materials due Jan 15\; aid
@@ -26,7 +26,7 @@ URL:https://www.wlu.edu/admissions/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:wlu-2-20270105@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. local time. Supplemental materials due Feb 1\; aid 
@@ -35,7 +35,7 @@ URL:https://www.wlu.edu/admissions/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:wlu-3-20261201@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: Early Decision I
 URL:https://www.wlu.edu/admissions/financial-aid/types-of-aid/internationa
@@ -43,7 +43,7 @@ URL:https://www.wlu.edu/admissions/financial-aid/types-of-aid/internationa
 END:VEVENT
 BEGIN:VEVENT
 UID:wlu-4-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II
 URL:https://www.wlu.edu/admissions/financial-aid/types-of-aid/internationa
@@ -51,10 +51,21 @@ URL:https://www.wlu.edu/admissions/financial-aid/types-of-aid/internationa
 END:VEVENT
 BEGIN:VEVENT
 UID:wlu-5-20270215@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Regular Decision
 URL:https://www.wlu.edu/admissions/financial-aid/types-of-aid/internationa
  l-student-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:wlu-6-20270301@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Priority deadline\; page currently shows Fall 2026 dates (prio
+ rity March 1\, final May 15\; aid priority March 16\, final April 16) - F
+ all 2027 dates assumed to follow same pattern\, confirm. Rolling decision
+ s late April-late May. Fall entry only\; no January entry.
+URL:https://www.wlu.edu/admissions/apply/for-transfer-applicants
 END:VEVENT
 END:VCALENDAR

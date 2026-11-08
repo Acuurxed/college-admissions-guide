@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:wesleyan-0-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Financial aid deadline Nov 15\; notification mid-December. Int
@@ -17,7 +17,7 @@ URL:https://www.wesleyan.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:wesleyan-1-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Financial aid deadline Jan 1\; notification mid-February. Same
@@ -26,14 +26,14 @@ URL:https://www.wesleyan.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:wesleyan-2-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 URL:https://www.wesleyan.edu/admission/
 END:VEVENT
 BEGIN:VEVENT
 UID:wesleyan-3-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I aid deadline
 URL:https://www.wesleyan.edu/admission/undergraduate-admission/internation
@@ -44,7 +44,7 @@ URL:https://www.wesleyan.edu/admission/undergraduate-admission/internation
 END:VEVENT
 BEGIN:VEVENT
 UID:wesleyan-4-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Financial aid: Early Decision II aid deadline
 URL:https://www.wesleyan.edu/admission/undergraduate-admission/internation

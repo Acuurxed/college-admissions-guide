@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:notredame-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Restrictive Early Action deadline
 DESCRIPTION:Non-binding\; may not apply ED I elsewhere\; ED II allowed. De
@@ -18,7 +18,7 @@ URL:https://admissions.nd.edu/apply/application-overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:notredame-1-20270104@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Admissions pages list January 4\; Financial Aid international 
@@ -28,16 +28,45 @@ URL:https://admissions.nd.edu/apply/application-overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:notredame-2-20261115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: REA CSS Profile
 URL:https://financialaid.nd.edu/apply-or-renew/international-students/
 END:VEVENT
 BEGIN:VEVENT
 UID:notredame-3-20270115@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: RD CSS Profile
 URL:https://financialaid.nd.edu/apply-or-renew/international-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:notredame-4-20270315@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Earliest submission January 15\, 2027\; decisions May 20-June 
+ 14\, 2027\; CSS Profile/FAFSA priority date May 1\, 2027
+URL:https://admissions.nd.edu/apply/resources-for/transfer-applicants/appl
+ y/
+END:VEVENT
+BEGIN:VEVENT
+UID:notredame-5-20261001@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Already passed\; decisions Dec 1\, 2026-Jan 5\, 2027\; aid pri
+ ority Nov 15\, 2026
+URL:https://admissions.nd.edu/apply/resources-for/transfer-applicants/appl
+ y/
+END:VEVENT
+BEGIN:VEVENT
+UID:notredame-6-20271001@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20271001
+SUMMARY:Transfer Spring 2028 deadline
+DESCRIPTION:CSS Profile priority date November 15\, 2027
+URL:https://admissions.nd.edu/apply/resources-for/transfer-applicants/appl
+ y/
 END:VEVENT
 END:VCALENDAR

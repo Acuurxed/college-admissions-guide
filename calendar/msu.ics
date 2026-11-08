@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Michigan State University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:msu-0-20261101@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:11:59 p.m. ET. Non-binding\; complete application and material
+ s\; decision by Jan. 15.
+URL:https://admissions.msu.edu/apply/first-year
+END:VEVENT
+BEGIN:VEVENT
+UID:msu-1-20270201@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Priority deadline
+DESCRIPTION:11:59 p.m. ET. Regular decision priority deadline\; initial de
+ cision guaranteed by March 31.
+URL:https://admissions.msu.edu/apply/first-year
+END:VEVENT
+BEGIN:VEVENT
+UID:msu-2-20270401@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20270401
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. ET. Final deadline\; applications Feb. 1-April 1 re
+ viewed on a rolling basis. Acceptance fee due May 1.
+URL:https://admissions.msu.edu/apply/first-year
+END:VEVENT
+BEGIN:VEVENT
+UID:msu-3-20261102@admissara.com
+DTSTAMP:20261108T010648Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Closed Nov. 2\, 2026
+URL:https://admissions.msu.edu/apply/transfer
+END:VEVENT
+END:VCALENDAR

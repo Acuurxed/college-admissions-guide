@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:emory-0-20261101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Binding\; apply to Emory College\, Oxford College\
@@ -18,7 +18,7 @@ URL:https://apply.emory.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-1-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Binding. Notification by Feb 15\; deposit Mar 1. F
@@ -27,7 +27,7 @@ URL:https://apply.emory.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-2-20270101@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Notification by April 1. Financial aid deadline Fe
@@ -36,7 +36,7 @@ URL:https://apply.emory.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-3-20270205@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270205
 SUMMARY:Financial aid: International CSS Profile and IDOC
 URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
@@ -45,7 +45,7 @@ URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-4-20261202@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20261202
 SUMMARY:Financial aid: ED I financial aid
 URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
@@ -54,7 +54,7 @@ URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-5-20270106@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270106
 SUMMARY:Financial aid: ED II financial aid
 URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
@@ -63,7 +63,7 @@ URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-6-20270210@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270210
 SUMMARY:Financial aid: RD financial aid
 URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
@@ -72,7 +72,7 @@ URL:https://studentaid.emory.edu/undergraduate/apply/new-students/internat
 END:VEVENT
 BEGIN:VEVENT
 UID:emory-7-20270315@admissara.com
-DTSTAMP:20261108T010510Z
+DTSTAMP:20261108T010648Z
 DTSTART;VALUE=DATE:20270315
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Financial aid deadline March 17\; decisions by early May. Fall
