@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:caltech-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Restrictive Early Action deadline
 DESCRIPTION:Decisions mid-December. SAT/ACT scores (including resubmission
@@ -17,11 +17,21 @@ URL:https://www.admissions.caltech.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:caltech-1-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions mid-March. SAT/ACT scores due by 2026-12-31. Reply b
  y 2027-05-01. QuestBridge applicants: scores due 2026-10-31.
 URL:https://www.admissions.caltech.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:caltech-2-20270201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Transfer exams due 2027-02-15\; notifications mid-April\; repl
+ y by June 1\; non-binding\; fall entry only
+URL:https://www.admissions.caltech.edu/apply/transfer-applicants/transfer-
+ deadlines
 END:VEVENT
 END:VCALENDAR

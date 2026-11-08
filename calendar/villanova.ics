@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:villanova-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Non-binding\; decision by January 20\; deposit May
@@ -18,7 +18,7 @@ URL:https://www1.villanova.edu/university/undergraduate-admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:villanova-1-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Binding\; decision by December 1\; deposit within 
@@ -27,7 +27,7 @@ URL:https://www1.villanova.edu/university/undergraduate-admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:villanova-2-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Binding\; decision by February 15. Switch to ED II
@@ -36,7 +36,7 @@ URL:https://www1.villanova.edu/university/undergraduate-admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:villanova-3-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Decision by April 1\; deposit May 1.
@@ -44,7 +44,7 @@ URL:https://www1.villanova.edu/university/undergraduate-admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:villanova-4-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED I / EA aid priority
 URL:https://www.villanova.edu/university/office-of-financial-assistance/fi
@@ -54,7 +54,7 @@ URL:https://www.villanova.edu/university/office-of-financial-assistance/fi
 END:VEVENT
 BEGIN:VEVENT
 UID:villanova-5-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II / RD aid priority
 URL:https://www.villanova.edu/university/office-of-financial-assistance/fi

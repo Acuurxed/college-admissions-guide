@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:stanford-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Restrictive Early Action deadline
 DESCRIPTION:Standard application Nov 1 (Oct 15 with Arts Portfolio). Couns
@@ -18,7 +18,7 @@ URL:https://admission.stanford.edu/apply/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:stanford-1-20270105@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Standard application Jan 5 (Dec 5 with Arts Portfolio). Switch
@@ -27,7 +27,7 @@ URL:https://admission.stanford.edu/apply/first-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:stanford-2-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: REA financial aid priority
 URL:https://admission.stanford.edu/apply/international/index.html ; https:
@@ -37,12 +37,21 @@ URL:https://admission.stanford.edu/apply/international/index.html ; https:
 END:VEVENT
 BEGIN:VEVENT
 UID:stanford-3-20270215@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: RD financial aid priority
 URL:https://admission.stanford.edu/apply/international/index.html ; https:
  //admission.stanford.edu/apply/first-year/decision_process.html ; https:/
  /financialaid.stanford.edu/undergrad/apply/requirements/rd_international.
  html
+END:VEVENT
+BEGIN:VEVENT
+UID:stanford-4-20270315@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:11:59 PM local time\; decisions mid-May\; reply by June 1\; al
+ l students begin in fall quarter
+URL:https://admission.stanford.edu/apply/transfer/index.html
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Ohio State University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:osu-0-20261101@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:11:59 p.m. ET. Non-binding. Decisions Dec 11 (Ohio residents a
+ nd Stamps Eminence applicants) or Jan 22 (non-Ohio and international). No
+ v 1 is the priority date for most merit scholarships. Order test scores b
+ y Oct 16.
+URL:https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step
+END:VEVENT
+BEGIN:VEVENT
+UID:osu-1-20270115@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. ET. Decision Mar 5. Acceptance fee due May 1\, 2027
+ .
+URL:https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step
+END:VEVENT
+BEGIN:VEVENT
+UID:osu-2-20270201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: FAFSA and Scholarship Universe priority date
+URL:https://sfa.osu.edu/international-student/about-aid
+END:VEVENT
+BEGIN:VEVENT
+UID:osu-3-20261101@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Columbus\; regional campuses Dec 1\, 2026
+URL:https://undergrad.osu.edu/apply/transfer/apply-step-by-step
+END:VEVENT
+BEGIN:VEVENT
+UID:osu-4-20270515@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270515
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Autumn 2027\, Columbus\; regional July 15. Summer 2027: Mar 1 
+ (Columbus).
+URL:https://undergrad.osu.edu/apply/transfer/apply-step-by-step
+END:VEVENT
+END:VCALENDAR

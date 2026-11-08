@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:oxy-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Binding. Financial aid deadline Nov 1\; decision b
@@ -17,7 +17,7 @@ URL:https://www.oxy.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:oxy-1-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Non-binding. Financial aid deadline Nov 1\; decisi
@@ -26,7 +26,7 @@ URL:https://www.oxy.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:oxy-2-20270110@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Binding. Financial aid deadline Jan 10\; decision 
@@ -35,7 +35,7 @@ URL:https://www.oxy.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:oxy-3-20270110@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Financial aid deadline Jan 10\; decision by mid-Ma
@@ -44,7 +44,7 @@ URL:https://www.oxy.edu/admission-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:oxy-4-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED I / EA financial aid
 URL:https://www.oxy.edu/admission-aid/international-students ; https://www
@@ -53,7 +53,7 @@ URL:https://www.oxy.edu/admission-aid/international-students ; https://www
 END:VEVENT
 BEGIN:VEVENT
 UID:oxy-5-20270110@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: ED II / RD financial aid
 URL:https://www.oxy.edu/admission-aid/international-students ; https://www

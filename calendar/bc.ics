@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bc-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Decision Dec 15. Nov 1 is also the priority deadline 
@@ -18,7 +18,7 @@ URL:https://www.bc.edu/bc-web/admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bc-1-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Decision Feb 15. RD applicants may convert to ED II b
@@ -27,7 +27,7 @@ URL:https://www.bc.edu/bc-web/admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bc-2-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decision Apr 1\; enrollment reply by May 1. Mid-Year Grade Rep
@@ -36,7 +36,7 @@ URL:https://www.bc.edu/bc-web/admission.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bc-3-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Priority filing - Early Decision I
 URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
@@ -46,7 +46,7 @@ URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
 END:VEVENT
 BEGIN:VEVENT
 UID:bc-4-20270103@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270103
 SUMMARY:Financial aid: Priority filing - Early Decision II
 URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
@@ -56,12 +56,29 @@ URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
 END:VEVENT
 BEGIN:VEVENT
 UID:bc-5-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Priority filing - Regular Decision
 URL:https://www.bc.edu/bc-web/admission/affordability.html ; https://www.b
  c.edu/bc-web/offices/student-services/financial-aid/undergraduate/applyin
  g-for-aid.html ; https://www.bc.edu/bc-web/admission/apply/international.
  html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-6-20261101@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Decisions by Dec 15\; first-semester freshmen generally inelig
+ ible. Aid priority Nov 1.
+URL:https://www.bc.edu/bc-web/admission/apply/transfer.html
+END:VEVENT
+BEGIN:VEVENT
+UID:bc-7-20270315@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Decisions by May 20\; transfer aid priority deadline April 1.
+URL:https://www.bc.edu/bc-web/admission/apply/transfer.html
 END:VEVENT
 END:VCALENDAR

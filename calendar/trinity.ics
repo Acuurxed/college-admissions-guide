@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:trinity-0-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Notification mid-December
@@ -16,7 +16,7 @@ URL:https://www.trincoll.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:trinity-1-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Notification mid-February\; RD applicants may conv
@@ -25,7 +25,7 @@ URL:https://www.trincoll.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:trinity-2-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Notification late March
@@ -33,7 +33,7 @@ URL:https://www.trincoll.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:trinity-3-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: Early Decision I
 URL:https://www.trincoll.edu/admissions/finaid/international-students/ ; h
@@ -41,7 +41,7 @@ URL:https://www.trincoll.edu/admissions/finaid/international-students/ ; h
 END:VEVENT
 BEGIN:VEVENT
 UID:trinity-4-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: Early Decision II / Regular Decision (international
   page)
@@ -50,7 +50,7 @@ URL:https://www.trincoll.edu/admissions/finaid/international-students/ ; h
 END:VEVENT
 BEGIN:VEVENT
 UID:trinity-5-20270117@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270117
 SUMMARY:Financial aid: Early Decision II / Regular Decision (first-year ai
  d page)

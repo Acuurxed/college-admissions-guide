@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bu-0-20261102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Notification Dec 14. CSS Profile and FAFSA due same d
@@ -19,7 +19,7 @@ URL:https://www.bu.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-1-20270105@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Notification Feb 8. School of Theatre prescreens due 
@@ -28,7 +28,7 @@ URL:https://www.bu.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-2-20270105@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Apply by Dec 1 for merit scholarship (Presidential) considerat
@@ -37,7 +37,7 @@ URL:https://www.bu.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-3-20261102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Financial aid: ED I CSS Profile and FAFSA
 URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
@@ -46,7 +46,7 @@ URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-4-20270105@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: ED II CSS Profile and FAFSA
 URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
@@ -55,7 +55,7 @@ URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-5-20270105@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: RD CSS Profile and FAFSA
 URL:https://www.bu.edu/admissions/tuition-aid/scholarships-financial-aid/;

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:umich-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-restrictive\; notification by Jan 31 (CDS C22). Test score
@@ -18,7 +18,7 @@ URL:https://admissions.umich.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:umich-1-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Hard-copy materials must be postmarked on or before the deadli

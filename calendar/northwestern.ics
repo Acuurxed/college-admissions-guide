@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:northwestern-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:11:59 p.m. applicant's local time (stated for the 2025-26 cycl
@@ -18,7 +18,7 @@ URL:https://admissions.northwestern.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:northwestern-1-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:11:59 p.m. applicant's local time (stated for the 2025-26 cycl
@@ -27,7 +27,7 @@ URL:https://admissions.northwestern.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:northwestern-2-20261201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: Early Decision
 URL:https://admissions.northwestern.edu/tuition-aid/international-student-
@@ -35,10 +35,26 @@ URL:https://admissions.northwestern.edu/tuition-aid/international-student-
 END:VEVENT
 BEGIN:VEVENT
 UID:northwestern-3-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: Regular Decision
 URL:https://admissions.northwestern.edu/tuition-aid/international-student-
  aid
+END:VEVENT
+BEGIN:VEVENT
+UID:northwestern-4-20270301@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Early Decision (binding)
+URL:https://admissions.northwestern.edu/faqs/transferring-to-northwestern/
+END:VEVENT
+BEGIN:VEVENT
+UID:northwestern-5-20270401@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270401
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Regular Decision\; fall quarter only
+URL:https://admissions.northwestern.edu/faqs/transferring-to-northwestern/
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Texas A&M University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:tamu-0-20261201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:11:59 p.m. Central if deadline falls on weekend (extended to f
+ ollowing Monday). College Station. Opens Aug 1. Additional documents and 
+ STARS link due Dec 15. Top 10% decisions from September\, holistic from O
+ ctober\; applying early does not guarantee an early decision. Accept offe
+ r by May 1. McAllen deadline Mar 1\; Galveston May 1.
+URL:https://admissions.tamu.edu/apply/freshman/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tamu-1-20270115@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: FAFSA/TASFA Texas priority date
+URL:https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/inte
+ rnational-student-financial-aid.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tamu-2-20270201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Financial aid: University Scholarship Application closes
+URL:https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/inte
+ rnational-student-financial-aid.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tamu-3-20261015@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:College Station\; accept offer by Dec 15
+URL:https://admissions.tamu.edu/apply/transfer/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tamu-4-20270301@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:College Station\; opens Jan 1\; accept by July 15\; Galveston 
+ July 1
+URL:https://admissions.tamu.edu/apply/transfer/index.html
+END:VEVENT
+END:VCALENDAR

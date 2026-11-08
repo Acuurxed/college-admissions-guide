@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:vanderbilt-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Binding\; ED Agreement signed by applicant\, paren
@@ -19,7 +19,7 @@ URL:https://admissions.vanderbilt.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:vanderbilt-1-20270101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Binding. Priority CSS Profile/FAFSA Jan 1\; merit 
@@ -29,7 +29,7 @@ URL:https://admissions.vanderbilt.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:vanderbilt-2-20270101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Non-binding. Merit scholarship application Dec 1\,
@@ -39,7 +39,7 @@ URL:https://admissions.vanderbilt.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:vanderbilt-3-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED I priority CSS Profile/FAFSA
 URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
@@ -48,7 +48,7 @@ URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
 END:VEVENT
 BEGIN:VEVENT
 UID:vanderbilt-4-20270101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Financial aid: ED II priority CSS Profile/FAFSA
 URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
@@ -57,11 +57,21 @@ URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
 END:VEVENT
 BEGIN:VEVENT
 UID:vanderbilt-5-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: RD priority CSS Profile/FAFSA
 URL:https://admissions.vanderbilt.edu/affordability/ ; https://admissions.
  vanderbilt.edu/apply/first-year-process/ ; https://admissions.vanderbilt.
  edu/apply/
+END:VEVENT
+BEGIN:VEVENT
+UID:vanderbilt-6-20270215@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270215
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Priority deadline\; applications reviewed on a rolling basis a
+ nd Vanderbilt typically stops accepting new applications by May 1. No spr
+ ing transfer deadline listed.
+URL:https://admissions.vanderbilt.edu/apply/transfer-process/
 END:VEVENT
 END:VCALENDAR

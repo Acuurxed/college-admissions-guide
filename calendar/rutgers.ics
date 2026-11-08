@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rutgers University-New Brunswick (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:rutgers-0-20261101@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:Early Action deadline
+DESCRIPTION:Non-binding. Decision by Jan 31\, 2027 (admit\, not admit\, wa
+ itlist or defer to RD). Reply by May 1.
+URL:https://admissions.rutgers.edu/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:rutgers-1-20261201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:Decision Feb 28\, 2027. Must apply by Dec 1 for honors and mer
+ it scholarship consideration. Later applications rolling\, space-availabl
+ e. Mason Gross decisions by Apr 1.
+URL:https://admissions.rutgers.edu/apply/first-year-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:rutgers-2-20270115@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:Financial aid: Rutgers FAFSA priority filing deadline (2027-28)
+URL:https://admissions.rutgers.edu/new-brunswick-scholarships
+END:VEVENT
+BEGIN:VEVENT
+UID:rutgers-3-20261001@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Decision Dec 1\; later applications rolling if space
+URL:https://admissions.rutgers.edu/apply/transfer-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:rutgers-4-20270201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Decision Apr 15\; reply May 1
+URL:https://admissions.rutgers.edu/apply/transfer-applicants
+END:VEVENT
+END:VCALENDAR

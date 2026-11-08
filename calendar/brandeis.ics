@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:brandeis-0-20261102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Financial aid (CSS Profile/FAFSA) Nov 2\; notifica
@@ -18,7 +18,7 @@ URL:https://www.brandeis.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:brandeis-1-20261102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Financial aid Nov 2\; notification Feb 1.
@@ -26,7 +26,7 @@ URL:https://www.brandeis.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:brandeis-2-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Financial aid Jan 15\; notification Feb 15.
@@ -34,7 +34,7 @@ URL:https://www.brandeis.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:brandeis-3-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Financial aid Jan 15\; notification April 1\; midy
@@ -43,7 +43,7 @@ URL:https://www.brandeis.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:brandeis-4-20261102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Financial aid: EA / ED I FAFSA
 URL:https://www.brandeis.edu/admissions/affordability/financial-aid.html ;
@@ -53,12 +53,28 @@ URL:https://www.brandeis.edu/admissions/affordability/financial-aid.html ;
 END:VEVENT
 BEGIN:VEVENT
 UID:brandeis-5-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Financial aid: ED II / RD FAFSA
 URL:https://www.brandeis.edu/admissions/affordability/financial-aid.html ;
   https://www.brandeis.edu/admissions/apply/application-process/first-year
  .html ; https://www.brandeis.edu/admissions/apply/application-process/ind
  ex.html
+END:VEVENT
+BEGIN:VEVENT
+UID:brandeis-6-20261102@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:Interview recording (InitialView/Vericant) deadline Nov 15.
+URL:https://www.brandeis.edu/admissions/apply/transfer.html
+END:VEVENT
+BEGIN:VEVENT
+UID:brandeis-7-20270315@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Interview recording deadline Jan 15.
+URL:https://www.brandeis.edu/admissions/apply/transfer.html
 END:VEVENT
 END:VCALENDAR

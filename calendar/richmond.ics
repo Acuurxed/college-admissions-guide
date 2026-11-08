@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:richmond-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Calendar year not printed on page\; date applied t
@@ -18,7 +18,7 @@ URL:https://admission.richmond.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-1-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Action deadline
 DESCRIPTION:not stated. Non-binding. Need-based aid due Nov 15\; credentia
@@ -29,7 +29,7 @@ URL:https://admission.richmond.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-2-20270101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. Final credentials Jan 15\; need-based aid due Feb 
@@ -38,7 +38,7 @@ URL:https://admission.richmond.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-3-20270101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270101
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. Credential deadline Feb 15\; notification approx. 
@@ -47,7 +47,7 @@ URL:https://admission.richmond.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-4-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I need-based aid
 URL:https://admission.richmond.edu/process/international/index.html ; http
@@ -56,7 +56,7 @@ URL:https://admission.richmond.edu/process/international/index.html ; http
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-5-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: EA need-based aid
 URL:https://admission.richmond.edu/process/international/index.html ; http
@@ -65,7 +65,7 @@ URL:https://admission.richmond.edu/process/international/index.html ; http
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-6-20261201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: Richmond Scholars / all aid consideration for inter
  nationals
@@ -75,7 +75,7 @@ URL:https://admission.richmond.edu/process/international/index.html ; http
 END:VEVENT
 BEGIN:VEVENT
 UID:richmond-7-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Financial aid: ED II need-based aid
 URL:https://admission.richmond.edu/process/international/index.html ; http

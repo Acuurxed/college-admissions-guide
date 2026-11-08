@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Admissara//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Florida State University (Admissara)
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:fsu-0-20261015@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Early Decision I deadline
+DESCRIPTION:not stated. Binding\; domestic students only (not talent-based
+  majors or CARE Summer Bridge)\; Common App only\; ED Agreement signed by
+  student\, parent and counselor. Materials Oct 22\, added test scores Dec
+  1\, decision Dec 17\, deposit Jan 15\, 2027. Deferred applicants must su
+ bmit Deferral Reply Form. Deadline passed.
+URL:https://admissions.fsu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-1-20261015@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:Early Action deadline
+DESCRIPTION:not stated. Florida residents only\; non-binding. Materials Oc
+ t 22\; decision Dec 17. Deadline passed.
+URL:https://admissions.fsu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-2-20261201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Regular Decision deadline
+DESCRIPTION:not stated. All students. Materials Dec 8\; additional test sc
+ ores Jan 1\; decision Feb 18\; reply May 1.
+URL:https://admissions.fsu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-3-20270301@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Rolling deadline
+DESCRIPTION:not stated. All students. Materials and test scores Mar 8\; ro
+ lling decisions in April.
+URL:https://admissions.fsu.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-4-20261201@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Financial aid: FAFSA by Dec 1 for ED aid details shortly after dec
+ ision
+URL:https://admissions.fsu.edu/first-year/scholarships
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-5-20261001@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:Transfer Spring 2027 deadline
+DESCRIPTION:University deadline (passed)\; some programs earlier\; may clo
+ se early
+URL:https://admissions.fsu.edu/transfer/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:fsu-6-20270601@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270601
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Summer 2027 deadline March 1\, 2027\; some programs earlier or
+  term-restricted
+URL:https://admissions.fsu.edu/transfer/apply
+END:VEVENT
+END:VCALENDAR

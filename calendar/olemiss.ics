@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:olemiss-0-20270201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270201
 SUMMARY:Rolling deadline
 DESCRIPTION:not stated. Rolling admission until capacity\; recommended/pri
@@ -18,7 +18,7 @@ URL:https://olemiss.edu/admissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:olemiss-1-20270110@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: Freshman Competitive Scholarship Application
 URL:https://olemiss.edu/global/international-students-oge/international-st

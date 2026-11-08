@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:rpi-0-20261106@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; extended to November 6\; notification December 12.
@@ -16,7 +16,7 @@ URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-1-20261201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding\; notification January 30.
@@ -24,7 +24,7 @@ URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-2-20270106@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270106
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; notification January 16 (as published).
@@ -32,7 +32,7 @@ URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-3-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Non-binding\; notification March 6. B.S./M.D. due Nov 1 (not o
@@ -41,28 +41,28 @@ URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-4-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: FAFSA/CSS priority - Early Decision I
 URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-5-20261215@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Financial aid: FAFSA/CSS priority - Early Action
 URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-6-20270108@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Financial aid: FAFSA/CSS priority - Early Decision II
 URL:https://undergrad.admissions.rpi.edu/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:rpi-7-20270131@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Financial aid: FAFSA/CSS priority - Regular Decision
 URL:https://undergrad.admissions.rpi.edu/apply

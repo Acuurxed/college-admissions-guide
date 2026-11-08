@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:rice-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. Decisions by mid-December\; enrollment deposit by 202
@@ -17,7 +17,7 @@ URL:https://admission.rice.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rice-1-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. Decisions by late January\; deposit by 2027-03-01. In
@@ -26,12 +26,28 @@ URL:https://admission.rice.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:rice-2-20270104@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270104
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions by 2027-04-01\; deposit by 2027-05-01. Priority inte
  rview request by mid-December\; otherwise by 2027-01-06. Shepherd School 
  of Music materials due 2026-12-01.
 URL:https://admission.rice.edu/
+END:VEVENT
+BEGIN:VEVENT
+UID:rice-3-20270315@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270315
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Rolling decisions in June\; Shepherd School of Music fall only
+URL:https://admission.rice.edu/apply/transfer-applicants
+END:VEVENT
+BEGIN:VEVENT
+UID:rice-4-20271015@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20271015
+SUMMARY:Transfer Spring 2028 deadline
+DESCRIPTION:Spring entry deadline October 15\; decisions by December 1
+URL:https://admission.rice.edu/apply/transfer-applicants
 END:VEVENT
 END:VCALENDAR

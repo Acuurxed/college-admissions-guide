@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:yale-0-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Single-Choice Early Action deadline
 DESCRIPTION:Decisions December 16 (2026-27 Counselor information). Reply d
@@ -17,7 +17,7 @@ URL:https://admissions.yale.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:yale-1-20270102@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270102
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Decisions March 31 (2026-27 Counselor information). Note: Ques
@@ -27,7 +27,7 @@ URL:https://admissions.yale.edu/
 END:VEVENT
 BEGIN:VEVENT
 UID:yale-2-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: QuestBridge
 URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
@@ -35,7 +35,7 @@ URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
 END:VEVENT
 BEGIN:VEVENT
 UID:yale-3-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: Early Action - U.S. citizens/permanent residents
 URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
@@ -43,7 +43,7 @@ URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
 END:VEVENT
 BEGIN:VEVENT
 UID:yale-4-20261201@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Financial aid: Early Action - international citizens
 URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
@@ -51,10 +51,20 @@ URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
 END:VEVENT
 BEGIN:VEVENT
 UID:yale-5-20270215@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Financial aid: Regular Decision
 URL:https://admissions.yale.edu/financial-aid-international-applicants ; h
  ttps://admissions.yale.edu/resource/download/400
+END:VEVENT
+BEGIN:VEVENT
+UID:yale-6-20270301@admissara.com
+DTSTAMP:20261108T010510Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:Transfer Fall 2027 deadline
+DESCRIPTION:Fall entry only\, as sophomores or juniors. Financial aid docu
+ ments and test scores due April 1\; Mid-Term Report due April 20\; decisi
+ ons early May.
+URL:https://admissions.yale.edu/transfer
 END:VEVENT
 END:VCALENDAR

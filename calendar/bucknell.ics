@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:bucknell-0-20261115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:not stated. Page shows month/day only\; year inferred. Interna
@@ -17,7 +17,7 @@ URL:https://www.bucknell.edu/admissions-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:bucknell-1-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Early Decision II deadline
 DESCRIPTION:not stated. International finance/aid documents due Jan 10.
@@ -25,7 +25,7 @@ URL:https://www.bucknell.edu/admissions-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:bucknell-2-20270115@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:Regular Decision deadline
 DESCRIPTION:not stated. International finance/aid documents due Jan 10.
@@ -33,7 +33,7 @@ URL:https://www.bucknell.edu/admissions-aid
 END:VEVENT
 BEGIN:VEVENT
 UID:bucknell-3-20261101@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: International aid/finance documents - ED I
 URL:https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid/app
@@ -43,7 +43,7 @@ URL:https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid/app
 END:VEVENT
 BEGIN:VEVENT
 UID:bucknell-4-20270110@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270110
 SUMMARY:Financial aid: International aid/finance documents - ED II/RD
 URL:https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid/app
@@ -53,7 +53,7 @@ URL:https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid/app
 END:VEVENT
 BEGIN:VEVENT
 UID:bucknell-5-20270213@admissara.com
-DTSTAMP:20261107T205751Z
+DTSTAMP:20261108T010510Z
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Spring Open House
 DESCRIPTION:approx. 8 a.m. check-in to 2 p.m. (sample schedule) | in-perso
