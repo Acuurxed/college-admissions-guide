@@ -69,6 +69,8 @@ async function visit(t) {
     .filter(e => { const k = e.date + "|" + e.title.toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 24); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 30)
     .map(e => ({ date: e.date, title: e.title, time: e.time, url: e.url, source: e.page }));
   // a page that failed to load keeps yesterday's still-future entries instead of dropping them
+  // pages that are a general campus calendar, not an admissions calendar: keep visit days only
+  if (new Set(["harvard"]).has(t.id)) list.length = 0;
   result.schools[t.id] = ok ? list : (prev.schools[t.id] || []).filter(e => e.date >= today);
   const everyDay = x => { const span = (new Date(x.days[x.days.length - 1]) - new Date(x.days[0])) / 864e5 + 1; return span >= 30 && x.days.length > 0.85 * span; };
   const vs = new Set(); const v = visits.filter(x => x.days.length && !everyDay(x)).filter(x => { const k = x.days.join(","); if (vs.has(k) || vs.has(x.url)) return false; vs.add(k); vs.add(x.url); return true; }).slice(0, 3); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
