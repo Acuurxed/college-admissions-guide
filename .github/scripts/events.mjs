@@ -62,8 +62,8 @@ async function visit(t) {
   }
   const seen = new Set(); const rank = { structured: 0, time: 1, text: 2 };
   // keep only what is clearly an admissions visit or session, with a short clean title
-  const KEY = /\b(info(rmation)? sessions?|tours?|open house|visit(s|ing)?|preview|admitted|webinar|virtual|q&a|college fair|counselor|interviews?|discover|fly-in|sessions?)\b/i, BAD = /log in|google calendar|ticket|deadline|due date|application due|register for|career|alumni|commencement|exam|recess|holiday|concert|lecture|seminar|athletic/i;
-  const tidy = x => x.split(/\s\d{1,2}\/\d{1,2}\/\d{2,4}|\s\d{1,2}:\d{2}\s?(?:am|pm)/i)[0].split(/[.?!]\s/)[0].replace(/[\s,|:\-]+$/, "").trim();
+  const KEY = /\b(info(rmation)? sessions?|tours?|open house|visit(s|ing)?|preview|admitted|webinar|q&a|college fair|counselor|interviews?|discover|fly-in|sessions?)\b/i, BAD = /log in|google calendar|ticket|deadline|due date|application due|register for|career|alumni|commencement|exam|recess|holiday|concert|lecture|seminar|athletic|office hours|^plan your|^schedule (a|your)/i;
+  const tidy = x => x.split(/\s\d{1,2}\/\d{1,2}\/\d{2,4}|\s\d{1,2}:\d{2}\s?(?:am|pm)/i)[0].split(/[.?!]\s/)[0].split(/\sSpaces?\b|\s\d+ spots?\b|\s(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2}\b/i)[0].replace(/^(AM|PM)\s/, "").replace(/\s(and|&)\s\d{1,2}$/i, "").replace(/[\s,|:\-]+$/, "").trim();
   for (const e of found) e.title = tidy(e.title);
   const list = found.filter(e => e.date >= today && e.date <= limit && e.title.length >= 6 && e.title.length <= 110 && e.title.split(/\s+/).length <= 12 && KEY.test(e.title) && !BAD.test(e.title)).sort((a, b) => a.date.localeCompare(b.date) || rank[a.how] - rank[b.how])
     .filter(e => { const k = e.date + "|" + e.title.toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 24); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 30)
