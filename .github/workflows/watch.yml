@@ -4,7 +4,8 @@ on:
     - cron: "*/10 * * * *"
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
   issues: write
 concurrency:
   group: page-watcher

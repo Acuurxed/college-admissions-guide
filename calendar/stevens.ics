@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:stevens-0-20261115@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding. CSS Profile and FAFSA due Nov 15\; notification by De
@@ -18,7 +18,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-1-20261201@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Early Action deadline
 DESCRIPTION:Non-binding. CSS Profile and FAFSA due Dec 15\; notification b
@@ -29,7 +29,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-2-20270105@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding. CSS Profile and FAFSA due Jan 5\; notification by Feb
@@ -39,7 +39,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-3-20270105@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Regular Decision deadline
 DESCRIPTION:CSS Profile and FAFSA due Jan 5\; notification by April 1\; de
@@ -50,7 +50,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/first-y
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-4-20261115@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Financial aid: ED I CSS Profile and FAFSA
 URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
@@ -58,7 +58,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-5-20261215@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Financial aid: EA CSS Profile and FAFSA
 URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
@@ -66,7 +66,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-6-20270105@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: ED II / RD CSS Profile and FAFSA
 URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
@@ -74,7 +74,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/interna
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-7-20261115@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Transfer Spring 2027 deadline
 DESCRIPTION:Extended deadline\; CSS Profile and FAFSA Nov 1\; rolling noti
@@ -84,7 +84,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/transfe
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-8-20270615@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20270615
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:CSS Profile and FAFSA Feb 14\; notification June 27\; deposit 
@@ -95,7 +95,7 @@ URL:https://www.stevens.edu/admission-aid/undergraduate-admissions/transfe
 END:VEVENT
 BEGIN:VEVENT
 UID:stevens-9-20261108@admissara.com
-DTSTAMP:20261116T145522Z
+DTSTAMP:20261116T151437Z
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Prospective Student Visit Day
 DESCRIPTION:ET | in-person | Prospective students
