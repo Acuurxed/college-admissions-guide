@@ -43,6 +43,7 @@ async function visit(t) {
   for (const url of t.urls) {
     const page = await ctx.newPage();
     try { await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 }); await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => { }); await page.waitForTimeout(1500);
+      if (process.env.EVENTS_DEBUG) { const resp = await page.evaluate(() => { const t = document.body ? document.body.innerText : ""; return { title: document.title.slice(0, 60), len: t.length, full: (t.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+20\d{2}/g) || []).slice(0, 4), partial: (t.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b/g) || []).length, ld: document.querySelectorAll('script[type="application/ld+json"]').length, time: document.querySelectorAll("time[datetime]").length, iframes: [...document.querySelectorAll("iframe")].map(f => (f.src || "").slice(0, 70)).slice(0, 4), cal: [...document.querySelectorAll("a[href]")].map(a => a.href).filter(h => /calendar|events|register|portal|visit|slate|apply\./i.test(h)).slice(0, 6) }; }).catch(e => ({ err: e.message })); console.log("DEBUG", t.id, url, JSON.stringify(resp)); }
       for (const f of page.frames()) { try { for (const e of await f.evaluate(extract)) found.push({ ...e, url: /^https:\/\//.test(e.url) ? e.url : url, page: url }); } catch (e) { } } ok = true;
     } catch (e) { log.push(`${t.id} ${url} ${String(e.message).split("\n")[0].slice(0, 80)}`); } finally { await page.close(); }
   }
