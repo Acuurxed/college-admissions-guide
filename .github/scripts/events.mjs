@@ -6,7 +6,7 @@ import fs from "node:fs";
 import { chromium } from "playwright";
 const live = JSON.parse(fs.readFileSync("data/live.json", "utf8"));
 const OUT = "data/events.json";
-const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : { schools: {} };
+const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : { schools: {}, visits: {} };
 const only = (process.env.EVENTS_ONLY || "").split(",").map(s => s.trim()).filter(Boolean);
 const targets = [];
 for (const [id, r] of Object.entries(live.research || {})) {
@@ -32,34 +32,48 @@ function extract() {
     let title = clean(tx.replace(new RegExp(FULL.source, "gi"), " ").replace(TIME, " ").replace(/\b(Mon|Tues?|Wed(nes)?|Thu(rs)?|Fri|Sat(ur)?|Sun)(day)?\b,?/gi, " ").replace(/\b(at|from|on|register|registration|sign up|learn more|details|view event|[ECMP][SD]?T)\b/gi, " ").replace(/^[\s,|:\-–]+|[\s,|:\-–]+$/g, ""));
     const h = el.querySelector && el.querySelector("h2,h3,h4,h5,strong,b"); if (h && clean(h.textContent).length >= 4) title = clean(h.textContent);
     const a = el.tagName === "A" ? el : el.querySelector && el.querySelector("a[href]"); push(date, title, tm ? tm[0] : "", a ? a.href : "", "text"); });
-  return out;
+  // 4. registration calendars (the date picker used by most admissions portals): days that can be selected,
+  //    with the month and year the calendar itself carries
+  const pad = n => String(n).padStart(2, "0");
+  const days = [...document.querySelectorAll('td[data-handler="selectDay"][data-year][data-month]')].filter(td => !/disabled|unselectable/.test(td.className)).map(td => { const a = td.querySelector("a"); const d = a && parseInt(a.getAttribute("data-date") || a.textContent, 10); return d ? `${td.dataset.year}-${pad(+td.dataset.month + 1)}-${pad(d)}` : null; }).filter(Boolean);
+  const h = document.querySelector("h1,h2"); const label = clean((h && h.textContent) || document.title).slice(0, 80);
+  const portals = [...document.querySelectorAll("a[href]")].map(a => a.href).filter(u => /^https:\/\/[^/]+\/portal\/[\w-]+/i.test(u) && !/requestinfo|inquiry|login|status|apply$/i.test(u));
+  return { events: out, days, label, portals: [...new Set(portals)].slice(0, 8) };
 }
+const base = u => { try { return new URL(u).hostname.split(".").slice(-2).join("."); } catch (e) { return ""; } };
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ userAgent: "Mozilla/5.0 (compatible; AdmissaraEvents/1.0; +https://admissara.com/)", locale: "en-US", timezoneId: "America/New_York" });
 await ctx.route("**/*", r => (/^(image|media|font)$/.test(r.request().resourceType()) ? r.abort() : r.continue()));
-const result = { as_of: new Date().toISOString(), schools: {} }; const log = [];
+const result = { as_of: new Date().toISOString(), schools: {}, visits: {} }; const log = [];
 async function visit(t) {
-  const found = []; let ok = false;
-  for (const url of t.urls) {
+  const found = [], visits = []; let ok = false; const queue = t.urls.map(u => ({ u, depth: 0 })), seenUrl = new Set(t.urls); let opened = 0;
+  while (queue.length && opened < 6) { const { u: url, depth } = queue.shift(); opened++;
     const page = await ctx.newPage();
     try { await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 }); await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => { }); await page.waitForTimeout(1500);
-      if (process.env.EVENTS_DEBUG) { const resp = await page.evaluate(() => { const t = document.body ? document.body.innerText : ""; return { title: document.title.slice(0, 60), len: t.length, full: (t.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+20\d{2}/g) || []).slice(0, 4), partial: (t.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b/g) || []).length, ld: document.querySelectorAll('script[type="application/ld+json"]').length, time: document.querySelectorAll("time[datetime]").length, iframes: [...document.querySelectorAll("iframe")].map(f => (f.src || "").slice(0, 70)).slice(0, 4), cal: [...document.querySelectorAll("a[href]")].map(a => a.href).filter(h => /calendar|events|register|portal|visit|slate|apply\./i.test(h)).slice(0, 6) }; }).catch(e => ({ err: e.message })); console.log("DEBUG", t.id, url, JSON.stringify(resp));
-        if (/\/portal\//.test(page.url())) { const d2 = await page.evaluate(() => { const q = s => document.querySelectorAll(s); const c = document.querySelector("table.calendar,.calendar,[class*=calendar],[id*=calendar]"); const lines = (document.body.innerText || "").split("\n").map(x => x.trim()).filter(x => /\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b/.test(x)).slice(0, 5); return { dataDate: q("[data-date]").length, sampleDataDate: [...q("[data-date]")].slice(0, 2).map(e => e.outerHTML.slice(0, 200)), avail: q(".available,[class*=available]").length, cal: c ? c.outerHTML.replace(/\s+/g, " ").slice(0, 900) : null, lines, scripts: [...q("script")].map(x => x.textContent).filter(x => /calendar|getEvents|events/i.test(x)).map(x => x.replace(/\s+/g, " ").slice(0, 400)).slice(0, 2) }; }).catch(e => ({ err: e.message })); console.log("SLATE", t.id, JSON.stringify(d2)); } }
-      for (const f of page.frames()) { try { for (const e of await f.evaluate(extract)) found.push({ ...e, url: /^https:\/\//.test(e.url) ? e.url : url, page: url }); } catch (e) { } } ok = true;
-    } catch (e) { log.push(`${t.id} ${url} ${String(e.message).split("\n")[0].slice(0, 80)}`); } finally { await page.close(); }
+      if (process.env.EVENTS_DEBUG) console.log("DEBUG", t.id, url, await page.title().catch(() => ""));
+      for (const f of page.frames()) { try { let r = await f.evaluate(extract);
+          for (const e of r.events) found.push({ ...e, url: /^https:\/\//.test(e.url) ? e.url : url, page: url });
+          if (r.days.length || await f.$(".ui-datepicker-calendar")) { const days = new Set(r.days);
+            for (let k = 0; k < 2; k++) { const nx = await f.$(".ui-datepicker-next:not(.ui-state-disabled)"); if (!nx) break; await nx.click().catch(() => { }); await page.waitForTimeout(1300); r = await f.evaluate(extract); r.days.forEach(d => days.add(d)); }
+            if (days.size) visits.push({ label: r.label, url, days: [...days].filter(d => d >= today && d <= limit).sort() }); }
+          if (depth === 0) for (const p of r.portals) if (base(p) === base(url) && !seenUrl.has(p)) { seenUrl.add(p); queue.push({ u: p, depth: 1 }); }
+        } catch (e) { } } ok = true;
+    } catch (e) { if (depth === 0) log.push(`${t.id} ${url} ${String(e.message).split("\n")[0].slice(0, 80)}`); } finally { await page.close(); }
   }
   const seen = new Set(); const rank = { structured: 0, time: 1, text: 2 };
   const list = found.filter(e => e.date >= today && e.date <= limit && !/deadline|due date|application due/i.test(e.title)).sort((a, b) => a.date.localeCompare(b.date) || rank[a.how] - rank[b.how])
     .filter(e => { const k = e.date + "|" + e.title.toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 24); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 30)
     .map(e => ({ date: e.date, title: e.title, time: e.time, url: e.url, source: e.page }));
-  // a page that failed to load keeps yesterday's still-future events instead of dropping them
+  // a page that failed to load keeps yesterday's still-future entries instead of dropping them
   result.schools[t.id] = ok ? list : (prev.schools[t.id] || []).filter(e => e.date >= today);
+  const v = visits.filter(x => x.days.length).slice(0, 4); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
 }
 let i = 0; await Promise.all(Array.from({ length: 4 }, async () => { while (i < targets.length) await visit(targets[i++]); }));
 await browser.close();
 for (const k of Object.keys(result.schools)) if (!result.schools[k].length) delete result.schools[k];
+for (const k of Object.keys(result.visits)) if (!result.visits[k].length) delete result.visits[k];
 const n = Object.values(result.schools).reduce((a, b) => a + b.length, 0);
-console.log(`visited ${targets.length} schools, ${Object.keys(result.schools).length} with dated events, ${n} events, ${log.length} page errors`); if (log.length) console.log(log.slice(0, 40).join("\n"));
-const same = JSON.stringify(prev.schools || {}) === JSON.stringify(result.schools);
+console.log(`visited ${targets.length} schools, ${Object.keys(result.schools).length} with dated events (${n} events), ${Object.keys(result.visits).length} with open visit days, ${log.length} page errors`); if (log.length) console.log(log.slice(0, 40).join("\n"));
+const same = JSON.stringify([prev.schools || {}, prev.visits || {}]) === JSON.stringify([result.schools, result.visits]);
 if (!same) fs.writeFileSync(OUT, JSON.stringify(result));
 console.log(same ? "no change" : "events.json updated");
