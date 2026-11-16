@@ -3703,7 +3703,7 @@ storage:{title:"Device Storage Notice",body:`
 
 /* Cloud service configuration. Fill in after creating the Supabase project (see cloud/SETUP.md).
    The anon key is designed to be public; access is controlled by the row-level security rules in cloud/schema.sql. */
-const CLOUD_CONFIG={url:"",anonKey:"",redirect:""};
+const CLOUD_CONFIG={url:"https://fbptxejvkrhpmfashrod.supabase.co",anonKey:"sb_publishable_FV3qY2GbstWfWb614EufXA_Y5XiMXmv",redirect:"https://admissara.com/"};
 /* College Scorecard (api.data.gov) key used when the user has not entered their own in Settings. */
 const SCORECARD_KEY="";
 
@@ -3731,8 +3731,8 @@ applyResearch();
    Core: utilities, storage, security (password hashing, TOTP two-step verification),
    time zones, federal data (U.S. Department of Education College Scorecard API).
    ====================================================================== */
-const APP_VERSION="Beta 0.14";
-const APP_BUILD="0.14.0";
+const APP_VERSION="Beta 0.15";
+const APP_BUILD="0.15.0";
 const LOGO=`<svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><defs><radialGradient id="lgO" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#2E92E8"/><stop offset="1" stop-color="#0A3B80"/></radialGradient><radialGradient id="lgG" cx="50%" cy="112%" r="60%"><stop offset="0" stop-color="#8CFFFB"/><stop offset=".6" stop-color="#8CFFFB" stop-opacity="0"/></radialGradient><linearGradient id="lgH" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient></defs><circle cx="32" cy="32" r="30" fill="url(#lgO)" stroke="#031a3a" stroke-width="1.3"/><circle cx="32" cy="32" r="30" fill="url(#lgG)"/><circle cx="32" cy="32" r="28.7" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width=".7"/><g transform="translate(32 32.8) scale(.66) translate(-32 -31)" fill="none" stroke="#fff" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"><path d="M12 25.5 L32 31 L52 25.5 L52 44 L32 49.5 L12 44 Z"/><path d="M32 31 V49.5"/><path d="M21 20 L32 12 L43 20"/></g><path d="M7.5 27.5 C 8.8 13.8 20 4.5 32 4.5 C 44 4.5 55.2 13.8 56.5 27.5 C 47.5 31.5 16.5 31.5 7.5 27.5 Z" fill="url(#lgH)"/></svg>`;
 const TODAY=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -4219,6 +4219,8 @@ function renderAuth(){
     <div class="flex"><button type="button" class="btn" data-auth="parentnow">I am a parent: create a parent account</button><button type="button" class="btn ghost" data-auth-mode="signin">Back to sign in</button></div>`; }
   else if(A.mode==="adminkey"){ panel=`<div><div class="eyebrow">Administrator</div><h2>Sign in with your administrator key</h2><p class="small">This key opens the administrator account on this computer only.</p></div>
     <form id="f-adminkey" class="form" style="grid-template-columns:1fr"><label class="f">Administrator key<input type="password" name="key" required autocomplete="off" spellcheck="false" placeholder="ADM-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"></label>${A.err?`<p class="err">${esc(A.err)}</p>`:""}<div class="flex"><button class="btn" type="submit">Open administrator account</button><button type="button" class="btn ghost" data-auth-mode="signin">Back</button></div></form>`; }
+  else if(A.mode==="newpw"){ panel=`<div><div class="eyebrow">Password reset</div><h2>Choose a new password</h2></div>
+    <form id="f-newpw" class="form" style="grid-template-columns:1fr"><label class="f">New password (10+ characters, letters and numbers)<input type="password" name="pw" minlength="10" required autocomplete="new-password"></label><label class="f">Confirm password<input type="password" name="pw2" minlength="10" required autocomplete="new-password"></label>${A.err?`<p class="err">${esc(A.err)}</p>`:""}<div class="flex"><button class="btn" type="submit">Save new password</button><button type="button" class="btn ghost" data-auth-mode="signin">Cancel</button></div></form>`; }
   else if(A.mode==="signin"){ panel=`${seg()}<form id="f-signin" class="form" style="grid-template-columns:1fr"><label class="f">Email<input type="email" name="email" required autocomplete="username" value="${esc(d.email||"")}"></label><label class="f">Password<input type="password" name="pw" autocomplete="current-password"></label>${A.err?`<p class="err">${esc(A.err)}</p>`:""}${A.notice?`<p class="small">${esc(A.notice)}</p>`:""}<button class="btn" type="submit">Sign in</button>${adminKeyAvailable()?`<button type="button" class="linkbtn small" data-auth-mode="adminkey">Administrator? Sign in with your administrator key</button>`:""}${cloudReady()?`<div class="flex"><button type="button" class="linkbtn small" data-auth="forgot">Forgot password?</button>${A.unconfirmed?`<button type="button" class="linkbtn small" data-auth="resend">Resend activation email</button>`:""}</div>`:""}</form>`; }
   else { /* sign-up: one short form; the profile is completed later, inside the app */
     const R=A.role, isStu=R==="student", isEdu=R==="educator", isPar=R==="parent";
@@ -4253,6 +4255,14 @@ document.addEventListener("submit",async e=>{ const f=e.target; if(!f.id||!f.id.
   if(f.id==="f-adminkey"){ const lk=LS.get("cag-adminkey-lock",{n:0,until:0}); if(Date.now()<lk.until){ A.err="Too many attempts. Try again in a few minutes."; return renderAuth(); }
     const ok=await verifyAdminKey(d.key||""); if(!ok){ lk.n++; if(lk.n>=5){ lk.until=Date.now()+10*60000; lk.n=0; } LS.set("cag-adminkey-lock",lk); A.err="That administrator key is not correct."; return renderAuth(); }
     LS.set("cag-adminkey-lock",{n:0,until:0}); accounts(); const accs2=accounts(); accs2[SEED_EMAIL].lastAdminKey=new Date().toISOString(); saveAccounts(accs2); A.err=""; return startSession(SEED_EMAIL); }
+  if(f.id==="f-newpw"){ if(d.pw!==d.pw2){ A.err="Passwords do not match."; return renderAuth(); } if(!strongPw(d.pw)){ A.err="Use at least 10 characters with letters and numbers."; return renderAuth(); }
+    try{ if(!cloudReady()||!A.rec) throw new Error("This reset link is no longer valid. Request a new one.");
+      const s1=await SB.auth.setSession({access_token:A.rec.at,refresh_token:A.rec.rt}); if(s1.error) throw s1.error;
+      const u1=await SB.auth.updateUser({password:d.pw}); if(u1.error) throw u1.error;
+      const em=((u1.data&&u1.data.user&&u1.data.user.email)||"").toLowerCase(); if(em&&accs[em]){ accs[em].salt=randHex(16); accs[em].hash=await hashPw(d.pw,accs[em].salt); accs[em].cloud=true; saveAccounts(accs); }
+      await cloudSignOut(); A={mode:"signin",role:"student",step:1,err:"",d:{email:em},notice:"Your password was changed. Sign in with the new password."}; return renderAuth();
+    }catch(err){ A.err=String(err.message||err); return renderAuth(); } }
+  let cloudMiss=false;
   if(f.id==="f-signin"&&cloudReady()){ const em=(d.email||"").trim().toLowerCase(); A.d.email=em; A.unconfirmed=false;
     try{ const r=await cloudSignIn(em,d.pw||""); const meta=(r.user&&r.user.user_metadata)||{};
       if(!accs[em]){ accs[em]={email:em,role:meta.role||"student",name:meta.name||em,created:new Date().toISOString(),onboarded:true,cloud:true}; }
@@ -4260,8 +4270,11 @@ document.addEventListener("submit",async e=>{ const f=e.target; if(!f.id||!f.id.
       try{ const row=await cloudPull(); if(row&&row.data) LS.set(userKey(em),row.data); }catch(e){}
       if(await cloudNeedsMfa()){ A.otpFor=em; A.cloudMfa=true; return renderAuth(); }
       return startSession(em);
-    }catch(err){ const msg=String(err.message||err); if(/confirm/i.test(msg)){ A.unconfirmed=true; A.err="Please confirm your email first. Open the activation link we sent you."; } else A.err=/Invalid login/i.test(msg)?"Incorrect email or password.":msg; return renderAuth(); } }
-  if(f.id==="f-signin"){ const em=(d.email||"").trim().toLowerCase(), a=accs[em]; A.d.email=em;
+    }catch(err){ const msg=String(err.message||err);
+      /* accounts created on this device before the cloud service existed still sign in locally */
+      if(accs[em]&&!accs[em].cloud&&accs[em].hash&&!/confirm/i.test(msg)) cloudMiss=true;
+      else { if(/confirm/i.test(msg)){ A.unconfirmed=true; A.err="Please confirm your email first. Open the activation link we sent you."; } else A.err=/Invalid login/i.test(msg)?"Incorrect email or password.":msg; return renderAuth(); } } }
+  if(f.id==="f-signin"&&(cloudMiss||!cloudReady())){ const em=(d.email||"").trim().toLowerCase(), a=accs[em]; A.d.email=em;
     if(!a){ A.err="No account with that email on this device."; return renderAuth(); }
     if(!a.hash){ A.pending=em; A.mode="setpw"; return renderAuth(); }
     const lock=a.lockUntil&&Date.now()<a.lockUntil; if(lock){ A.err="Too many attempts. Try again in a few minutes."; return renderAuth(); }
@@ -5210,6 +5223,13 @@ document.addEventListener("change",async e=>{ const t=e.target, d=t.dataset;
 });
 document.addEventListener("focusout",e=>{ if(e.target.dataset&&e.target.dataset.bind&&/^npc\./.test(e.target.dataset.bind)) setTimeout(()=>{ const a=document.activeElement; if(!(a&&a.dataset&&a.dataset.bind&&/^npc\./.test(a.dataset.bind))) render(); },150); });
 window.addEventListener("hashchange",()=>{ menuOpen=false; closeModal(true); render(); });
+/* return from an email link (activation or password reset) */
+(function authReturn(){ const h=location.hash.slice(1); if(!/(^|&)(access_token|error_description)=/.test(h)) return;
+  const q=new URLSearchParams(h), type=q.get("type"), err=q.get("error_description"), at=q.get("access_token"), rt=q.get("refresh_token");
+  history.replaceState(null,"",location.pathname+location.search+"#overview");
+  if(err){ if(!session){ A.mode="signin"; A.err=err+". Request a new email and try again."; } return; }
+  if(type==="recovery"&&at&&rt){ session=null; LS.del?LS.del("cag-session"):localStorage.removeItem("cag-session"); ST=null; A={mode:"newpw",role:"student",step:1,err:"",d:{},rec:{at,rt}}; return; }
+  if(!session){ A.mode="signin"; A.notice="Your email is confirmed. Sign in to continue."; } })();
 render(); i18nBoot();
 
 document.addEventListener("submit",async e=>{ const f=e.target;
