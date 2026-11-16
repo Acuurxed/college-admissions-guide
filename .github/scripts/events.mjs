@@ -61,12 +61,17 @@ async function visit(t) {
     } catch (e) { if (depth === 0) log.push(`${t.id} ${url} ${String(e.message).split("\n")[0].slice(0, 80)}`); } finally { await page.close(); }
   }
   const seen = new Set(); const rank = { structured: 0, time: 1, text: 2 };
-  const list = found.filter(e => e.date >= today && e.date <= limit && !/deadline|due date|application due/i.test(e.title)).sort((a, b) => a.date.localeCompare(b.date) || rank[a.how] - rank[b.how])
+  // keep only what is clearly an admissions visit or session, with a short clean title
+  const KEY = /\b(info(rmation)? sessions?|tours?|open house|visit(s|ing)?|preview|admitted|webinar|virtual|q&a|college fair|counselor|interviews?|discover|fly-in|sessions?)\b/i, BAD = /log in|google calendar|ticket|deadline|due date|application due|register for|career|alumni|commencement|exam|recess|holiday|concert|lecture|seminar|athletic/i;
+  const tidy = x => x.split(/\s\d{1,2}\/\d{1,2}\/\d{2,4}|\s\d{1,2}:\d{2}\s?(?:am|pm)/i)[0].split(/[.?!]\s/)[0].replace(/[\s,|:\-]+$/, "").trim();
+  for (const e of found) e.title = tidy(e.title);
+  const list = found.filter(e => e.date >= today && e.date <= limit && e.title.length >= 6 && e.title.length <= 110 && e.title.split(/\s+/).length <= 12 && KEY.test(e.title) && !BAD.test(e.title)).sort((a, b) => a.date.localeCompare(b.date) || rank[a.how] - rank[b.how])
     .filter(e => { const k = e.date + "|" + e.title.toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 24); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 30)
     .map(e => ({ date: e.date, title: e.title, time: e.time, url: e.url, source: e.page }));
   // a page that failed to load keeps yesterday's still-future entries instead of dropping them
   result.schools[t.id] = ok ? list : (prev.schools[t.id] || []).filter(e => e.date >= today);
-  const vs = new Set(); const v = visits.filter(x => x.days.length).filter(x => { const k = x.days.join(","); if (vs.has(k) || vs.has(x.url)) return false; vs.add(k); vs.add(x.url); return true; }).slice(0, 3); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
+  const everyDay = x => { const span = (new Date(x.days[x.days.length - 1]) - new Date(x.days[0])) / 864e5 + 1; return span >= 30 && x.days.length > 0.85 * span; };
+  const vs = new Set(); const v = visits.filter(x => x.days.length && !everyDay(x)).filter(x => { const k = x.days.join(","); if (vs.has(k) || vs.has(x.url)) return false; vs.add(k); vs.add(x.url); return true; }).slice(0, 3); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
 }
 let i = 0; await Promise.all(Array.from({ length: 4 }, async () => { while (i < targets.length) await visit(targets[i++]); }));
 await browser.close();
