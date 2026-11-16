@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT6H
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
 UID:wellesley-0-20261101@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Early Decision I deadline
 DESCRIPTION:Binding\; financial aid due Nov 1\; quarter grades Nov 16\; no
@@ -18,7 +18,7 @@ URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-1-20270105@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Early Decision II deadline
 DESCRIPTION:Binding\; financial aid due Jan 5\; quarter grades Jan 11\; no
@@ -27,7 +27,7 @@ URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-2-20270108@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Regular Decision deadline
 DESCRIPTION:Financial aid due Jan 8\; mid-year grades Feb 10\; notificatio
@@ -36,28 +36,28 @@ URL:https://www.wellesley.edu/admission-aid/apply/first-year-applicants
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-3-20261101@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20261101
 SUMMARY:Financial aid: ED I financial aid
 URL:https://www.wellesley.edu/admission-aid/faqs
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-4-20270105@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:Financial aid: ED II financial aid
 URL:https://www.wellesley.edu/admission-aid/faqs
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-5-20270108@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:Financial aid: Regular Decision financial aid
 URL:https://www.wellesley.edu/admission-aid/faqs
 END:VEVENT
 BEGIN:VEVENT
 UID:wellesley-6-20270301@admissara.com
-DTSTAMP:20261116T151437Z
+DTSTAMP:20261116T152325Z
 DTSTART;VALUE=DATE:20270301
 SUMMARY:Transfer Fall 2027 deadline
 DESCRIPTION:Fall entry only\; financial aid materials April 1\; midterm gr

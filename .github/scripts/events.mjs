@@ -29,14 +29,14 @@ function extract() {
   // 3. list items, rows and links whose own text carries a full date with the year
   document.querySelectorAll("li,tr,a,article,[class*=event],[class*=Event]").forEach(el => { const tx = clean(el.innerText); if (tx.length < 12 || tx.length > 260) return; const m = tx.match(FULL); if (!m) return; if ((tx.match(new RegExp(FULL.source, "gi")) || []).length > 2) return;
     const mo = MON[m[1].toLowerCase().replace(".", "")]; const date = `${m[3]}-${String(mo).padStart(2, "0")}-${String(+m[2]).padStart(2, "0")}`; const tm = tx.match(TIME);
-    let title = clean(tx.replace(new RegExp(FULL.source, "gi"), " ").replace(TIME, " ").replace(/\b(Mon|Tues?|Wed(nes)?|Thu(rs)?|Fri|Sat(ur)?|Sun)(day)?\b,?/gi, " ").replace(/\b(at|from|on|register|registration|sign up|learn more|details|view event|[ECMP][SD]?T)\b/gi, " ").replace(/^[\s,|:\-–]+|[\s,|:\-–]+$/g, ""));
+    let title = clean(tx.replace(new RegExp(FULL.source, "gi"), " ").replace(TIME, " ").replace(/\b(Mon|Tues?|Wed(nes)?|Thu(rs)?|Fri|Sat(ur)?|Sun)(day)?\b,?/gi, " ").replace(/\b(Eastern|Central|Mountain|Pacific)(\s(Standard|Daylight))?(\sTime)?\b|UTC\s?[-+]\d{2}:\d{2}/g, " ").replace(/\b(at|from|on|until|register|registration|sign up|learn more|details|view event|[ECMP][SD]?T)\b/gi, " ").replace(/^[\s,|:\-–]+|[\s,|:\-–]+$/g, ""));
     const h = el.querySelector && el.querySelector("h2,h3,h4,h5,strong,b"); if (h && clean(h.textContent).length >= 4) title = clean(h.textContent);
     const a = el.tagName === "A" ? el : el.querySelector && el.querySelector("a[href]"); push(date, title, tm ? tm[0] : "", a ? a.href : "", "text"); });
   // 4. registration calendars (the date picker used by most admissions portals): days that can be selected,
   //    with the month and year the calendar itself carries
   const pad = n => String(n).padStart(2, "0");
-  const days = [...document.querySelectorAll('td[data-handler="selectDay"][data-year][data-month]')].filter(td => !/disabled|unselectable/.test(td.className)).map(td => { const a = td.querySelector("a"); const d = a && parseInt(a.getAttribute("data-date") || a.textContent, 10); return d ? `${td.dataset.year}-${pad(+td.dataset.month + 1)}-${pad(d)}` : null; }).filter(Boolean);
-  const h = document.querySelector("h1,h2"); const label = clean((h && h.textContent) || document.title).slice(0, 80);
+  const days = [...document.querySelectorAll('td[data-handler="selectDay"][data-year][data-month]')].filter(td => /\bavailable\b/.test(td.className) && !/disabled|unselectable/.test(td.className)).map(td => { const a = td.querySelector("a"); const d = a && parseInt(a.getAttribute("data-date") || a.textContent, 10); return d ? `${td.dataset.year}-${pad(+td.dataset.month + 1)}-${pad(d)}` : null; }).filter(Boolean);
+  const h = document.querySelector("h1,h2"); const label = clean((document.title || "").split(/\s[|\u2013\u2190-]\s/)[0] || (h && h.textContent)).slice(0, 80);
   const portals = [...document.querySelectorAll("a[href]")].map(a => a.href).filter(u => /^https:\/\/[^/]+\/portal\/[\w-]+/i.test(u) && !/requestinfo|inquiry|login|status|apply$/i.test(u));
   return { events: out, days, label, portals: [...new Set(portals)].slice(0, 8) };
 }
@@ -55,8 +55,8 @@ async function visit(t) {
           for (const e of r.events) found.push({ ...e, url: /^https:\/\//.test(e.url) ? e.url : url, page: url });
           if (r.days.length || await f.$(".ui-datepicker-calendar")) { const days = new Set(r.days);
             for (let k = 0; k < 2; k++) { const nx = await f.$(".ui-datepicker-next:not(.ui-state-disabled)"); if (!nx) break; await nx.click().catch(() => { }); await page.waitForTimeout(1300); r = await f.evaluate(extract); r.days.forEach(d => days.add(d)); }
-            if (days.size) visits.push({ label: r.label, url, days: [...days].filter(d => d >= today && d <= limit).sort() }); }
-          if (depth === 0) for (const p of r.portals) if (base(p) === base(url) && !seenUrl.has(p)) { seenUrl.add(p); queue.push({ u: p, depth: 1 }); }
+            if (days.size && !/group/i.test(r.label + " " + url)) visits.push({ label: r.label, url: url.split("#")[0], days: [...days].filter(d => d >= today && d <= limit).sort() }); }
+          if (depth === 0) for (const p of r.portals) if (base(p.split("#")[0]) === base(url) && !seenUrl.has(p.split("#")[0]) && !/group/i.test(p)) { seenUrl.add(p.split("#")[0]); queue.push({ u: p.split("#")[0], depth: 1 }); }
         } catch (e) { } } ok = true;
     } catch (e) { if (depth === 0) log.push(`${t.id} ${url} ${String(e.message).split("\n")[0].slice(0, 80)}`); } finally { await page.close(); }
   }
@@ -66,7 +66,7 @@ async function visit(t) {
     .map(e => ({ date: e.date, title: e.title, time: e.time, url: e.url, source: e.page }));
   // a page that failed to load keeps yesterday's still-future entries instead of dropping them
   result.schools[t.id] = ok ? list : (prev.schools[t.id] || []).filter(e => e.date >= today);
-  const v = visits.filter(x => x.days.length).slice(0, 4); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
+  const vs = new Set(); const v = visits.filter(x => x.days.length).filter(x => { const k = x.days.join(","); if (vs.has(k) || vs.has(x.url)) return false; vs.add(k); vs.add(x.url); return true; }).slice(0, 3); result.visits[t.id] = ok ? v : ((prev.visits || {})[t.id] || []);
 }
 let i = 0; await Promise.all(Array.from({ length: 4 }, async () => { while (i < targets.length) await visit(targets[i++]); }));
 await browser.close();
